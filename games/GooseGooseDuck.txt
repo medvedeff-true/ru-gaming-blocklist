@@ -1,0 +1,3 @@
+gaggle.fun
+api.gaggle.fun
+cdn.gaggle.fun

@@ -1,0 +1,8 @@
+wbgames.com
+warnerbros.com
+mk11.mortalkombat.com
+mortalkombat.com
+mk1.mortalkombat.com
+api.wbgames.com
+prod.mk1-api.wbgames.com
+cdn.wbgames.com

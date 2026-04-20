@@ -1,0 +1,11 @@
+signin.aws.amazon.com
+cloudfront.net
+s3.amazonaws.com
+awsstatic.com
+console.aws.a2z.com
+amazonaws.com
+awsapps.com
+sso.amazonaws.com
+cloudflare.com
+cloudflare.net
+cloudflare.tv
