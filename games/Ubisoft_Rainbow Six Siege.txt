@@ -1,0 +1,17 @@
+ubisoft.com
+uplay.com
+ubi.com
+uplay.ubisoft.com
+connect.ubisoft.com
+public-ubiservices.ubi.com
+public-ws-ubiservices.ubi.com
+ubiservices.cdn.ubi.com
+static3.cdn.ubi.com
+static2.share.ubisoft.com
+api-uplay.ubi.com
+ext-uplay.ubi.com
+ubisoft-orbit.s3.amazonaws.com
+rainbow6.com
+r6s.com
+r6s-stats.ubisoft.com
+ubi.li

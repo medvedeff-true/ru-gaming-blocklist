@@ -2,3 +2,12 @@ steamcommunity.com
 steamstatic.com
 steamcontent.com
 steamserver.net
+steampowered.com
+steamusercontent.com
+steam-chat.com
+steam-api.com
+steamdeck.com
+steamgames.com
+steam.tv
+s.team
+playartifact.com

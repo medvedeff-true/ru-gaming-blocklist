@@ -30,6 +30,7 @@
 - Riot Games / Valorant
 - Roblox
 - Steam
+- Ubisoft / Rainbow Six Siege
 - VRChat
 - Warframe
 - Wuthering Waves

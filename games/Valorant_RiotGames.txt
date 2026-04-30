@@ -21,3 +21,13 @@ europe.api.riotgames.com
 americas.api.riotgames.com
 asia.api.riotgames.com
 esports.api.riotgames.com
+pvp.net
+riotcdn.net
+rgpub.io
+dradis-prod.rdatasrv.net
+riotcdn.com
+riotgames.es
+launcher.riotclientservices.com
+launcher.leagueoflegends.com
+lol.secure.dyn.riotcdn.net
+bacon.secure.dyn.riotcdn.net
