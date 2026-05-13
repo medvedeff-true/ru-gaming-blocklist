@@ -37,6 +37,32 @@ COMMON_NON_GAME_DOMAINS = {
     "youtube.com", "youtu.be", "google.com", "gstatic.com", "discord.com",
     "discord.gg", "telegram.org", "t.me", "whatsapp.com", "openwrt.org",
 }
+BLOCKED_DOMAIN_KEYWORDS = {
+    "porn", "porno", "xxx", "sex", "adult", "camgirl", "escort",
+    "casino", "bet", "betting", "poker", "gambling",
+    "weed", "cannabis", "marijuana", "cocaine", "drug", "drugs",
+    "pharmacy", "viagra", "casino", "slots",
+}
+
+BLOCKED_GAME_NAMES = {
+    "zapret",
+    "youtube",
+    "discord",
+    "youtube_discord",
+    "youtubediscord",
+    "github",
+    "raw",
+    "general",
+    "hostlist",
+    "ipset",
+    "blocklist",
+    "domainlist",
+    "iplist",
+    "issue",
+    "issues",
+    "readme",
+    "hosts",
+}
 BINARY_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf", ".zip", ".7z", ".rar",
     ".exe", ".dll", ".bin", ".dat", ".pak", ".mp4", ".mp3", ".wav", ".ttf", ".otf",
@@ -102,29 +128,43 @@ def clean_possible_domain(raw: str) -> str | None:
     token = raw.strip().lower()
     token = token.strip("`'\"<>[](){}|,;!")
     token = token.removeprefix("||").removeprefix("*.").removeprefix("address=/").strip("/^")
+
     if token.startswith(("http://", "https://")):
         token = urllib.parse.urlsplit(token).netloc
+
     if "@" in token:
         return None
+
     token = token.split("/", 1)[0].split(":", 1)[0].strip(".")
+
     if not token or token in COMMON_FALSE_DOMAIN_SUFFIXES or token in COMMON_NON_GAME_DOMAINS:
         return None
+
     if "_" in token or len(token) > 253:
         return None
+
     labels = token.split(".")
     if len(labels) < 2:
         return None
+
     for label in labels:
         if not label or len(label) > 63 or label.startswith("-") or label.endswith("-"):
             return None
         if not re.fullmatch(r"[a-z0-9-]+", label):
             return None
+
     if not re.fullmatch(r"[a-z]{2,63}", labels[-1]):
         return None
+
     if token.endswith((".md", ".txt", ".bat", ".cmd", ".json", ".yaml", ".yml", ".png", ".jpg")):
         return None
-    return token
 
+    token_for_filter = token.replace("-", " ").replace(".", " ")
+    for bad_word in BLOCKED_DOMAIN_KEYWORDS:
+        if re.search(rf"(?<![a-z0-9]){re.escape(bad_word)}(?![a-z0-9])", token_for_filter):
+            return None
+
+    return token
 
 def normalize_ip(raw: str) -> str | None:
     token = raw.strip().strip("`'\"<>[](){}|,;!")
@@ -207,53 +247,40 @@ def infer_games_from_context(context: str, alias_index: list[tuple[str, str, str
 
 
 def sanitize_explicit_game_name(name: str) -> str | None:
-    name = re.sub(r"\s+", " ", name.strip().strip("`'\"[](){}")).strip(" .,:;/-_|")
-    if not name or len(name) < 2 or len(name) > 60:
-        return None
-    bad = normalize_text_for_match(name)
-    generic = {"hostlist", "ipset", "список доменов", "список ip", "no response", "none", "описание", "description", "последняя", "latest", "general", "game filter", "ipset filter"}
-    if bad in generic or re.fullmatch(r"[0-9. /:-]+", name):
-        return None
-    parts = [p for p in re.split(r"[^A-Za-z0-9А-Яа-яЁё]+", name) if p]
-    if not parts:
-        return None
-    return "_".join(part[:1].upper() + part[1:] for part in parts)
+    return None
 
 
-def infer_explicit_games_from_text(text: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> set[str]:
+def infer_explicit_games_from_text(
+    text: str,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+) -> set[str]:
     games: set[str] = set()
     sample = text[:4000]
+
     patterns = [
-        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,60})",
-        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,60})",
-        r"(?:для|for)\s+([A-Za-zА-Яа-яЁё0-9][A-Za-zА-Яа-яЁё0-9 ._+&/-]{2,50})",
+        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,80})",
+        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,80})",
     ]
+
     for pattern in patterns:
         for match in re.finditer(pattern, sample, flags=re.IGNORECASE):
             raw_name = re.split(r"[#|<>{}\[\]\n\r]", match.group(1), 1)[0]
             canonical = infer_games_from_context(raw_name, alias_index, domain_game_hints)
-            if canonical:
-                games.update(canonical)
-            else:
-                sanitized = sanitize_explicit_game_name(raw_name)
-                if sanitized:
-                    games.add(sanitized)
-    return games
+            games.update(canonical)
+
+    return {game for game in games if normalize_text_for_match(game) not in BLOCKED_GAME_NAMES}
 
 
-def resolve_game_file(games_dir: Path, game: str) -> Path:
+def resolve_game_file(games_dir: Path, game: str) -> Path | None:
+    game_norm = normalize_text_for_match(game).replace(" ", "_")
+    if game_norm in BLOCKED_GAME_NAMES:
+        return None
+
     preferred = games_dir / f"{game}.txt"
     if preferred.exists():
         return preferred
-    game_norm = re.sub(r"[^a-z0-9]+", "", game.lower())
-    candidates: list[Path] = []
-    for path in games_dir.glob("*.txt"):
-        stem_norm = re.sub(r"[^a-z0-9]+", "", path.stem.lower())
-        if stem_norm == game_norm or game_norm in stem_norm or stem_norm in game_norm:
-            candidates.append(path)
-    if candidates:
-        candidates.sort(key=lambda p: len(p.name))
-        return candidates[0]
+
     return games_dir / slugify_game_name(game)
 
 
@@ -391,6 +418,10 @@ def process_text(harvested: Harvested, text: str, source_context: str, alias_ind
             continue
         context = f"{source_context}\n{line}"
         games = set(base_games) | infer_games_from_context(context, alias_index, domain_game_hints)
+        games = {
+            game for game in games
+            if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
+        }
         if trust_all and default_game:
             games.add(str(default_game))
         if kind in {"mixed", "domains"}:
@@ -549,6 +580,8 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     total_game_added = 0
     for game, items in sorted(harvested.domains_by_game.items()):
         path = resolve_game_file(games_dir, game)
+        if path is None:
+                continue
         count = append_unique(path, items.keys(), dry_run=dry_run)
         if count:
             log(f"Game file {path.relative_to(ROOT)}: +{count} domain(s)")
@@ -556,6 +589,8 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     if write_ips_to_game_files:
         for game, items in sorted(harvested.ips_by_game.items()):
             path = resolve_game_file(games_dir, game)
+            if path is None:
+                continue
             count = append_unique(path, items.keys(), dry_run=dry_run)
             if count:
                 log(f"Game file {path.relative_to(ROOT)}: +{count} IP/CIDR item(s)")
