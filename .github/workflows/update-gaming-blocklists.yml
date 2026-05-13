@@ -10,8 +10,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-gaming-blocklists-fast
-  cancel-in-progress: true
+  group: ru-gaming-blocklist-updater
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -28,7 +28,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
       - name: Run fast collector
         env:
@@ -46,7 +48,7 @@ jobs:
           git add .
 
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
             exit 0
           fi
 
