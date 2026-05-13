@@ -1,0 +1,10 @@
+wutheringwaves.com
+kurogame.com
+kurogames.com
+api.wutheringwaves.com
+launcher.wutheringwaves.com
+cdn.wutheringwaves.com
+pg.wutheringwaves.com
+hw.kurogame.com
+hw-pg.kurogame.com
+log.kurogame.com

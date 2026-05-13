@@ -1,0 +1,5 @@
+auth.riotgames.com
+lolesports.com
+playvalorant.com
+valorant.secure.dyn.riotcdn.net
+valorant.scd.riotcdn.net

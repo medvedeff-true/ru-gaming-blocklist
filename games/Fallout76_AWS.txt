@@ -1,0 +1,11 @@
+amazonaws.com
+signin.aws.amazon.com
+s3.amazonaws.com
+s3.us-east-1.amazonaws.com
+s3.us-west-2.amazonaws.com
+aws.amazon.com
+amazon.com
+fallout.bethesda.net
+bethesda.net
+bethesda.net
+fallout76.com

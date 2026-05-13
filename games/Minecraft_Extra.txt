@@ -1,0 +1,5 @@
+minecraft.net
+mojang.com
+minecraftservices.com
+minecraftforge.net
+curseforge.com
