@@ -1,0 +1,9 @@
+login.microsoftonline.com
+login.live.com
+auth.xboxlive.com
+xsts.auth.xboxlive.com
+start.ui.xboxlive.com
+profile.xboxlive.com
+api.minecraftservices.com
+textures.minecraft.net
+account.live.com

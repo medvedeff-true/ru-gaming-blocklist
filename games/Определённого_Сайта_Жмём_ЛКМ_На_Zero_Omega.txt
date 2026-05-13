@@ -1,0 +1,9 @@
+p.ctreserve.de
+c.ctreserve.de
+162.159.19n.xxx
+188.114.9f.xxx
+download.aspx
+www.vpngate.net
+
+1.1.1.1
+2606:4700:103::2

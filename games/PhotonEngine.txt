@@ -3,3 +3,11 @@ photonengine.net
 cloud.photonengine.com
 ns.photonengine.com
 app.photonengine.com
+
+ns.photonengine.io
+ns-eu.photonengine.io
+dns.google.com
+api.epicgames.dev
+gcams1160.exitgames.com
+files.vrchat.cloud
+api.vrchat.cloud

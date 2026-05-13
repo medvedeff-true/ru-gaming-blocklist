@@ -1,0 +1,16 @@
+blockcheck.sh
+zapret.service
+multi-user.target.wants
+rndc.conf
+rndc.key
+zapret-list-update.timer
+timers.target.wants
+
+one.one.one.one
+
+1.1.1.1
+1.0.0.1
+1.1.1.2
+1.0.0.2
+1.1.1.3
+1.0.0.3

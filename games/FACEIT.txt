@@ -1,0 +1,8 @@
+faceit.com
+cloudflare.com
+accounts.faceit.com
+winws.exe
+
+104.19.156.82
+104.19.155.82
+::

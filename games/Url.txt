@@ -1,0 +1,2 @@
+xsts.auth.xboxlive.com
+sisu.xboxlive.com
