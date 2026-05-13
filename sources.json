@@ -1,0 +1,219 @@
+{
+  "output": {
+    "domains_file": "medvedeff-game-list-all.txt",
+    "ips_file": "medvedeff-game-ipset.txt",
+    "games_dir": "games",
+    "write_ips_to_game_files": true,
+    "append_only": true
+  },
+  "limits": {
+    "http_timeout_seconds": 35,
+    "sleep_between_github_requests_seconds": 0.35,
+    "max_issue_pages_per_query": 2,
+    "max_comments_per_issue": 40,
+    "max_raw_files_per_repo": 80,
+    "max_raw_file_size_bytes": 450000,
+    "max_discovered_repositories_per_query": 4
+  },
+  "game_map": {
+    "ApexLegends_RocketLeague": ["apex legends", "apex", "rocket league", "rocketleague", "rl"],
+    "Arknights": ["arknights", "акнайтс"],
+    "ArmaReforger": ["arma reforger", "reforger"],
+    "Battlefield6": ["battlefield", "battlefield 6", "bf6"],
+    "BattleNet": ["battle.net", "battlenet", "blizzard", "warcraft", "diablo", "overwatch", "hearthstone"],
+    "BlueArchive": ["blue archive", "bluearchive"],
+    "Cloudflare_AWS": ["cloudflare", "amazon aws", "aws", "amazonaws"],
+    "DeadByDaylight": ["dead by daylight", "deadbydaylight", "dbd"],
+    "EA_Origin": ["ea origin", "origin", "electronic arts", "ea.com"],
+    "EpicGames_Fortnite": ["epic games", "epicgames", "fortnite", "unreal tournament", "unrealengine"],
+    "Fallout76_AWS": ["fallout 76", "fallout76"],
+    "GearsOfWar": ["gears of war", "gearsofwar"],
+    "GooseGooseDuck": ["goose goose duck", "goosegooseduck"],
+    "LeagueOfLegends": ["league of legends", "leagueoflegends", "lol", "riot lol"],
+    "MagicTheGathering": ["magic the gathering", "mtga", "mtg arena"],
+    "Minecraft_Extra": ["minecraft", "mojang", "hypixel", "mineplex"],
+    "MortalKombat1": ["mortal kombat", "mortalkombat", "mk1"],
+    "Other_Games": ["game server", "gameserver", "gaming", "игра", "игры", "игровой", "игровые"],
+    "PhotonEngine": ["photon engine", "photonengine", "exitgames"],
+    "RiotGames_Valorant": ["riot games", "riotgames", "valorant", "riot client"],
+    "Roblox": ["roblox", "рб", "роблокс"],
+    "Steam": ["steam", "steamworks", "valve", "counter-strike", "cs2", "dota", "dota 2", "steamdeck"],
+    "Ubisoft_Rainbow Six Siege": ["ubisoft", "rainbow six", "rainbow six siege", "r6 siege", "r6s"],
+    "VRChat": ["vrchat", "vrc", "vrcdn"],
+    "Warframe": ["warframe"],
+    "WutheringWaves": ["wuthering waves", "wutheringwaves", "kuro games"]
+  },
+  "domain_game_hints": {
+    "ApexLegends_RocketLeague": ["apexlegends", "rocketleague"],
+    "BattleNet": ["battle.net", "blizzard.com", "battle.net", "battlenet.com", "worldofwarcraft", "diablo", "overwatch"],
+    "EA_Origin": ["ea.com", "origin.com", "electronicarts"],
+    "EpicGames_Fortnite": ["epicgames", "fortnite", "unrealengine", "ol.epicgames"],
+    "LeagueOfLegends": ["leagueoflegends", "lolstatic", "riotcdn"],
+    "Minecraft_Extra": ["minecraft", "mojang", "hypixel", "mineplex"],
+    "PhotonEngine": ["photonengine", "exitgames"],
+    "RiotGames_Valorant": ["riotgames", "valorant", "riotcdn"],
+    "Roblox": ["roblox", "rbxcdn", "rbx.com"],
+    "Steam": ["steampowered", "steamcommunity", "steamstatic", "steamserver", "steamcontent", "steamusercontent", "valvesoftware", "dota2"],
+    "Ubisoft_Rainbow Six Siege": ["ubisoft", "ubi.com", "rainbow6"],
+    "VRChat": ["vrchat", "vrchat.cloud", "vrcdn", "vrcpm"],
+    "Warframe": ["warframe"],
+    "WutheringWaves": ["kurogames", "wutheringwaves"]
+  },
+  "issue_search_terms": [
+    "roblox",
+    "fortnite",
+    "epic games",
+    "vrchat",
+    "vrc",
+    "steam",
+    "dota",
+    "cs2",
+    "valorant",
+    "riot",
+    "league of legends",
+    "minecraft",
+    "battle.net",
+    "blizzard",
+    "warframe",
+    "ubisoft",
+    "rainbow six",
+    "battlefield",
+    "apex",
+    "rocket league",
+    "dead by daylight",
+    "wuthering waves",
+    "photonengine",
+    "game filter",
+    "ipset game",
+    "hostlist game",
+    "игра",
+    "игры",
+    "игровые",
+    "домены игры",
+    "ip игры"
+  ],
+  "repositories": [
+    {
+      "repo": "Flowseal/zapret-discord-youtube",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "max_issue_pages_per_query": 2,
+      "max_comments_per_issue": 35
+    },
+    {
+      "repo": "youtubediscord/zapret",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "max_issue_pages_per_query": 2,
+      "max_comments_per_issue": 35
+    },
+    {
+      "repo": "remittor/zapret-openwrt",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "max_issue_pages_per_query": 2,
+      "max_comments_per_issue": 35
+    },
+    {
+      "repo": "bol-van/zapret",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "max_issue_pages_per_query": 1,
+      "max_comments_per_issue": 20
+    },
+    {
+      "repo": "gexoty/vrc-ip-list",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "trust_all_domains_as_gaming": true,
+      "default_game": "VRChat"
+    },
+    {
+      "repo": "azzimoda/zapret-lists",
+      "scan_issues": true,
+      "scan_issue_comments": true,
+      "scan_raw_files": true,
+      "max_issue_pages_per_query": 1,
+      "max_comments_per_issue": 20
+    },
+    {
+      "repo": "IREK-szef/games-blocklist",
+      "scan_issues": false,
+      "scan_issue_comments": false,
+      "scan_raw_files": true,
+      "trust_all_domains_as_gaming": true,
+      "default_game": "Other_Games"
+    }
+  ],
+  "raw_sources": [
+    {
+      "name": "gexoty VRChat domains",
+      "url": "https://raw.githubusercontent.com/gexoty/vrc-ip-list/main/domain-list",
+      "kind": "domains",
+      "trust_all_domains_as_gaming": true,
+      "default_game": "VRChat"
+    },
+    {
+      "name": "gexoty VRChat IPs",
+      "url": "https://raw.githubusercontent.com/gexoty/vrc-ip-list/main/ip-list",
+      "kind": "ips",
+      "trust_all_domains_as_gaming": true,
+      "default_game": "VRChat"
+    },
+    {
+      "name": "azzimoda zapret general list",
+      "url": "https://raw.githubusercontent.com/azzimoda/zapret-lists/main/list-general.txt",
+      "kind": "mixed"
+    }
+  ],
+  "repository_discovery": {
+    "enabled": true,
+    "queries": [
+      "zapret hostlist ipset gaming",
+      "gaming blocklist domains ip cidr",
+      "roblox ipset zapret",
+      "fortnite hostlist ipset",
+      "vrchat domainlist iplist"
+    ],
+    "ignore_repositories": [
+      "medvedeff-true/ru-gaming-blocklist"
+    ],
+    "min_score": 4,
+    "scan_issues": true,
+    "scan_raw_files": true
+  },
+  "raw_file_filters": {
+    "extensions": [".txt", ".list", ".lst", ".conf", ".md", ".bat", ".cmd", ".ps1", ".sh", ".lua", ".json", ".yaml", ".yml"],
+    "path_keywords": [
+      "list",
+      "host",
+      "hosts",
+      "hostlist",
+      "domain",
+      "domains",
+      "ipset",
+      "ip-list",
+      "ips",
+      "cidr",
+      "game",
+      "gaming",
+      "roblox",
+      "fortnite",
+      "epic",
+      "vrchat",
+      "steam",
+      "riot",
+      "valorant",
+      "minecraft",
+      "photon",
+      "warframe",
+      "ubisoft",
+      "battlefield"
+    ]
+  }
+}
