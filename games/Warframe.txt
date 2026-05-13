@@ -1,6 +1,0 @@
-api.warframe.com
-arbiter.warframe.com
-origin.warframe.com
-content.warframe.com
-
-battle.net

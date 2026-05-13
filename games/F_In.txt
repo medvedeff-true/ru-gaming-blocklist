@@ -1,3 +1,0 @@
-def.sh
-fwtype.sh
-nft.sh
