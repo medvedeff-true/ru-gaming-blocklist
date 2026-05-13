@@ -1,0 +1,71 @@
+name: Update gaming blocklists
+
+on:
+  schedule:
+    # Раз в 3 часа. Минуту 17 выбрал специально, чтобы не стартовать ровно в 00:00
+    # когда GitHub Actions обычно загружен сильнее
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Тестовый запуск без записи файлов"
+        type: boolean
+        required: false
+        default: false
+      full_scan:
+        description: "Глубокий исторический проход по issues; для первого ручного запуска"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-gaming-blocklists
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run collector
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          ARGS="--config sources.json"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ inputs.full_scan }}" = "true" ]; then
+            ARGS="$ARGS --full-scan"
+          fi
+          python scripts/update_gaming_blocklists.py $ARGS
+
+      - name: Commit and push changes
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add medvedeff-game-list-all.txt medvedeff-game-ipset.txt games/ sources.json scripts/update_gaming_blocklists.py
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update gaming blocklists"
+          git push
