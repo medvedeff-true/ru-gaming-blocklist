@@ -310,7 +310,7 @@ class GitHubClient:
             body = e.read().decode("utf-8", errors="replace")[:500]
             if e.code in {403, 429}:
                 warn(f"GitHub API rate/permission response for {url}: HTTP {e.code}: {body}")
-                time.sleep(10)
+                time.sleep(60)
                 return None
             warn(f"GitHub API error for {url}: HTTP {e.code}: {body}")
             return None
@@ -565,30 +565,95 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
 
 def apply_run_mode(config: dict[str, Any], mode: str) -> None:
     limits = config.setdefault("limits", {})
+
+    fast_issue_terms = [
+        "fortnite",
+        "roblox",
+        "valorant",
+        "riot",
+        "steam",
+        "epic games",
+        "vrchat",
+        "minecraft",
+        "battlenet",
+        "battle.net",
+    ]
+
     if mode == "fast":
         log("Fast scan mode: 3-hour lightweight scan")
+
+        # Важно: GitHub Search API имеет жёсткие лимиты.
+        # Поэтому в быстром режиме уменьшаем количество поисковых запросов.
+        config["issue_search_terms"] = fast_issue_terms
+
         limits["max_issue_pages_per_query"] = 1
         limits["max_comments_per_issue"] = 0
-        limits["max_raw_files_per_repo"] = min(40, int(limits.get("max_raw_files_per_repo", 40)))
-        config.setdefault("repository_discovery", {})["enabled"] = False
+        limits["max_raw_files_per_repo"] = min(
+            30,
+            int(limits.get("max_raw_files_per_repo", 30)),
+        )
+
+        # Увеличиваем паузу между запросами, чтобы не ловить HTTP 403 rate limit.
+        limits["sleep_between_github_requests_seconds"] = max(
+            2.5,
+            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
+        )
+
+        # Discovery — тяжёлый этап, оставляем только для полного запуска.
+        discovery = config.setdefault("repository_discovery", {})
+        discovery["enabled"] = False
+
         for repo_cfg in config.get("repositories", []):
+            repo_cfg["issue_search_terms"] = fast_issue_terms
             repo_cfg["scan_issue_comments"] = False
             repo_cfg["max_issue_pages_per_query"] = 1
             repo_cfg["max_comments_per_issue"] = 0
-            repo_cfg["max_raw_files_per_repo"] = min(40, int(repo_cfg.get("max_raw_files_per_repo", 40)))
+            repo_cfg["max_raw_files_per_repo"] = min(
+                30,
+                int(repo_cfg.get("max_raw_files_per_repo", 30)),
+            )
+
     elif mode == "full":
         log("Full scan mode: deep historical scan")
-        limits["max_issue_pages_per_query"] = max(10, int(limits.get("max_issue_pages_per_query", 2)))
-        limits["max_comments_per_issue"] = max(80, int(limits.get("max_comments_per_issue", 40)))
-        limits["max_raw_files_per_repo"] = max(120, int(limits.get("max_raw_files_per_repo", 80)))
+
+        limits["max_issue_pages_per_query"] = max(
+            10,
+            int(limits.get("max_issue_pages_per_query", 2)),
+        )
+        limits["max_comments_per_issue"] = max(
+            80,
+            int(limits.get("max_comments_per_issue", 40)),
+        )
+        limits["max_raw_files_per_repo"] = max(
+            120,
+            int(limits.get("max_raw_files_per_repo", 80)),
+        )
+
+        # Для полного сканирования тоже нужна пауза, иначе GitHub Search API
+        # быстро начнёт отдавать HTTP 403.
+        limits["sleep_between_github_requests_seconds"] = max(
+            3.0,
+            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
+        )
+
         discovery = config.setdefault("repository_discovery", {})
         if discovery.get("queries"):
             discovery["enabled"] = True
+
         for repo_cfg in config.get("repositories", []):
             repo_cfg["scan_issue_comments"] = True
-            repo_cfg["max_issue_pages_per_query"] = max(10, int(repo_cfg.get("max_issue_pages_per_query", 2)))
-            repo_cfg["max_comments_per_issue"] = max(80, int(repo_cfg.get("max_comments_per_issue", 40)))
-            repo_cfg["max_raw_files_per_repo"] = max(120, int(repo_cfg.get("max_raw_files_per_repo", 80)))
+            repo_cfg["max_issue_pages_per_query"] = max(
+                10,
+                int(repo_cfg.get("max_issue_pages_per_query", 2)),
+            )
+            repo_cfg["max_comments_per_issue"] = max(
+                80,
+                int(repo_cfg.get("max_comments_per_issue", 40)),
+            )
+            repo_cfg["max_raw_files_per_repo"] = max(
+                120,
+                int(repo_cfg.get("max_raw_files_per_repo", 80)),
+            )
 
 
 def main() -> int:
