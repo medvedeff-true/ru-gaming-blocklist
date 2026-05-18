@@ -1,5 +1,0 @@
-services.msc
-info.dns.malw.link
-app.slack.com
-page.php
-www.comss.ru

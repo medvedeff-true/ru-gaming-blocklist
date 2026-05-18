@@ -1,8 +1,0 @@
-gitlab.com
-chat.deepseek.com
-osu.ppy.sh
-mediafire.com
-amazon.com
-browser-intake-datadoghq.com
-ampproject.org
-datadoghq.com

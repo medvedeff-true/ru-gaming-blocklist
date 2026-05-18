@@ -1,4 +1,0 @@
-services.msc
-private-user-images.githubusercontent.com
-forum.ixbt.com
-topic.cgi

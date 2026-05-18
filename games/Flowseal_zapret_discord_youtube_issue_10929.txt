@@ -1,8 +1,0 @@
-winws.exe
-cloudfront.net
-awsstatic.com
-awsapps.com
-chivalry2.com
-tornbanner.com
-playfabapi.com
-12d56.playfabapi.com

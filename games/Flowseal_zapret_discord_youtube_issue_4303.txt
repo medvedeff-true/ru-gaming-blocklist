@@ -1,9 +1,0 @@
-java.net.socketexception
-java.io.ioexception
-java.net.uri
-system.out.println
-uri.create
-reply.length
-system.err.println
-e.printstacktrace
-services.msc

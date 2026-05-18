@@ -122,15 +122,3 @@ worldofwarcraft.guilde-ke.net
 1.1.1.1
 1.0.0.1
 ::
-
-steamcommunity.com
-services.msc
-hyperion-cs.github.io
-private-user-images.githubusercontent.com
-eurobattle.net
-actual.battle.net
-us.actual.battle.net
-eu.actual.battle.net
-account.battle.net
-shop.battle.net
-op.gg

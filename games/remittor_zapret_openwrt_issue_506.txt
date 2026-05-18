@@ -1,4 +1,0 @@
-ruleset.uc
-kernel.org
-sysupgrade.conf
-private-user-images.githubusercontent.com

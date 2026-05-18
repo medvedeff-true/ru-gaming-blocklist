@@ -1,6 +1,0 @@
-pvp.net
-rgpub.io
-dradis-prod.rdatasrv.net
-launcher.riotclientservices.com
-4.general
-maxroll.gg

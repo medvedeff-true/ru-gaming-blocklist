@@ -1,2 +1,0 @@
-services.msc
-hyperion-cs.github.io

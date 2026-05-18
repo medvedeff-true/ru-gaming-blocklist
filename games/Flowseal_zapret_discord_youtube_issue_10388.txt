@@ -1,3 +1,0 @@
-winws.exe
-ifconfig.co
-xbox-dns.ru

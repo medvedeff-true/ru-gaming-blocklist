@@ -1,7 +1,0 @@
-winws.exe
-faceit.com
-accounts.faceit.com
-
-::
-104.19.156.82
-104.19.155.82
