@@ -1,0 +1,3 @@
+services.msc
+private-user-images.githubusercontent.com
+www.gearupbooster.com

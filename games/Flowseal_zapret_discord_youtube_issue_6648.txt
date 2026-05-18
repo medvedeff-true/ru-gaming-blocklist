@@ -1,0 +1,2 @@
+pingfast.app
+services.msc

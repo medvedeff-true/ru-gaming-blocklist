@@ -1,0 +1,6 @@
+services.msc
+warthunder.com
+gaijin.net
+
+8.8.8.8
+8.8.4.4

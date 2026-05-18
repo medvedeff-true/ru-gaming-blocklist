@@ -1,0 +1,5 @@
+services.msc
+js.hcaptcha.com
+statsigapi.net
+sentry.io
+config.psynet.gg

@@ -1,0 +1,8 @@
+services.msc
+www.facebook.com
+facebook.com
+instagram.com
+cdninstagram.com
+fbcdn.net
+x.com
+twimg.com

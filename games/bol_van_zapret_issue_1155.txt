@@ -1,0 +1,17 @@
+blockcheck.sh
+zapret.service
+system.slice
+ca-certificates.crt
+o64374.ingest.sentry.io
+nfqws.log
+cord.com
+9.o.ch
+
+162.159.136.232
+162.159.135.232
+162.159.128.233
+162.159.138.232
+162.159.137.232
+192.168.0.135
+::
+192.168.0.168

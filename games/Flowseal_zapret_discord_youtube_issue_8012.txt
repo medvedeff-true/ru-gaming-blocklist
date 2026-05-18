@@ -1,0 +1,6 @@
+services.msc
+forgecdn.net
+odecdn.net
+curseforge.com
+modrinth.com
+animevost.org

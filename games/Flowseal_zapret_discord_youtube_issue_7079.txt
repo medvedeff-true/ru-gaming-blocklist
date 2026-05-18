@@ -1,0 +1,2 @@
+services.msc
+private-user-images.githubusercontent.com

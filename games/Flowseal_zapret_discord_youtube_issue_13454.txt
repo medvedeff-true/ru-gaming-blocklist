@@ -1,0 +1,6 @@
+winws.exe
+prod.cloud.rockstargames.com
+signin.rockstargames.com
+gamedownloads.rockstargames.com
+rgl.rockstargames.com
+private-user-images.githubusercontent.com

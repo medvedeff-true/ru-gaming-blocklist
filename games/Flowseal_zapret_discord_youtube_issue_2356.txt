@@ -1,0 +1,6 @@
+services.msc
+prnt.sc
+winws.exe
+imgur.com
+
+::

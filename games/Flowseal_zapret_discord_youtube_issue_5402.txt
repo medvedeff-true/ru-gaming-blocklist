@@ -1,0 +1,11 @@
+services.msc
+antipiracy.wondershare.com
+wondershare.com
+mail.insidews.wondershare.com
+dev1.ipm.corel.public.corel.net
+gateway.discord.gg
+
+127.0.0.1
+0.0.0.0
+208.67.222.222
+208.67.220.220

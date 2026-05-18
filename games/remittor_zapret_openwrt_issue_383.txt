@@ -1,0 +1,2 @@
+fonts.google.com
+blockcheck.sh

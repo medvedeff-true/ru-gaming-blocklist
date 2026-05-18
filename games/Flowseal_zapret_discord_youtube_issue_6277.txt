@@ -1,0 +1,10 @@
+services.msc
+drgservicesletsencrypt.blob.core.windows.net
+drg.ghostship.dk
+discord.media
+
+20.107.4.52/32
+35.227.230.186/32
+40.114.242.241/32
+172.64.155.112/32
+188.114.99.231/32

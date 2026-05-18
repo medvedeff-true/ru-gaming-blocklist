@@ -1,0 +1,2 @@
+ajax.googleapis.com
+services.msc

@@ -11,3 +11,13 @@ ns-eu.photonengine.io
 gcams1160.exitgames.com
 api.epicgames.dev
 api.vrchat.cloud
+
+exitgames.com
+gcsc1144.exitgames.com
+gcash1149.exitgames.com
+gctok1018.exitgames.com
+
+85.234.65.161
+37.9.33.138
+5.8.93.16
+87.120.204.208

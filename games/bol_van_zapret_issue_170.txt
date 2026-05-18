@@ -1,0 +1,12 @@
+blockcheck.sh
+nhentai.net
+ca-certificates.crt
+curl.se
+sslcerts.html
+viewtopic.php
+rutracker.org
+profile.php
+
+1.1.1.1
+8.8.8.8
+172.67.159.231
