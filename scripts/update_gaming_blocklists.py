@@ -377,7 +377,12 @@ class GitHubClient:
 
 
 def source_options(source: dict[str, Any]) -> dict[str, Any]:
-    return {"trust_all_domains_as_gaming": bool(source.get("trust_all_domains_as_gaming", False)), "default_game": source.get("default_game"), "kind": source.get("kind", "mixed")}
+    return {
+        "trust_all_domains_as_gaming": bool(source.get("trust_all_domains_as_gaming", False)),
+        "default_game": source.get("default_game"),
+        "kind": source.get("kind", "mixed"),
+        "allow_issue_file_fallback": bool(source.get("allow_issue_file_fallback", False)),
+    }
 
 
 def process_text(harvested: Harvested, text: str, source_context: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]], options: dict[str, Any]) -> None:
@@ -385,26 +390,49 @@ def process_text(harvested: Harvested, text: str, source_context: str, alias_ind
     default_game = options.get("default_game")
     kind = options.get("kind", "mixed")
     base_games = infer_explicit_games_from_text(source_context + "\n" + text, alias_index, domain_game_hints)
+
     for raw_line in text.splitlines():
         line = strip_comments(raw_line)
         if not line:
             continue
+
         context = f"{source_context}\n{line}"
         games = set(base_games) | infer_games_from_context(context, alias_index, domain_game_hints)
+        games = {
+            game for game in games
+            if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
+        }
+
+        issue_fallback_games: set[str] = set()
+        if not games and bool(options.get("allow_issue_file_fallback")):
+            fallback_name = issue_fallback_game_name(source_context)
+            if fallback_name:
+                issue_fallback_games.add(fallback_name)
+
         if trust_all and default_game:
             games.add(str(default_game))
+
         if kind in {"mixed", "domains"}:
             for domain in extract_domains(line):
                 domain_games = set(games) | infer_games_from_context(domain, alias_index, domain_game_hints)
+                domain_games = {
+                    game for game in domain_games
+                    if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
+                }
                 if trust_all and default_game:
                     domain_games.add(str(default_game))
+                if not domain_games and issue_fallback_games:
+                    domain_games.update(issue_fallback_games)
                 if domain_games:
                     harvested.add_domain(domain, sorted(domain_games))
+
         if kind in {"mixed", "ips"}:
             for ip_or_cidr in extract_ips(line):
                 ip_games = set(games)
                 if trust_all and default_game:
                     ip_games.add(str(default_game))
+                if not ip_games and issue_fallback_games:
+                    ip_games.update(issue_fallback_games)
                 if ip_games:
                     harvested.add_ip(ip_or_cidr, sorted(ip_games))
 
@@ -448,7 +476,7 @@ def discover_repositories(config: dict[str, Any], gh: GitHubClient) -> list[dict
             score = score_repository_for_discovery(item)
             if score < min_score:
                 continue
-            found[key] = {"repo": full_name, "scan_issues": bool(discovery.get("scan_issues", True)), "scan_issue_comments": False, "scan_raw_files": bool(discovery.get("scan_raw_files", True)), "max_issue_pages_per_query": 1, "max_comments_per_issue": 0, "discovered": True}
+            found[key] = {"repo": full_name, "scan_issues": bool(discovery.get("scan_issues", True)), "scan_issue_comments": True, "scan_raw_files": bool(discovery.get("scan_raw_files", True)), "max_issue_pages_per_query": 1, "max_comments_per_issue": 20, "allow_issue_file_fallback": True, "discovered": True}
             log(f"  discovered {full_name} (score {score})")
     return list(found.values())
 
@@ -549,8 +577,6 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     total_game_added = 0
     for game, items in sorted(harvested.domains_by_game.items()):
         path = resolve_game_file(games_dir, game)
-        if path is None:
-            continue
         count = append_unique(path, items.keys(), dry_run=dry_run)
         if count:
             log(f"Game file {path.relative_to(ROOT)}: +{count} domain(s)")
@@ -558,8 +584,6 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     if write_ips_to_game_files:
         for game, items in sorted(harvested.ips_by_game.items()):
             path = resolve_game_file(games_dir, game)
-            if path is None:
-                continue
             count = append_unique(path, items.keys(), dry_run=dry_run)
             if count:
                 log(f"Game file {path.relative_to(ROOT)}: +{count} IP/CIDR item(s)")
@@ -569,102 +593,32 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
 
 def apply_run_mode(config: dict[str, Any], mode: str) -> None:
     limits = config.setdefault("limits", {})
-
-    fast_issue_terms = [
-        "fortnite",
-        "roblox",
-        "valorant",
-        "riot",
-        "steam",
-        "epic games",
-        "vrchat",
-        "minecraft",
-        "battlenet",
-        "battle.net",
-    ]
-
-    full_issue_terms = [
-        "fortnite",
-        "roblox",
-        "valorant",
-        "riot",
-        "riot games",
-        "league of legends",
-        "steam",
-        "epic games",
-        "vrchat",
-        "minecraft",
-        "battlenet",
-        "battle.net",
-        "ea app",
-        "origin",
-        "ubisoft",
-        "uplay",
-        "warframe",
-        "genshin",
-        "wuthering waves",
-        "apex legends",
-        "battlefield",
-    ]
-
     if mode == "fast":
         log("Fast scan mode: 3-hour lightweight scan")
-
-        # Важно: GitHub Search API имеет жёсткие лимиты.
-        # Поэтому в быстром режиме уменьшаем количество поисковых запросов.
-        config["issue_search_terms"] = fast_issue_terms
-
         limits["max_issue_pages_per_query"] = 1
         limits["max_comments_per_issue"] = 0
-        limits["max_raw_files_per_repo"] = min(30, int(limits.get("max_raw_files_per_repo", 30)))
-        limits["sleep_between_github_requests_seconds"] = max(
-            2.5,
-            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
-        )
-
-        # Discovery — тяжёлый этап, оставляем только для полного запуска.
-        discovery = config.setdefault("repository_discovery", {})
-        discovery["enabled"] = False
-
+        limits["max_raw_files_per_repo"] = min(40, int(limits.get("max_raw_files_per_repo", 40)))
+        config.setdefault("repository_discovery", {})["enabled"] = False
         for repo_cfg in config.get("repositories", []):
-            repo_cfg["issue_search_terms"] = fast_issue_terms
             repo_cfg["scan_issue_comments"] = False
+            repo_cfg["allow_issue_file_fallback"] = False
             repo_cfg["max_issue_pages_per_query"] = 1
             repo_cfg["max_comments_per_issue"] = 0
-            repo_cfg["max_raw_files_per_repo"] = min(30, int(repo_cfg.get("max_raw_files_per_repo", 30)))
-
+            repo_cfg["max_raw_files_per_repo"] = min(40, int(repo_cfg.get("max_raw_files_per_repo", 40)))
     elif mode == "full":
-        log("Full scan mode: balanced deep scan")
-
-        # Старый full-режим был слишком тяжёлым:
-        # 31 термин * 10 страниц * несколько репозиториев + комментарии.
-        # Такой запуск не успевал завершиться за 3 часа.
-        # Новый full всё ещё глубже fast, но ограничен так, чтобы реально завершаться.
-        config["issue_search_terms"] = full_issue_terms
-
-        limits["max_issue_pages_per_query"] = 3
-        limits["max_comments_per_issue"] = 20
-        limits["max_raw_files_per_repo"] = min(80, int(limits.get("max_raw_files_per_repo", 80)))
-        limits["max_discovered_repositories_per_query"] = min(
-            2,
-            int(limits.get("max_discovered_repositories_per_query", 2)),
-        )
-        limits["sleep_between_github_requests_seconds"] = max(
-            2.0,
-            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
-        )
-
+        log("Full scan mode: deep historical scan")
+        limits["max_issue_pages_per_query"] = max(10, int(limits.get("max_issue_pages_per_query", 2)))
+        limits["max_comments_per_issue"] = max(80, int(limits.get("max_comments_per_issue", 40)))
+        limits["max_raw_files_per_repo"] = max(120, int(limits.get("max_raw_files_per_repo", 80)))
         discovery = config.setdefault("repository_discovery", {})
         if discovery.get("queries"):
             discovery["enabled"] = True
-        discovery["scan_issue_comments"] = False
-
         for repo_cfg in config.get("repositories", []):
-            repo_cfg["issue_search_terms"] = full_issue_terms
             repo_cfg["scan_issue_comments"] = True
-            repo_cfg["max_issue_pages_per_query"] = 3
-            repo_cfg["max_comments_per_issue"] = 20
-            repo_cfg["max_raw_files_per_repo"] = min(80, int(repo_cfg.get("max_raw_files_per_repo", 80)))
+            repo_cfg["allow_issue_file_fallback"] = True
+            repo_cfg["max_issue_pages_per_query"] = max(10, int(repo_cfg.get("max_issue_pages_per_query", 2)))
+            repo_cfg["max_comments_per_issue"] = max(80, int(repo_cfg.get("max_comments_per_issue", 40)))
+            repo_cfg["max_raw_files_per_repo"] = max(120, int(repo_cfg.get("max_raw_files_per_repo", 80)))
 
 
 def main() -> int:
