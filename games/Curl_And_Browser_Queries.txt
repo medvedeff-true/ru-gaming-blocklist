@@ -1,0 +1,7 @@
+nfqws.log
+
+xsts.auth.xboxlive.com
+device.auth.xboxlive.com
+support.modrinth.com
+sisu.xboxlive.com
+api.minecraftservices.com

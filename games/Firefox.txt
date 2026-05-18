@@ -1,0 +1,6 @@
+chromewebstore.google.com
+addons.mozilla.org
+amnezia.org
+freevpnplanet.com
+apps.microsoft.com
+bridges.torproject.org

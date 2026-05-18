@@ -1,0 +1,3 @@
+cdn.battleye.com
+bistudio.com
+hetzner.com

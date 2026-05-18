@@ -1,0 +1,2 @@
+list.general
+ec2-13-219-10-197.compute-1.amazonaws.com

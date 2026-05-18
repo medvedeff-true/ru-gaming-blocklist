@@ -1,0 +1,6 @@
+blockcheck2.sh
+blockchek2.log
+rutracker.org
+reddit.com
+archive.org
+nfqws2.log

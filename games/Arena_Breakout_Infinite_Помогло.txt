@@ -1,0 +1,9 @@
+writerscafe.s3.amazonaws.com
+ubmidrupalcandd.s3-eu-west-1.amazonaws.com
+
+def.sh
+fwtype.sh
+nft.sh
+
+52.218.106.40
+52.218.225.51

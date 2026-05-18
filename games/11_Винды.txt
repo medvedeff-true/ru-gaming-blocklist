@@ -1,0 +1,12 @@
+www.google.com
+
+ip-ranges.amazonaws.com
+
+rr11---sn-n8v7kne6.googlevideo.com
+
+battle.net
+
+8.8.8.8
+8.8.4.4
+1.1.1.1
+1.0.0.1
