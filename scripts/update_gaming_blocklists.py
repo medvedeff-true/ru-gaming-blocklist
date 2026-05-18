@@ -37,6 +37,19 @@ COMMON_NON_GAME_DOMAINS = {
     "youtube.com", "youtu.be", "google.com", "gstatic.com", "discord.com",
     "discord.gg", "telegram.org", "t.me", "whatsapp.com", "openwrt.org",
 }
+
+BLOCKED_DOMAIN_KEYWORDS = {
+    "porn", "porno", "xxx", "sex", "adult", "camgirl", "escort",
+    "casino", "bet", "betting", "poker", "gambling", "slots",
+    "weed", "cannabis", "marijuana", "cocaine", "drug", "drugs",
+    "pharmacy", "viagra",
+}
+
+BLOCKED_GAME_NAMES = {
+    "zapret", "youtube", "discord", "youtube_discord", "youtubediscord",
+    "github", "raw", "general", "hostlist", "ipset", "blocklist",
+    "domainlist", "iplist", "issue", "issues", "readme", "hosts",
+}
 BINARY_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf", ".zip", ".7z", ".rar",
     ".exe", ".dll", ".bin", ".dat", ".pak", ".mp4", ".mp3", ".wav", ".ttf", ".otf",
@@ -184,6 +197,22 @@ def slugify_game_name(name: str) -> str:
     return (cleaned or "Other_Games") + ".txt"
 
 
+def issue_fallback_game_name(source_context: str) -> str | None:
+    """Creates a safe temporary games/*.txt name from a GitHub issue source."""
+    match = re.search(r"repo:([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\s+issue:#(\d+)", source_context)
+    if not match:
+        return None
+
+    repo = match.group(1)
+    issue_number = match.group(2)
+    repo_part = repo.replace("/", "_")
+    repo_part = re.sub(r"[^A-Za-z0-9_]+", "_", repo_part).strip("_")
+    if not repo_part or not issue_number:
+        return None
+
+    return f"{repo_part}_issue_{issue_number}"
+
+
 def build_alias_index(game_map: dict[str, list[str]]) -> list[tuple[str, str, str]]:
     index: list[tuple[str, str, str]] = []
     for game, aliases in game_map.items():
@@ -213,53 +242,48 @@ def infer_games_from_context(context: str, alias_index: list[tuple[str, str, str
 
 
 def sanitize_explicit_game_name(name: str) -> str | None:
-    name = re.sub(r"\s+", " ", name.strip().strip("`'\"[](){}")).strip(" .,:;/-_|")
-    if not name or len(name) < 2 or len(name) > 60:
-        return None
-    bad = normalize_text_for_match(name)
-    generic = {"hostlist", "ipset", "список доменов", "список ip", "no response", "none", "описание", "description", "последняя", "latest", "general", "game filter", "ipset filter"}
-    if bad in generic or re.fullmatch(r"[0-9. /:-]+", name):
-        return None
-    parts = [p for p in re.split(r"[^A-Za-z0-9А-Яа-яЁё]+", name) if p]
-    if not parts:
-        return None
-    return "_".join(part[:1].upper() + part[1:] for part in parts)
+    # We do not create game names from arbitrary issue titles anymore.
+    # Unknown issue-derived entries are saved to source-based files such as:
+    # games/Flowseal_zapret_discord_youtube_issue_123.txt
+    return None
 
 
-def infer_explicit_games_from_text(text: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> set[str]:
+def infer_explicit_games_from_text(
+    text: str,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+) -> set[str]:
     games: set[str] = set()
     sample = text[:4000]
+
+    # Only explicit service/game fields. Do not parse generic phrases like "for ..." / "для ...".
     patterns = [
-        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,60})",
-        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,60})",
-        r"(?:для|for)\s+([A-Za-zА-Яа-яЁё0-9][A-Za-zА-Яа-яЁё0-9 ._+&/-]{2,50})",
+        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,80})",
+        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,80})",
     ]
+
     for pattern in patterns:
         for match in re.finditer(pattern, sample, flags=re.IGNORECASE):
             raw_name = re.split(r"[#|<>{}\[\]\n\r]", match.group(1), 1)[0]
             canonical = infer_games_from_context(raw_name, alias_index, domain_game_hints)
-            if canonical:
-                games.update(canonical)
-            else:
-                sanitized = sanitize_explicit_game_name(raw_name)
-                if sanitized:
-                    games.add(sanitized)
-    return games
+            games.update(canonical)
+
+    return {
+        game for game in games
+        if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
+    }
 
 
-def resolve_game_file(games_dir: Path, game: str) -> Path:
+def resolve_game_file(games_dir: Path, game: str) -> Path | None:
+    game_norm = normalize_text_for_match(game).replace(" ", "_")
+    if game_norm in BLOCKED_GAME_NAMES:
+        return None
+
     preferred = games_dir / f"{game}.txt"
     if preferred.exists():
         return preferred
-    game_norm = re.sub(r"[^a-z0-9]+", "", game.lower())
-    candidates: list[Path] = []
-    for path in games_dir.glob("*.txt"):
-        stem_norm = re.sub(r"[^a-z0-9]+", "", path.stem.lower())
-        if stem_norm == game_norm or game_norm in stem_norm or stem_norm in game_norm:
-            candidates.append(path)
-    if candidates:
-        candidates.sort(key=lambda p: len(p.name))
-        return candidates[0]
+
+    # For known games from game_map and issue fallback names.
     return games_dir / slugify_game_name(game)
 
 
@@ -583,6 +607,8 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     total_game_added = 0
     for game, items in sorted(harvested.domains_by_game.items()):
         path = resolve_game_file(games_dir, game)
+        if path is None:
+            continue
         count = append_unique(path, items.keys(), dry_run=dry_run)
         if count:
             log(f"Game file {path.relative_to(ROOT)}: +{count} domain(s)")
@@ -590,6 +616,8 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     if write_ips_to_game_files:
         for game, items in sorted(harvested.ips_by_game.items()):
             path = resolve_game_file(games_dir, game)
+            if path is None:
+                continue
             count = append_unique(path, items.keys(), dry_run=dry_run)
             if count:
                 log(f"Game file {path.relative_to(ROOT)}: +{count} IP/CIDR item(s)")
@@ -599,32 +627,75 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
 
 def apply_run_mode(config: dict[str, Any], mode: str) -> None:
     limits = config.setdefault("limits", {})
+
+    fast_issue_terms = [
+        "fortnite", "roblox", "valorant", "riot", "steam",
+        "epic games", "vrchat", "minecraft", "battlenet", "battle.net",
+    ]
+
+    full_issue_terms = [
+        "fortnite", "roblox", "valorant", "riot", "steam",
+        "epic games", "vrchat", "minecraft", "battlenet", "battle.net",
+        "apex", "battlefield", "ubisoft", "rainbow six", "warframe",
+        "wuthering waves", "league of legends", "ea app", "origin",
+        "photon", "dead by daylight",
+    ]
+
     if mode == "fast":
         log("Fast scan mode: 3-hour lightweight scan")
+        config["issue_search_terms"] = fast_issue_terms
         limits["max_issue_pages_per_query"] = 1
         limits["max_comments_per_issue"] = 0
-        limits["max_raw_files_per_repo"] = min(40, int(limits.get("max_raw_files_per_repo", 40)))
+        limits["max_raw_files_per_repo"] = min(30, int(limits.get("max_raw_files_per_repo", 30)))
+        limits["sleep_between_github_requests_seconds"] = max(
+            2.5,
+            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
+        )
         config.setdefault("repository_discovery", {})["enabled"] = False
+
         for repo_cfg in config.get("repositories", []):
+            repo_cfg["issue_search_terms"] = fast_issue_terms
             repo_cfg["scan_issue_comments"] = False
             repo_cfg["allow_issue_file_fallback"] = False
             repo_cfg["max_issue_pages_per_query"] = 1
             repo_cfg["max_comments_per_issue"] = 0
-            repo_cfg["max_raw_files_per_repo"] = min(40, int(repo_cfg.get("max_raw_files_per_repo", 40)))
+            repo_cfg["max_raw_files_per_repo"] = min(30, int(repo_cfg.get("max_raw_files_per_repo", 30)))
+
     elif mode == "full":
-        log("Full scan mode: deep historical scan")
-        limits["max_issue_pages_per_query"] = max(10, int(limits.get("max_issue_pages_per_query", 2)))
-        limits["max_comments_per_issue"] = max(80, int(limits.get("max_comments_per_issue", 40)))
-        limits["max_raw_files_per_repo"] = max(120, int(limits.get("max_raw_files_per_repo", 80)))
+        log("Full scan mode: balanced deep scan")
+        config["issue_search_terms"] = full_issue_terms
+        limits["max_issue_pages_per_query"] = min(3, max(1, int(limits.get("max_issue_pages_per_query", 3))))
+        limits["max_comments_per_issue"] = min(20, max(0, int(limits.get("max_comments_per_issue", 20))))
+        limits["max_raw_files_per_repo"] = min(80, max(20, int(limits.get("max_raw_files_per_repo", 80))))
+        limits["max_discovered_repositories_per_query"] = min(
+            2,
+            max(1, int(limits.get("max_discovered_repositories_per_query", 2))),
+        )
+        limits["sleep_between_github_requests_seconds"] = max(
+            2.5,
+            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
+        )
+
         discovery = config.setdefault("repository_discovery", {})
         if discovery.get("queries"):
             discovery["enabled"] = True
+
         for repo_cfg in config.get("repositories", []):
+            repo_cfg["issue_search_terms"] = full_issue_terms
             repo_cfg["scan_issue_comments"] = True
             repo_cfg["allow_issue_file_fallback"] = True
-            repo_cfg["max_issue_pages_per_query"] = max(10, int(repo_cfg.get("max_issue_pages_per_query", 2)))
-            repo_cfg["max_comments_per_issue"] = max(80, int(repo_cfg.get("max_comments_per_issue", 40)))
-            repo_cfg["max_raw_files_per_repo"] = max(120, int(repo_cfg.get("max_raw_files_per_repo", 80)))
+            repo_cfg["max_issue_pages_per_query"] = min(
+                3,
+                max(1, int(repo_cfg.get("max_issue_pages_per_query", 3))),
+            )
+            repo_cfg["max_comments_per_issue"] = min(
+                20,
+                max(0, int(repo_cfg.get("max_comments_per_issue", 20))),
+            )
+            repo_cfg["max_raw_files_per_repo"] = min(
+                80,
+                max(20, int(repo_cfg.get("max_raw_files_per_repo", 80))),
+            )
 
 
 def main() -> int:
