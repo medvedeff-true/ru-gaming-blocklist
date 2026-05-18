@@ -123,6 +123,12 @@ def clean_possible_domain(raw: str) -> str | None:
         return None
     if token.endswith((".md", ".txt", ".bat", ".cmd", ".json", ".yaml", ".yml", ".png", ".jpg")):
         return None
+
+    token_for_filter = token.replace("-", " ").replace(".", " ")
+    for bad_word in BLOCKED_DOMAIN_KEYWORDS:
+        if re.search(rf"(?<![a-z0-9]){re.escape(bad_word)}(?![a-z0-9])", token_for_filter):
+            return None
+
     return token
 
 
