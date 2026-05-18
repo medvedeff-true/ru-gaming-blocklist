@@ -37,32 +37,6 @@ COMMON_NON_GAME_DOMAINS = {
     "youtube.com", "youtu.be", "google.com", "gstatic.com", "discord.com",
     "discord.gg", "telegram.org", "t.me", "whatsapp.com", "openwrt.org",
 }
-BLOCKED_DOMAIN_KEYWORDS = {
-    "porn", "porno", "xxx", "sex", "adult", "camgirl", "escort",
-    "casino", "bet", "betting", "poker", "gambling",
-    "weed", "cannabis", "marijuana", "cocaine", "drug", "drugs",
-    "pharmacy", "viagra", "casino", "slots",
-}
-
-BLOCKED_GAME_NAMES = {
-    "zapret",
-    "youtube",
-    "discord",
-    "youtube_discord",
-    "youtubediscord",
-    "github",
-    "raw",
-    "general",
-    "hostlist",
-    "ipset",
-    "blocklist",
-    "domainlist",
-    "iplist",
-    "issue",
-    "issues",
-    "readme",
-    "hosts",
-}
 BINARY_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf", ".zip", ".7z", ".rar",
     ".exe", ".dll", ".bin", ".dat", ".pak", ".mp4", ".mp3", ".wav", ".ttf", ".otf",
@@ -128,43 +102,29 @@ def clean_possible_domain(raw: str) -> str | None:
     token = raw.strip().lower()
     token = token.strip("`'\"<>[](){}|,;!")
     token = token.removeprefix("||").removeprefix("*.").removeprefix("address=/").strip("/^")
-
     if token.startswith(("http://", "https://")):
         token = urllib.parse.urlsplit(token).netloc
-
     if "@" in token:
         return None
-
     token = token.split("/", 1)[0].split(":", 1)[0].strip(".")
-
     if not token or token in COMMON_FALSE_DOMAIN_SUFFIXES or token in COMMON_NON_GAME_DOMAINS:
         return None
-
     if "_" in token or len(token) > 253:
         return None
-
     labels = token.split(".")
     if len(labels) < 2:
         return None
-
     for label in labels:
         if not label or len(label) > 63 or label.startswith("-") or label.endswith("-"):
             return None
         if not re.fullmatch(r"[a-z0-9-]+", label):
             return None
-
     if not re.fullmatch(r"[a-z]{2,63}", labels[-1]):
         return None
-
     if token.endswith((".md", ".txt", ".bat", ".cmd", ".json", ".yaml", ".yml", ".png", ".jpg")):
         return None
-
-    token_for_filter = token.replace("-", " ").replace(".", " ")
-    for bad_word in BLOCKED_DOMAIN_KEYWORDS:
-        if re.search(rf"(?<![a-z0-9]){re.escape(bad_word)}(?![a-z0-9])", token_for_filter):
-            return None
-
     return token
+
 
 def normalize_ip(raw: str) -> str | None:
     token = raw.strip().strip("`'\"<>[](){}|,;!")
@@ -247,40 +207,53 @@ def infer_games_from_context(context: str, alias_index: list[tuple[str, str, str
 
 
 def sanitize_explicit_game_name(name: str) -> str | None:
-    return None
+    name = re.sub(r"\s+", " ", name.strip().strip("`'\"[](){}")).strip(" .,:;/-_|")
+    if not name or len(name) < 2 or len(name) > 60:
+        return None
+    bad = normalize_text_for_match(name)
+    generic = {"hostlist", "ipset", "список доменов", "список ip", "no response", "none", "описание", "description", "последняя", "latest", "general", "game filter", "ipset filter"}
+    if bad in generic or re.fullmatch(r"[0-9. /:-]+", name):
+        return None
+    parts = [p for p in re.split(r"[^A-Za-z0-9А-Яа-яЁё]+", name) if p]
+    if not parts:
+        return None
+    return "_".join(part[:1].upper() + part[1:] for part in parts)
 
 
-def infer_explicit_games_from_text(
-    text: str,
-    alias_index: list[tuple[str, str, str]],
-    domain_game_hints: dict[str, list[str]],
-) -> set[str]:
+def infer_explicit_games_from_text(text: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> set[str]:
     games: set[str] = set()
     sample = text[:4000]
-
     patterns = [
-        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,80})",
-        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,80})",
+        r"\[(?:hostlist|ipset|game|service|сервис|игра)\]\s*:?\s*([^#\n\r]{2,60})",
+        r"(?:название\s+(?:сервиса|сайта|игры)|service\s+name|game\s+name)\s*(?:/\s*сайта)?\s*[:\n\r]+\s*([^\n\r]{2,60})",
+        r"(?:для|for)\s+([A-Za-zА-Яа-яЁё0-9][A-Za-zА-Яа-яЁё0-9 ._+&/-]{2,50})",
     ]
-
     for pattern in patterns:
         for match in re.finditer(pattern, sample, flags=re.IGNORECASE):
             raw_name = re.split(r"[#|<>{}\[\]\n\r]", match.group(1), 1)[0]
             canonical = infer_games_from_context(raw_name, alias_index, domain_game_hints)
-            games.update(canonical)
+            if canonical:
+                games.update(canonical)
+            else:
+                sanitized = sanitize_explicit_game_name(raw_name)
+                if sanitized:
+                    games.add(sanitized)
+    return games
 
-    return {game for game in games if normalize_text_for_match(game) not in BLOCKED_GAME_NAMES}
 
-
-def resolve_game_file(games_dir: Path, game: str) -> Path | None:
-    game_norm = normalize_text_for_match(game).replace(" ", "_")
-    if game_norm in BLOCKED_GAME_NAMES:
-        return None
-
+def resolve_game_file(games_dir: Path, game: str) -> Path:
     preferred = games_dir / f"{game}.txt"
     if preferred.exists():
         return preferred
-
+    game_norm = re.sub(r"[^a-z0-9]+", "", game.lower())
+    candidates: list[Path] = []
+    for path in games_dir.glob("*.txt"):
+        stem_norm = re.sub(r"[^a-z0-9]+", "", path.stem.lower())
+        if stem_norm == game_norm or game_norm in stem_norm or stem_norm in game_norm:
+            candidates.append(path)
+    if candidates:
+        candidates.sort(key=lambda p: len(p.name))
+        return candidates[0]
     return games_dir / slugify_game_name(game)
 
 
@@ -337,7 +310,7 @@ class GitHubClient:
             body = e.read().decode("utf-8", errors="replace")[:500]
             if e.code in {403, 429}:
                 warn(f"GitHub API rate/permission response for {url}: HTTP {e.code}: {body}")
-                time.sleep(60)
+                time.sleep(10)
                 return None
             warn(f"GitHub API error for {url}: HTTP {e.code}: {body}")
             return None
@@ -418,10 +391,6 @@ def process_text(harvested: Harvested, text: str, source_context: str, alias_ind
             continue
         context = f"{source_context}\n{line}"
         games = set(base_games) | infer_games_from_context(context, alias_index, domain_game_hints)
-        games = {
-            game for game in games
-            if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
-        }
         if trust_all and default_game:
             games.add(str(default_game))
         if kind in {"mixed", "domains"}:
@@ -479,7 +448,7 @@ def discover_repositories(config: dict[str, Any], gh: GitHubClient) -> list[dict
             score = score_repository_for_discovery(item)
             if score < min_score:
                 continue
-            found[key] = {"repo": full_name, "scan_issues": bool(discovery.get("scan_issues", True)), "scan_issue_comments": True, "scan_raw_files": bool(discovery.get("scan_raw_files", True)), "max_issue_pages_per_query": 1, "max_comments_per_issue": 20, "discovered": True}
+            found[key] = {"repo": full_name, "scan_issues": bool(discovery.get("scan_issues", True)), "scan_issue_comments": False, "scan_raw_files": bool(discovery.get("scan_raw_files", True)), "max_issue_pages_per_query": 1, "max_comments_per_issue": 0, "discovered": True}
             log(f"  discovered {full_name} (score {score})")
     return list(found.values())
 
@@ -581,7 +550,7 @@ def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -
     for game, items in sorted(harvested.domains_by_game.items()):
         path = resolve_game_file(games_dir, game)
         if path is None:
-                continue
+            continue
         count = append_unique(path, items.keys(), dry_run=dry_run)
         if count:
             log(f"Game file {path.relative_to(ROOT)}: +{count} domain(s)")
@@ -614,6 +583,30 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
         "battle.net",
     ]
 
+    full_issue_terms = [
+        "fortnite",
+        "roblox",
+        "valorant",
+        "riot",
+        "riot games",
+        "league of legends",
+        "steam",
+        "epic games",
+        "vrchat",
+        "minecraft",
+        "battlenet",
+        "battle.net",
+        "ea app",
+        "origin",
+        "ubisoft",
+        "uplay",
+        "warframe",
+        "genshin",
+        "wuthering waves",
+        "apex legends",
+        "battlefield",
+    ]
+
     if mode == "fast":
         log("Fast scan mode: 3-hour lightweight scan")
 
@@ -623,12 +616,7 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
 
         limits["max_issue_pages_per_query"] = 1
         limits["max_comments_per_issue"] = 0
-        limits["max_raw_files_per_repo"] = min(
-            30,
-            int(limits.get("max_raw_files_per_repo", 30)),
-        )
-
-        # Увеличиваем паузу между запросами, чтобы не ловить HTTP 403 rate limit.
+        limits["max_raw_files_per_repo"] = min(30, int(limits.get("max_raw_files_per_repo", 30)))
         limits["sleep_between_github_requests_seconds"] = max(
             2.5,
             float(limits.get("sleep_between_github_requests_seconds", 0.35)),
@@ -643,52 +631,40 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
             repo_cfg["scan_issue_comments"] = False
             repo_cfg["max_issue_pages_per_query"] = 1
             repo_cfg["max_comments_per_issue"] = 0
-            repo_cfg["max_raw_files_per_repo"] = min(
-                30,
-                int(repo_cfg.get("max_raw_files_per_repo", 30)),
-            )
+            repo_cfg["max_raw_files_per_repo"] = min(30, int(repo_cfg.get("max_raw_files_per_repo", 30)))
 
     elif mode == "full":
-        log("Full scan mode: deep historical scan")
+        log("Full scan mode: balanced deep scan")
 
-        limits["max_issue_pages_per_query"] = max(
-            10,
-            int(limits.get("max_issue_pages_per_query", 2)),
-        )
-        limits["max_comments_per_issue"] = max(
-            80,
-            int(limits.get("max_comments_per_issue", 40)),
-        )
-        limits["max_raw_files_per_repo"] = max(
-            120,
-            int(limits.get("max_raw_files_per_repo", 80)),
-        )
+        # Старый full-режим был слишком тяжёлым:
+        # 31 термин * 10 страниц * несколько репозиториев + комментарии.
+        # Такой запуск не успевал завершиться за 3 часа.
+        # Новый full всё ещё глубже fast, но ограничен так, чтобы реально завершаться.
+        config["issue_search_terms"] = full_issue_terms
 
-        # Для полного сканирования тоже нужна пауза, иначе GitHub Search API
-        # быстро начнёт отдавать HTTP 403.
+        limits["max_issue_pages_per_query"] = 3
+        limits["max_comments_per_issue"] = 20
+        limits["max_raw_files_per_repo"] = min(80, int(limits.get("max_raw_files_per_repo", 80)))
+        limits["max_discovered_repositories_per_query"] = min(
+            2,
+            int(limits.get("max_discovered_repositories_per_query", 2)),
+        )
         limits["sleep_between_github_requests_seconds"] = max(
-            3.0,
+            2.0,
             float(limits.get("sleep_between_github_requests_seconds", 0.35)),
         )
 
         discovery = config.setdefault("repository_discovery", {})
         if discovery.get("queries"):
             discovery["enabled"] = True
+        discovery["scan_issue_comments"] = False
 
         for repo_cfg in config.get("repositories", []):
+            repo_cfg["issue_search_terms"] = full_issue_terms
             repo_cfg["scan_issue_comments"] = True
-            repo_cfg["max_issue_pages_per_query"] = max(
-                10,
-                int(repo_cfg.get("max_issue_pages_per_query", 2)),
-            )
-            repo_cfg["max_comments_per_issue"] = max(
-                80,
-                int(repo_cfg.get("max_comments_per_issue", 40)),
-            )
-            repo_cfg["max_raw_files_per_repo"] = max(
-                120,
-                int(repo_cfg.get("max_raw_files_per_repo", 80)),
-            )
+            repo_cfg["max_issue_pages_per_query"] = 3
+            repo_cfg["max_comments_per_issue"] = 20
+            repo_cfg["max_raw_files_per_repo"] = min(80, int(repo_cfg.get("max_raw_files_per_repo", 80)))
 
 
 def main() -> int:
