@@ -1,8 +1,0 @@
-eu.shop.battle.net
-steampowered.com
-steamcommunity.com
-steamgames.com
-steamusercontent.com
-steamcontent.com
-steamstatic.com
-battle.net

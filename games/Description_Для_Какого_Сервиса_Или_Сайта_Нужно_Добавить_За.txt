@@ -1,5 +1,0 @@
-lovable.dev
-cdn.example.com
-api.example.com
-
-1.2.3.0/24

@@ -1,6 +1,0 @@
-mediafilez.forgecdn.net
-edge.forgecdn.net
-neoforged.net
-maven.neoforged.net
-cursforge.com
-maven.minecraftforge.net

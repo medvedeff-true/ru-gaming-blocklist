@@ -1,8 +1,0 @@
-accounts.ea.com
-
-ns.photonengine.io
-exitgames.com
-files.vrchat.cloud
-api.vrchat.cloud
-
-155.133.0.0/16

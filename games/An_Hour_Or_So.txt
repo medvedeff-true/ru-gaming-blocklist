@@ -1,5 +1,0 @@
-4chan.org
-pastebin.com
-report-uri.cloudflare.com
-
-ec2-13-219-10-197.compute-1.amazonaws.com

@@ -1,7 +1,0 @@
-blockcheck.sh
-zapret.service
-multi-user.target.wants
-rndc.key
-rndc.conf
-zapret-list-update.timer
-timers.target.wants

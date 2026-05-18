@@ -1,4 +1,0 @@
-ns.photonengine.io
-exitgames.com
-files.vrchat.cloud
-api.vrchat.cloud

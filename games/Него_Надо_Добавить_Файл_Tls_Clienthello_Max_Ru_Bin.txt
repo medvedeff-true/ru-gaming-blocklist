@@ -1,5 +1,0 @@
-winws.exe
-4pda.bin
-discord.media
-
-::

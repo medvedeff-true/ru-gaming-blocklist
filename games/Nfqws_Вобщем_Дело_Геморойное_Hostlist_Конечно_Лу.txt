@@ -1,4 +1,0 @@
-whois.radb.net
-bgp.he.net
-
-77.37.192.0
