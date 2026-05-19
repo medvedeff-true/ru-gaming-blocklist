@@ -4,7 +4,8 @@
     "ips_file": "medvedeff-game-ipset.txt",
     "games_dir": "games",
     "write_ips_to_game_files": true,
-    "append_only": true
+    "append_only": true,
+    "review_file": "_review/issue_candidates.md"
   },
   "limits": {
     "http_timeout_seconds": 35,
@@ -16,48 +17,231 @@
     "max_discovered_repositories_per_query": 4
   },
   "game_map": {
-    "ApexLegends_RocketLeague": ["apex legends", "apex", "rocket league", "rocketleague", "rl"],
-    "Arknights": ["arknights", "акнайтс"],
-    "ArmaReforger": ["arma reforger", "reforger"],
-    "Battlefield6": ["battlefield", "battlefield 6", "bf6"],
-    "BattleNet": ["battle.net", "battlenet", "blizzard", "warcraft", "diablo", "overwatch", "hearthstone"],
-    "BlueArchive": ["blue archive", "bluearchive"],
-    "Cloudflare_AWS": ["cloudflare", "amazon aws", "aws", "amazonaws"],
-    "DeadByDaylight": ["dead by daylight", "deadbydaylight", "dbd"],
-    "EA_Origin": ["ea origin", "origin", "electronic arts", "ea.com"],
-    "EpicGames_Fortnite": ["epic games", "epicgames", "fortnite", "unreal tournament", "unrealengine"],
-    "Fallout76_AWS": ["fallout 76", "fallout76"],
-    "GearsOfWar": ["gears of war", "gearsofwar"],
-    "GooseGooseDuck": ["goose goose duck", "goosegooseduck"],
-    "LeagueOfLegends": ["league of legends", "leagueoflegends", "lol", "riot lol"],
-    "MagicTheGathering": ["magic the gathering", "mtga", "mtg arena"],
-    "Minecraft_Extra": ["minecraft", "mojang", "hypixel", "mineplex"],
-    "MortalKombat1": ["mortal kombat", "mortalkombat", "mk1"],
-    "Other_Games": ["game server", "gameserver", "gaming", "игра", "игры", "игровой", "игровые"],
-    "PhotonEngine": ["photon engine", "photonengine", "exitgames"],
-    "RiotGames_Valorant": ["riot games", "riotgames", "valorant", "riot client"],
-    "Roblox": ["roblox", "рб", "роблокс"],
-    "Steam": ["steam", "steamworks", "valve", "counter-strike", "cs2", "dota", "dota 2", "steamdeck"],
-    "Ubisoft_Rainbow Six Siege": ["ubisoft", "rainbow six", "rainbow six siege", "r6 siege", "r6s"],
-    "VRChat": ["vrchat", "vrc", "vrcdn"],
-    "Warframe": ["warframe"],
-    "WutheringWaves": ["wuthering waves", "wutheringwaves", "kuro games"]
+    "ApexLegends_RocketLeague": [
+      "apex legends",
+      "apex",
+      "rocket league",
+      "rocketleague",
+      "rl"
+    ],
+    "Arknights": [
+      "arknights",
+      "акнайтс"
+    ],
+    "ArmaReforger": [
+      "arma reforger",
+      "reforger"
+    ],
+    "Battlefield6": [
+      "battlefield",
+      "battlefield 6",
+      "bf6"
+    ],
+    "BattleNet": [
+      "battle.net",
+      "battlenet",
+      "blizzard",
+      "warcraft",
+      "diablo",
+      "overwatch",
+      "hearthstone"
+    ],
+    "BlueArchive": [
+      "blue archive",
+      "bluearchive"
+    ],
+    "Cloudflare_AWS": [
+      "cloudflare",
+      "amazon aws",
+      "aws",
+      "amazonaws"
+    ],
+    "DeadByDaylight": [
+      "dead by daylight",
+      "deadbydaylight",
+      "dbd"
+    ],
+    "EA_Origin": [
+      "ea origin",
+      "origin",
+      "electronic arts",
+      "ea.com"
+    ],
+    "EpicGames_Fortnite": [
+      "epic games",
+      "epicgames",
+      "fortnite",
+      "unreal tournament",
+      "unrealengine"
+    ],
+    "Fallout76_AWS": [
+      "fallout 76",
+      "fallout76"
+    ],
+    "GearsOfWar": [
+      "gears of war",
+      "gearsofwar"
+    ],
+    "GooseGooseDuck": [
+      "goose goose duck",
+      "goosegooseduck"
+    ],
+    "LeagueOfLegends": [
+      "league of legends",
+      "leagueoflegends",
+      "lol",
+      "riot lol"
+    ],
+    "MagicTheGathering": [
+      "magic the gathering",
+      "mtga",
+      "mtg arena"
+    ],
+    "Minecraft_Extra": [
+      "minecraft",
+      "mojang",
+      "hypixel",
+      "mineplex"
+    ],
+    "MortalKombat1": [
+      "mortal kombat",
+      "mortalkombat",
+      "mk1"
+    ],
+    "Other_Games": [
+      "game server",
+      "gameserver",
+      "gaming",
+      "игра",
+      "игры",
+      "игровой",
+      "игровые"
+    ],
+    "PhotonEngine": [
+      "photon engine",
+      "photonengine",
+      "exitgames"
+    ],
+    "RiotGames_Valorant": [
+      "riot games",
+      "riotgames",
+      "valorant",
+      "riot client"
+    ],
+    "Roblox": [
+      "roblox",
+      "рб",
+      "роблокс"
+    ],
+    "Steam": [
+      "steam",
+      "steamworks",
+      "valve",
+      "counter-strike",
+      "cs2",
+      "dota",
+      "dota 2",
+      "steamdeck"
+    ],
+    "Ubisoft_Rainbow Six Siege": [
+      "ubisoft",
+      "rainbow six",
+      "rainbow six siege",
+      "r6 siege",
+      "r6s"
+    ],
+    "VRChat": [
+      "vrchat",
+      "vrc",
+      "vrcdn"
+    ],
+    "Warframe": [
+      "warframe"
+    ],
+    "WutheringWaves": [
+      "wuthering waves",
+      "wutheringwaves",
+      "kuro games"
+    ]
   },
   "domain_game_hints": {
-    "ApexLegends_RocketLeague": ["apexlegends", "rocketleague"],
-    "BattleNet": ["battle.net", "blizzard.com", "battle.net", "battlenet.com", "worldofwarcraft", "diablo", "overwatch"],
-    "EA_Origin": ["ea.com", "origin.com", "electronicarts"],
-    "EpicGames_Fortnite": ["epicgames", "fortnite", "unrealengine", "ol.epicgames"],
-    "LeagueOfLegends": ["leagueoflegends", "lolstatic", "riotcdn"],
-    "Minecraft_Extra": ["minecraft", "mojang", "hypixel", "mineplex"],
-    "PhotonEngine": ["photonengine", "exitgames"],
-    "RiotGames_Valorant": ["riotgames", "valorant", "riotcdn"],
-    "Roblox": ["roblox", "rbxcdn", "rbx.com"],
-    "Steam": ["steampowered", "steamcommunity", "steamstatic", "steamserver", "steamcontent", "steamusercontent", "valvesoftware", "dota2"],
-    "Ubisoft_Rainbow Six Siege": ["ubisoft", "ubi.com", "rainbow6"],
-    "VRChat": ["vrchat", "vrchat.cloud", "vrcdn", "vrcpm"],
-    "Warframe": ["warframe"],
-    "WutheringWaves": ["kurogames", "wutheringwaves"]
+    "ApexLegends_RocketLeague": [
+      "apexlegends",
+      "rocketleague"
+    ],
+    "BattleNet": [
+      "battle.net",
+      "blizzard.com",
+      "battle.net",
+      "battlenet.com",
+      "worldofwarcraft",
+      "diablo",
+      "overwatch"
+    ],
+    "EA_Origin": [
+      "ea.com",
+      "origin.com",
+      "electronicarts"
+    ],
+    "EpicGames_Fortnite": [
+      "epicgames",
+      "fortnite",
+      "unrealengine",
+      "ol.epicgames"
+    ],
+    "LeagueOfLegends": [
+      "leagueoflegends",
+      "lolstatic",
+      "riotcdn"
+    ],
+    "Minecraft_Extra": [
+      "minecraft",
+      "mojang",
+      "hypixel",
+      "mineplex"
+    ],
+    "PhotonEngine": [
+      "photonengine",
+      "exitgames"
+    ],
+    "RiotGames_Valorant": [
+      "riotgames",
+      "valorant",
+      "riotcdn"
+    ],
+    "Roblox": [
+      "roblox",
+      "rbxcdn",
+      "rbx.com"
+    ],
+    "Steam": [
+      "steampowered",
+      "steamcommunity",
+      "steamstatic",
+      "steamserver",
+      "steamcontent",
+      "steamusercontent",
+      "valvesoftware",
+      "dota2"
+    ],
+    "Ubisoft_Rainbow Six Siege": [
+      "ubisoft",
+      "ubi.com",
+      "rainbow6"
+    ],
+    "VRChat": [
+      "vrchat",
+      "vrchat.cloud",
+      "vrcdn",
+      "vrcpm"
+    ],
+    "Warframe": [
+      "warframe"
+    ],
+    "WutheringWaves": [
+      "kurogames",
+      "wutheringwaves"
+    ]
   },
   "issue_search_terms": [
     "roblox",
@@ -188,7 +372,21 @@
     "scan_raw_files": true
   },
   "raw_file_filters": {
-    "extensions": [".txt", ".list", ".lst", ".conf", ".md", ".bat", ".cmd", ".ps1", ".sh", ".lua", ".json", ".yaml", ".yml"],
+    "extensions": [
+      ".txt",
+      ".list",
+      ".lst",
+      ".conf",
+      ".md",
+      ".bat",
+      ".cmd",
+      ".ps1",
+      ".sh",
+      ".lua",
+      ".json",
+      ".yaml",
+      ".yml"
+    ],
     "path_keywords": [
       "list",
       "host",

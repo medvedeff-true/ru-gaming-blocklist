@@ -50,6 +50,10 @@ BLOCKED_GAME_NAMES = {
     "github", "raw", "general", "hostlist", "ipset", "blocklist",
     "domainlist", "iplist", "issue", "issues", "readme", "hosts",
 }
+
+# If this is the only game detected from an issue, we send it to review instead of games/Other_Games.txt.
+GENERIC_REVIEW_ONLY_GAMES = {"Other_Games"}
+
 BINARY_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf", ".zip", ".7z", ".rar",
     ".exe", ".dll", ".bin", ".dat", ".pak", ".mp4", ".mp3", ".wav", ".ttf", ".otf",
@@ -192,25 +196,13 @@ def normalize_text_for_match(text: str) -> str:
     return text.replace("_", " ").replace("-", " ").replace("/", " ")
 
 
+def normalize_game_key(text: str) -> str:
+    return normalize_text_for_match(text).replace(" ", "_")
+
+
 def slugify_game_name(name: str) -> str:
     cleaned = re.sub(r"[^A-Za-z0-9А-Яа-яЁё]+", "_", name.strip()).strip("_")
     return (cleaned or "Other_Games") + ".txt"
-
-
-def issue_fallback_game_name(source_context: str) -> str | None:
-    """Creates a safe temporary games/*.txt name from a GitHub issue source."""
-    match = re.search(r"repo:([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\s+issue:#(\d+)", source_context)
-    if not match:
-        return None
-
-    repo = match.group(1)
-    issue_number = match.group(2)
-    repo_part = repo.replace("/", "_")
-    repo_part = re.sub(r"[^A-Za-z0-9_]+", "_", repo_part).strip("_")
-    if not repo_part or not issue_number:
-        return None
-
-    return f"{repo_part}_issue_{issue_number}"
 
 
 def build_alias_index(game_map: dict[str, list[str]]) -> list[tuple[str, str, str]]:
@@ -224,10 +216,28 @@ def build_alias_index(game_map: dict[str, list[str]]) -> list[tuple[str, str, st
     return index
 
 
-def infer_games_from_context(context: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]] | None = None) -> set[str]:
+def filter_known_games(games: Iterable[str], known_game_names: set[str]) -> set[str]:
+    out: set[str] = set()
+    for game in games:
+        if game not in known_game_names:
+            continue
+        if normalize_game_key(game) in BLOCKED_GAME_NAMES:
+            continue
+        out.add(game)
+    return out
+
+
+def infer_games_from_context(
+    context: str,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]] | None = None,
+    known_game_names: set[str] | None = None,
+) -> set[str]:
     games: set[str] = set()
     norm_context = normalize_text_for_match(context)
     for game, _alias, norm_alias in alias_index:
+        if not norm_alias:
+            continue
         if len(norm_alias) <= 3:
             if re.search(rf"(?<![a-zа-я0-9]){re.escape(norm_alias)}(?![a-zа-я0-9])", norm_context):
                 games.add(game)
@@ -236,22 +246,20 @@ def infer_games_from_context(context: str, alias_index: list[tuple[str, str, str
     if domain_game_hints:
         lower_context = context.lower()
         for game, hints in domain_game_hints.items():
+            if known_game_names is not None and game not in known_game_names:
+                continue
             if any(hint.lower() in lower_context for hint in hints):
                 games.add(game)
+    if known_game_names is not None:
+        games = filter_known_games(games, known_game_names)
     return games
-
-
-def sanitize_explicit_game_name(name: str) -> str | None:
-    # We do not create game names from arbitrary issue titles anymore.
-    # Unknown issue-derived entries are saved to source-based files such as:
-    # games/Flowseal_zapret_discord_youtube_issue_123.txt
-    return None
 
 
 def infer_explicit_games_from_text(
     text: str,
     alias_index: list[tuple[str, str, str]],
     domain_game_hints: dict[str, list[str]],
+    known_game_names: set[str],
 ) -> set[str]:
     games: set[str] = set()
     sample = text[:4000]
@@ -265,26 +273,50 @@ def infer_explicit_games_from_text(
     for pattern in patterns:
         for match in re.finditer(pattern, sample, flags=re.IGNORECASE):
             raw_name = re.split(r"[#|<>{}\[\]\n\r]", match.group(1), 1)[0]
-            canonical = infer_games_from_context(raw_name, alias_index, domain_game_hints)
-            games.update(canonical)
+            games.update(infer_games_from_context(raw_name, alias_index, domain_game_hints, known_game_names))
 
-    return {
-        game for game in games
-        if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
-    }
+    return filter_known_games(games, known_game_names)
 
 
-def resolve_game_file(games_dir: Path, game: str) -> Path | None:
-    game_norm = normalize_text_for_match(game).replace(" ", "_")
-    if game_norm in BLOCKED_GAME_NAMES:
+def parse_issue_source(source_context: str) -> tuple[str, str, str, str] | None:
+    """Returns repo, issue_number, source_url, title for GitHub issue contexts."""
+    match = re.search(r"repo:([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\s+issue:#(\d+)", source_context)
+    if not match:
+        return None
+    repo = match.group(1)
+    issue_number = match.group(2)
+    url_match = re.search(r"https://github\.com/[^\s]+", source_context)
+    source_url = url_match.group(0) if url_match else f"https://github.com/{repo}/issues/{issue_number}"
+    title = source_context[match.end():]
+    title = title.replace(source_url, "").strip()
+    return repo, issue_number, source_url, title
+
+
+def resolve_game_file(games_dir: Path, game: str, known_game_names: set[str]) -> Path | None:
+    if game not in known_game_names:
+        return None
+    if normalize_game_key(game) in BLOCKED_GAME_NAMES:
         return None
 
     preferred = games_dir / f"{game}.txt"
     if preferred.exists():
         return preferred
 
-    # For known games from game_map and issue fallback names.
     return games_dir / slugify_game_name(game)
+
+
+@dataclasses.dataclass
+class IssueCandidate:
+    repo: str
+    issue_number: str
+    source_url: str
+    title: str = ""
+    domains: OrderedDict[str, None] = dataclasses.field(default_factory=OrderedDict)
+    ips: OrderedDict[str, None] = dataclasses.field(default_factory=OrderedDict)
+
+    @property
+    def key(self) -> str:
+        return f"{self.repo}#{self.issue_number}"
 
 
 @dataclasses.dataclass
@@ -293,6 +325,7 @@ class Harvested:
     ips_global: OrderedDict[str, None] = dataclasses.field(default_factory=OrderedDict)
     domains_by_game: dict[str, OrderedDict[str, None]] = dataclasses.field(default_factory=lambda: defaultdict(OrderedDict))
     ips_by_game: dict[str, OrderedDict[str, None]] = dataclasses.field(default_factory=lambda: defaultdict(OrderedDict))
+    review_candidates: OrderedDict[str, IssueCandidate] = dataclasses.field(default_factory=OrderedDict)
     sources_scanned: int = 0
 
     def add_domain(self, domain: str, games: Iterable[str]) -> None:
@@ -304,6 +337,24 @@ class Harvested:
         self.ips_global[ip_or_cidr] = None
         for game in games:
             self.ips_by_game[game][ip_or_cidr] = None
+
+    def add_review_domain(self, source: tuple[str, str, str, str], domain: str) -> None:
+        repo, issue_number, source_url, title = source
+        key = f"{repo}#{issue_number}"
+        candidate = self.review_candidates.get(key)
+        if candidate is None:
+            candidate = IssueCandidate(repo=repo, issue_number=issue_number, source_url=source_url, title=title)
+            self.review_candidates[key] = candidate
+        candidate.domains[domain] = None
+
+    def add_review_ip(self, source: tuple[str, str, str, str], ip_or_cidr: str) -> None:
+        repo, issue_number, source_url, title = source
+        key = f"{repo}#{issue_number}"
+        candidate = self.review_candidates.get(key)
+        if candidate is None:
+            candidate = IssueCandidate(repo=repo, issue_number=issue_number, source_url=source_url, title=title)
+            self.review_candidates[key] = candidate
+        candidate.ips[ip_or_cidr] = None
 
 
 class GitHubClient:
@@ -340,7 +391,7 @@ class GitHubClient:
             body = e.read().decode("utf-8", errors="replace")[:500]
             if e.code in {403, 429}:
                 warn(f"GitHub API rate/permission response for {url}: HTTP {e.code}: {body}")
-                time.sleep(10)
+                time.sleep(60)
                 return None
             warn(f"GitHub API error for {url}: HTTP {e.code}: {body}")
             return None
@@ -411,15 +462,35 @@ def source_options(source: dict[str, Any]) -> dict[str, Any]:
         "trust_all_domains_as_gaming": bool(source.get("trust_all_domains_as_gaming", False)),
         "default_game": source.get("default_game"),
         "kind": source.get("kind", "mixed"),
-        "allow_issue_file_fallback": bool(source.get("allow_issue_file_fallback", False)),
+        "allow_review_candidates": bool(source.get("allow_review_candidates", False)),
     }
 
 
-def process_text(harvested: Harvested, text: str, source_context: str, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]], options: dict[str, Any]) -> None:
+def should_review_instead_of_games(games: set[str], source_is_issue: bool, trust_all: bool) -> bool:
+    if not source_is_issue or trust_all:
+        return False
+    return games == GENERIC_REVIEW_ONLY_GAMES
+
+
+def process_text(
+    harvested: Harvested,
+    text: str,
+    source_context: str,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+    known_game_names: set[str],
+    options: dict[str, Any],
+) -> None:
     trust_all = bool(options.get("trust_all_domains_as_gaming"))
     default_game = options.get("default_game")
     kind = options.get("kind", "mixed")
-    base_games = infer_explicit_games_from_text(source_context + "\n" + text, alias_index, domain_game_hints)
+    allow_review_candidates = bool(options.get("allow_review_candidates", False))
+    issue_source = parse_issue_source(source_context)
+    source_is_issue = issue_source is not None
+
+    base_games = infer_explicit_games_from_text(source_context + "\n" + text, alias_index, domain_game_hints, known_game_names)
+    if should_review_instead_of_games(base_games, source_is_issue, trust_all):
+        base_games = set()
 
     for raw_line in text.splitlines():
         line = strip_comments(raw_line)
@@ -427,44 +498,36 @@ def process_text(harvested: Harvested, text: str, source_context: str, alias_ind
             continue
 
         context = f"{source_context}\n{line}"
-        games = set(base_games) | infer_games_from_context(context, alias_index, domain_game_hints)
-        games = {
-            game for game in games
-            if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
-        }
+        games = set(base_games) | infer_games_from_context(context, alias_index, domain_game_hints, known_game_names)
+        games = filter_known_games(games, known_game_names)
+        if should_review_instead_of_games(games, source_is_issue, trust_all):
+            games = set()
 
-        issue_fallback_games: set[str] = set()
-        if not games and bool(options.get("allow_issue_file_fallback")):
-            fallback_name = issue_fallback_game_name(source_context)
-            if fallback_name:
-                issue_fallback_games.add(fallback_name)
-
-        if trust_all and default_game:
+        if trust_all and default_game in known_game_names:
             games.add(str(default_game))
 
         if kind in {"mixed", "domains"}:
             for domain in extract_domains(line):
-                domain_games = set(games) | infer_games_from_context(domain, alias_index, domain_game_hints)
-                domain_games = {
-                    game for game in domain_games
-                    if normalize_text_for_match(game).replace(" ", "_") not in BLOCKED_GAME_NAMES
-                }
-                if trust_all and default_game:
+                domain_games = set(games) | infer_games_from_context(domain, alias_index, domain_game_hints, known_game_names)
+                domain_games = filter_known_games(domain_games, known_game_names)
+                if should_review_instead_of_games(domain_games, source_is_issue, trust_all):
+                    domain_games = set()
+                if trust_all and default_game in known_game_names:
                     domain_games.add(str(default_game))
-                if not domain_games and issue_fallback_games:
-                    domain_games.update(issue_fallback_games)
                 if domain_games:
                     harvested.add_domain(domain, sorted(domain_games))
+                elif allow_review_candidates and issue_source:
+                    harvested.add_review_domain(issue_source, domain)
 
         if kind in {"mixed", "ips"}:
             for ip_or_cidr in extract_ips(line):
-                ip_games = set(games)
-                if trust_all and default_game:
+                ip_games = filter_known_games(games, known_game_names)
+                if trust_all and default_game in known_game_names:
                     ip_games.add(str(default_game))
-                if not ip_games and issue_fallback_games:
-                    ip_games.update(issue_fallback_games)
                 if ip_games:
                     harvested.add_ip(ip_or_cidr, sorted(ip_games))
+                elif allow_review_candidates and issue_source:
+                    harvested.add_review_ip(issue_source, ip_or_cidr)
 
 
 def score_repository_for_discovery(repo_item: dict[str, Any]) -> int:
@@ -506,7 +569,16 @@ def discover_repositories(config: dict[str, Any], gh: GitHubClient) -> list[dict
             score = score_repository_for_discovery(item)
             if score < min_score:
                 continue
-            found[key] = {"repo": full_name, "scan_issues": bool(discovery.get("scan_issues", True)), "scan_issue_comments": True, "scan_raw_files": bool(discovery.get("scan_raw_files", True)), "max_issue_pages_per_query": 1, "max_comments_per_issue": 20, "allow_issue_file_fallback": True, "discovered": True}
+            found[key] = {
+                "repo": full_name,
+                "scan_issues": bool(discovery.get("scan_issues", True)),
+                "scan_issue_comments": True,
+                "scan_raw_files": bool(discovery.get("scan_raw_files", True)),
+                "max_issue_pages_per_query": 1,
+                "max_comments_per_issue": 10,
+                "allow_review_candidates": True,
+                "discovered": True,
+            }
             log(f"  discovered {full_name} (score {score})")
     return list(found.values())
 
@@ -533,7 +605,15 @@ def raw_url_for(repo: str, branch: str, path: str) -> str:
     return f"https://raw.githubusercontent.com/{repo}/{urllib.parse.quote(branch, safe='')}/{encoded_path}"
 
 
-def scan_raw_files_from_repo(harvested: Harvested, repo_cfg: dict[str, Any], config: dict[str, Any], gh: GitHubClient, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> None:
+def scan_raw_files_from_repo(
+    harvested: Harvested,
+    repo_cfg: dict[str, Any],
+    config: dict[str, Any],
+    gh: GitHubClient,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+    known_game_names: set[str],
+) -> None:
     repo = repo_cfg["repo"]
     info = gh.repo_info(repo)
     if not info:
@@ -551,11 +631,19 @@ def scan_raw_files_from_repo(harvested: Harvested, repo_cfg: dict[str, Any], con
         text = gh.get_text(raw_url_for(repo, branch, path))
         if text is None:
             continue
-        process_text(harvested, text, f"repo:{repo} path:{path}", alias_index, domain_game_hints, options)
+        process_text(harvested, text, f"repo:{repo} path:{path}", alias_index, domain_game_hints, known_game_names, options)
         harvested.sources_scanned += 1
 
 
-def scan_issues_from_repo(harvested: Harvested, repo_cfg: dict[str, Any], config: dict[str, Any], gh: GitHubClient, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> None:
+def scan_issues_from_repo(
+    harvested: Harvested,
+    repo_cfg: dict[str, Any],
+    config: dict[str, Any],
+    gh: GitHubClient,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+    known_game_names: set[str],
+) -> None:
     repo = repo_cfg["repo"]
     terms = repo_cfg.get("issue_search_terms") or config.get("issue_search_terms") or []
     max_pages = int(repo_cfg.get("max_issue_pages_per_query") or config.get("limits", {}).get("max_issue_pages_per_query", 2))
@@ -572,15 +660,22 @@ def scan_issues_from_repo(harvested: Harvested, repo_cfg: dict[str, Any], config
             seen_issue_numbers.add(number)
             title, body, url = issue.get("title") or "", issue.get("body") or "", issue.get("html_url") or ""
             issue_context = f"repo:{repo} issue:#{number} {title} {url}"
-            process_text(harvested, f"{title}\n{body}", issue_context, alias_index, domain_game_hints, options)
+            process_text(harvested, f"{title}\n{body}", issue_context, alias_index, domain_game_hints, known_game_names, options)
             harvested.sources_scanned += 1
             if scan_comments and max_comments > 0:
                 for comment in gh.issue_comments(repo, number, max_comments=max_comments):
-                    process_text(harvested, comment.get("body") or "", issue_context, alias_index, domain_game_hints, options)
+                    process_text(harvested, comment.get("body") or "", issue_context, alias_index, domain_game_hints, known_game_names, options)
                     harvested.sources_scanned += 1
 
 
-def scan_raw_sources(harvested: Harvested, config: dict[str, Any], gh: GitHubClient, alias_index: list[tuple[str, str, str]], domain_game_hints: dict[str, list[str]]) -> None:
+def scan_raw_sources(
+    harvested: Harvested,
+    config: dict[str, Any],
+    gh: GitHubClient,
+    alias_index: list[tuple[str, str, str]],
+    domain_game_hints: dict[str, list[str]],
+    known_game_names: set[str],
+) -> None:
     for source in config.get("raw_sources", []):
         name, url = source.get("name") or source.get("url"), source.get("url")
         if not url:
@@ -589,40 +684,166 @@ def scan_raw_sources(harvested: Harvested, config: dict[str, Any], gh: GitHubCli
         text = gh.get_text(url)
         if text is None:
             continue
-        process_text(harvested, text, f"raw:{name} {url}", alias_index, domain_game_hints, source_options(source))
+        process_text(harvested, text, f"raw:{name} {url}", alias_index, domain_game_hints, known_game_names, source_options(source))
         harvested.sources_scanned += 1
 
 
-def write_results(harvested: Harvested, config: dict[str, Any], dry_run: bool) -> None:
+def parse_existing_review_candidates(path: Path) -> OrderedDict[str, IssueCandidate]:
+    candidates: OrderedDict[str, IssueCandidate] = OrderedDict()
+    if not path.exists():
+        return candidates
+
+    current: IssueCandidate | None = None
+    mode: str | None = None
+
+    for raw_line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        line = raw_line.strip()
+        header = re.match(r"^##\s+(.+?)\s+#(\d+)\s*$", line)
+        if header:
+            repo = header.group(1).strip()
+            issue_number = header.group(2).strip()
+            source_url = f"https://github.com/{repo}/issues/{issue_number}"
+            current = IssueCandidate(repo=repo, issue_number=issue_number, source_url=source_url)
+            candidates[current.key] = current
+            mode = None
+            continue
+
+        if current is None:
+            continue
+
+        if line.startswith("Source:"):
+            current.source_url = line.split("Source:", 1)[1].strip()
+            mode = None
+            continue
+
+        if line == "Found domains:":
+            mode = "domains"
+            continue
+
+        if line == "Found IP/CIDR:":
+            mode = "ips"
+            continue
+
+        if not line or line.startswith("#") or line.startswith(">"):
+            continue
+
+        if mode == "domains" and line.lower() != "none":
+            current.domains[line] = None
+        elif mode == "ips" and line.lower() != "none":
+            current.ips[line] = None
+
+    return candidates
+
+
+def write_review_candidates(path: Path, new_candidates: OrderedDict[str, IssueCandidate], dry_run: bool) -> int:
+    if not new_candidates:
+        return 0
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    merged = parse_existing_review_candidates(path)
+    before = sum(len(c.domains) + len(c.ips) for c in merged.values())
+
+    for key, candidate in new_candidates.items():
+        existing = merged.get(key)
+        if existing is None:
+            existing = IssueCandidate(
+                repo=candidate.repo,
+                issue_number=candidate.issue_number,
+                source_url=candidate.source_url,
+                title=candidate.title,
+            )
+            merged[key] = existing
+        if candidate.title and not existing.title:
+            existing.title = candidate.title
+        for domain in candidate.domains:
+            existing.domains[domain] = None
+        for ip_or_cidr in candidate.ips:
+            existing.ips[ip_or_cidr] = None
+
+    after = sum(len(c.domains) + len(c.ips) for c in merged.values())
+    added = after - before
+    if added <= 0:
+        return 0
+
+    if dry_run:
+        log(f"[dry-run] Would update {path.relative_to(ROOT)} with {added} review candidate item(s)")
+        return added
+
+    lines: list[str] = [
+        "# Issue candidates",
+        "",
+        "Automatically collected candidates from GitHub issues where a concrete game/service was not confidently detected from `game_map`.",
+        "Review manually before moving entries to `games/*.txt` or global lists.",
+        "",
+    ]
+
+    def sort_key(item: tuple[str, IssueCandidate]) -> tuple[str, int]:
+        _key, candidate = item
+        try:
+            num = int(candidate.issue_number)
+        except ValueError:
+            num = 0
+        return candidate.repo.lower(), num
+
+    for _key, candidate in sorted(merged.items(), key=sort_key):
+        if not candidate.domains and not candidate.ips:
+            continue
+        lines.append(f"## {candidate.repo} #{candidate.issue_number}")
+        lines.append("")
+        lines.append(f"Source: {candidate.source_url}")
+        if candidate.title:
+            lines.append(f"Title: {candidate.title}")
+        lines.append("")
+        if candidate.domains:
+            lines.append("Found domains:")
+            lines.extend(candidate.domains.keys())
+            lines.append("")
+        if candidate.ips:
+            lines.append("Found IP/CIDR:")
+            lines.extend(candidate.ips.keys())
+            lines.append("")
+
+    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    return added
+
+
+def write_results(harvested: Harvested, config: dict[str, Any], known_game_names: set[str], dry_run: bool) -> None:
     output = config.get("output") or {}
     domains_file = ROOT / output.get("domains_file", "medvedeff-game-list-all.txt")
     ips_file = ROOT / output.get("ips_file", "medvedeff-game-ipset.txt")
     games_dir = ROOT / output.get("games_dir", "games")
+    review_file = ROOT / output.get("review_file", "_review/issue_candidates.md")
     write_ips_to_game_files = bool(output.get("write_ips_to_game_files", True))
+
     domains, ips = list(harvested.domains_global.keys()), list(harvested.ips_global.keys())
     log(f"Collected candidates: {len(domains)} domain(s), {len(ips)} IP/CIDR item(s)")
     added_domains = append_unique(domains_file, domains, dry_run=dry_run)
     added_ips = append_unique(ips_file, ips, dry_run=dry_run)
     log(f"Global files: +{added_domains} domain(s), +{added_ips} IP/CIDR item(s)")
+
     total_game_added = 0
     for game, items in sorted(harvested.domains_by_game.items()):
-        path = resolve_game_file(games_dir, game)
+        path = resolve_game_file(games_dir, game, known_game_names)
         if path is None:
             continue
         count = append_unique(path, items.keys(), dry_run=dry_run)
         if count:
             log(f"Game file {path.relative_to(ROOT)}: +{count} domain(s)")
             total_game_added += count
+
     if write_ips_to_game_files:
         for game, items in sorted(harvested.ips_by_game.items()):
-            path = resolve_game_file(games_dir, game)
+            path = resolve_game_file(games_dir, game, known_game_names)
             if path is None:
                 continue
             count = append_unique(path, items.keys(), dry_run=dry_run)
             if count:
                 log(f"Game file {path.relative_to(ROOT)}: +{count} IP/CIDR item(s)")
                 total_game_added += count
+
+    review_added = write_review_candidates(review_file, harvested.review_candidates, dry_run=dry_run)
     log(f"Game breakdown: +{total_game_added} line(s)")
+    log(f"Review file: +{review_added} candidate item(s)")
 
 
 def apply_run_mode(config: dict[str, Any], mode: str) -> None:
@@ -647,16 +868,13 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
         limits["max_issue_pages_per_query"] = 1
         limits["max_comments_per_issue"] = 0
         limits["max_raw_files_per_repo"] = min(30, int(limits.get("max_raw_files_per_repo", 30)))
-        limits["sleep_between_github_requests_seconds"] = max(
-            2.5,
-            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
-        )
+        limits["sleep_between_github_requests_seconds"] = max(2.5, float(limits.get("sleep_between_github_requests_seconds", 0.35)))
         config.setdefault("repository_discovery", {})["enabled"] = False
 
         for repo_cfg in config.get("repositories", []):
             repo_cfg["issue_search_terms"] = fast_issue_terms
             repo_cfg["scan_issue_comments"] = False
-            repo_cfg["allow_issue_file_fallback"] = False
+            repo_cfg["allow_review_candidates"] = False
             repo_cfg["max_issue_pages_per_query"] = 1
             repo_cfg["max_comments_per_issue"] = 0
             repo_cfg["max_raw_files_per_repo"] = min(30, int(repo_cfg.get("max_raw_files_per_repo", 30)))
@@ -667,14 +885,8 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
         limits["max_issue_pages_per_query"] = min(3, max(1, int(limits.get("max_issue_pages_per_query", 3))))
         limits["max_comments_per_issue"] = min(20, max(0, int(limits.get("max_comments_per_issue", 20))))
         limits["max_raw_files_per_repo"] = min(80, max(20, int(limits.get("max_raw_files_per_repo", 80))))
-        limits["max_discovered_repositories_per_query"] = min(
-            2,
-            max(1, int(limits.get("max_discovered_repositories_per_query", 2))),
-        )
-        limits["sleep_between_github_requests_seconds"] = max(
-            2.5,
-            float(limits.get("sleep_between_github_requests_seconds", 0.35)),
-        )
+        limits["max_discovered_repositories_per_query"] = min(2, max(1, int(limits.get("max_discovered_repositories_per_query", 2))))
+        limits["sleep_between_github_requests_seconds"] = max(2.5, float(limits.get("sleep_between_github_requests_seconds", 0.35)))
 
         discovery = config.setdefault("repository_discovery", {})
         if discovery.get("queries"):
@@ -683,19 +895,10 @@ def apply_run_mode(config: dict[str, Any], mode: str) -> None:
         for repo_cfg in config.get("repositories", []):
             repo_cfg["issue_search_terms"] = full_issue_terms
             repo_cfg["scan_issue_comments"] = True
-            repo_cfg["allow_issue_file_fallback"] = True
-            repo_cfg["max_issue_pages_per_query"] = min(
-                3,
-                max(1, int(repo_cfg.get("max_issue_pages_per_query", 3))),
-            )
-            repo_cfg["max_comments_per_issue"] = min(
-                20,
-                max(0, int(repo_cfg.get("max_comments_per_issue", 20))),
-            )
-            repo_cfg["max_raw_files_per_repo"] = min(
-                80,
-                max(20, int(repo_cfg.get("max_raw_files_per_repo", 80))),
-            )
+            repo_cfg["allow_review_candidates"] = True
+            repo_cfg["max_issue_pages_per_query"] = min(3, max(1, int(repo_cfg.get("max_issue_pages_per_query", 3))))
+            repo_cfg["max_comments_per_issue"] = min(20, max(0, int(repo_cfg.get("max_comments_per_issue", 20))))
+            repo_cfg["max_raw_files_per_repo"] = min(80, max(20, int(repo_cfg.get("max_raw_files_per_repo", 80))))
 
 
 def main() -> int:
@@ -705,37 +908,51 @@ def main() -> int:
     parser.add_argument("--mode", choices=["fast", "full"], default=None, help="Run mode: fast for regular 3-hour scan, full for deep scan")
     parser.add_argument("--full-scan", action="store_true", help="Legacy option. Same as --mode full")
     args = parser.parse_args()
+
     config_path = Path(args.config)
     if not config_path.is_absolute():
         config_path = ROOT / config_path
     if not config_path.exists():
         raise FileNotFoundError(f"Config not found: {config_path}")
+
     config = load_json(config_path)
     mode = args.mode or ("full" if args.full_scan else "fast")
     apply_run_mode(config, mode)
+
     limits = config.get("limits") or {}
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
         warn("GITHUB_TOKEN/GH_TOKEN is not set. Public GitHub API rate limit will be much lower.")
-    gh = GitHubClient(token=token, timeout=int(limits.get("http_timeout_seconds", 35)), sleep_seconds=float(limits.get("sleep_between_github_requests_seconds", 0.35)))
+
+    gh = GitHubClient(
+        token=token,
+        timeout=int(limits.get("http_timeout_seconds", 35)),
+        sleep_seconds=float(limits.get("sleep_between_github_requests_seconds", 0.35)),
+    )
+
     game_map = config.get("game_map") or {}
     domain_game_hints = config.get("domain_game_hints") or {}
+    known_game_names = set(game_map.keys())
     alias_index = build_alias_index(game_map)
     harvested = Harvested()
+
     repositories = list(config.get("repositories") or [])
     repositories.extend(discover_repositories(config, gh))
-    scan_raw_sources(harvested, config, gh, alias_index, domain_game_hints)
+
+    scan_raw_sources(harvested, config, gh, alias_index, domain_game_hints, known_game_names)
+
     for repo_cfg in repositories:
         repo = repo_cfg.get("repo")
         if not repo:
             continue
         log(f"--- Scanning repository {repo} ---")
         if repo_cfg.get("scan_issues", True):
-            scan_issues_from_repo(harvested, repo_cfg, config, gh, alias_index, domain_game_hints)
+            scan_issues_from_repo(harvested, repo_cfg, config, gh, alias_index, domain_game_hints, known_game_names)
         if repo_cfg.get("scan_raw_files", True):
-            scan_raw_files_from_repo(harvested, repo_cfg, config, gh, alias_index, domain_game_hints)
+            scan_raw_files_from_repo(harvested, repo_cfg, config, gh, alias_index, domain_game_hints, known_game_names)
+
     log(f"Sources/text blocks scanned: {harvested.sources_scanned}")
-    write_results(harvested, config, dry_run=args.dry_run)
+    write_results(harvested, config, known_game_names, dry_run=args.dry_run)
     return 0
 
 

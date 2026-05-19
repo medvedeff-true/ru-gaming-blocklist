@@ -30,15 +30,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
 
       - name: Run fast collector
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/update_gaming_blocklists.py \
-            --config sources.json \
-            --mode fast
+          python scripts/update_gaming_blocklists.py             --config sources.json             --mode fast
 
       - name: Commit and push changes
         run: |
