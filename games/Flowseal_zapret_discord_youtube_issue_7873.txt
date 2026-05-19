@@ -1,6 +1,0 @@
-services.msc
-winws.exe
-private-user-images.githubusercontent.com
-
-8.8.4.4
-8.8.8.8

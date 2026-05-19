@@ -1,2 +1,0 @@
-winws.exe
-dism.exe

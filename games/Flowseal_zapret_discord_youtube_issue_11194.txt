@@ -1,7 +1,0 @@
-winws.exe
-azureedge.net
-playfabapi.com
-playfab.com
-
-8.8.8.8
-1.1.1.1

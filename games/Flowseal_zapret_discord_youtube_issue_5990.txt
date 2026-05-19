@@ -1,4 +1,0 @@
-services.msc
-leagueofgraphs.com
-porofessor.gg
-hyperion-cs.github.io

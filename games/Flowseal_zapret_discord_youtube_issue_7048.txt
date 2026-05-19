@@ -1,6 +1,0 @@
-services.msc
-salatstealer.gtv
-discordfix.exe
-windivert64.sys
-windivert.html
-reqrypt.org

@@ -1,5 +1,0 @@
-epg.xml.gz
-epg.one
-winws.exe
-
-::

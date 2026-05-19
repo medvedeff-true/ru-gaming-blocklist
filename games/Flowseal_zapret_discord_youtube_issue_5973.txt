@@ -1,7 +1,0 @@
-services.msc
-one.one.one.one
-help.every1dns.net
-encryptedsni.com
-
-1.1.1.1
-1.0.0.1

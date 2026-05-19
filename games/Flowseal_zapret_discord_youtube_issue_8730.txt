@@ -1,6 +1,0 @@
-winws.exe
-services.msc
-where.exe
-find.exe
-repository.old
-adguardsvc.exe

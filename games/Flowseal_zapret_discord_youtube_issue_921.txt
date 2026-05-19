@@ -1,8 +1,0 @@
-www.youtube.com
-private-user-images.githubusercontent.com
-accounts.youtube.com
-googleads.g.doubleclick.net
-static.doubleclick.net
-jnn-pa.googleapis.com
-play.google.com
-google.internal.waa.v1.waa

@@ -1,2 +1,0 @@
-2.zip
-zapret-hosts-auto-debug.log

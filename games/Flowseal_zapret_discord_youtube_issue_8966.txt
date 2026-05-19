@@ -1,7 +1,0 @@
-account.wbgames.com
-api.wbgames.com
-wb-hydra.wbgames.com
-bugs.wbgames.com
-telemetry.wbgames.com
-cdn.wbgames.com
-services.msc

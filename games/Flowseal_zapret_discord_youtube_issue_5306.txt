@@ -1,3 +1,0 @@
-services.msc
-windivert64.sys
-winws.exe

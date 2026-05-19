@@ -1,4 +1,0 @@
-winws.exe
-services.msc
-
-::

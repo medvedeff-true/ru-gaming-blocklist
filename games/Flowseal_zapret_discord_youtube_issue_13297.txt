@@ -1,4 +1,0 @@
-winws.exe
-amazon.com
-awsstatis.com
-deploy.static.akamaitechnologies.com

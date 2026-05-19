@@ -1,6 +1,0 @@
-winws.exe
-network.http
-network.http.http3.enable
-modrinth.com
-mod.io
-modcdn.io
