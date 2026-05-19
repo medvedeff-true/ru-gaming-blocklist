@@ -1,0 +1,11 @@
+twitch.tv
+twitchcdn.net
+ext-twitch.tv
+assets.twitch.tv
+scorecardresearch.com
+live-video.net
+jtvnw.net
+amazon-adsystem.com
+cloudfront.net
+ttvnw.net
+winws.exe

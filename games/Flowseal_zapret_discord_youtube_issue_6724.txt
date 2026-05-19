@@ -1,0 +1,7 @@
+services.msc
+private-user-images.githubusercontent.com
+winws.exe
+4pda.bin
+discord.media
+
+::

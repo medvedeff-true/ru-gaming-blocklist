@@ -1,0 +1,7 @@
+winws.exe
+trojan.generickdz
+trojan.wingo.agent
+trojanspy.win32.salatstealer.yxgedz
+soundcloud.cloud
+soundcloud.com
+sndcdn.com

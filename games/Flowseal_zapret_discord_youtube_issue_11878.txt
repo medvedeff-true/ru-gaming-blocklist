@@ -1,0 +1,12 @@
+x.com
+7tv.app
+iplist.opencck
+winws.exe
+7v.app
+max.ru
+ya.ru
+vk.me
+user.list
+exclude.list
+discord.media
+ipset.list

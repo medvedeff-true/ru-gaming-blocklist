@@ -1,0 +1,4 @@
+winws.exe
+rockstargames.com
+socialclub.rockstargames.com
+prod.cloud.rockstargames.com

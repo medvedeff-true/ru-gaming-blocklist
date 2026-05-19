@@ -1,0 +1,9 @@
+winws.exe
+s.team
+blob.core.windows.net
+azureedge.net
+akamaihd.net
+akamaized.net
+master.joinsquad.com
+offworldindustries.com
+joinsquad.com

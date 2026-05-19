@@ -1,0 +1,9 @@
+services.msc
+akamaihd.net
+akamaized.net
+azureedge.net
+blob.core.windows.net
+playartifact.com
+s.team
+storage.googleapis.com
+underlords.com

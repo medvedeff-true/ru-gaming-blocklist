@@ -1,0 +1,12 @@
+winws.exe
+private-user-images.githubusercontent.com
+freedns.controld.com
+www.bilibili.com
+network.trr
+wiki.mozilla.org
+superuser.com
+
+1.0.0.1
+1.1.1.1
+148.153.35.66
+148.153.34.154

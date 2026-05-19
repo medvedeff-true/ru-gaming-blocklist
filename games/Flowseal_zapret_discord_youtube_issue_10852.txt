@@ -1,0 +1,12 @@
+api.curseforge.com
+edge.forgecdn.net
+curseforge.com
+support.curseforge.com
+media.forgecdn.com
+mediafilez.forgecdn.net
+winws.exe
+forgecdn.net
+microsoftonline.com
+live.com
+xboxlive.com
+zkoridor.ru

@@ -1,0 +1,15 @@
+files.catbox.moe
+ca-certificates.crt
+catbox.moe
+www.gstatic.com
+quickchart.io
+www.google.com
+rutracker.org
+index.php
+
+108.181.20.37
+108.181.20.35
+2606:4700:3034::ac43:b6c4
+2606:4700:3031::6815:2027
+172.67.182.196
+104.21.32.39

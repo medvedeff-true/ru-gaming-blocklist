@@ -1,0 +1,3 @@
+winws.exe
+private-user-images.githubusercontent.com
+windivert64.sys

@@ -1,0 +1,15 @@
+services.msc
+winws.exe
+discord.media
+api.games.umamusume.com
+umamusume.com
+a2-16-56-82.deploy.static.akamaitechnologies.com
+deploy.static.akamaitechnologies.com
+akamaitechnologies.com
+a23-216-134-203.deploy.static.akamaitechnologies.com
+assets-umamusume-en.akamaized.net
+assets-webview-umamusume-en.akamaized.net
+download.limbuscompanycdn.org
+limbuscompanyapi.com
+
+::

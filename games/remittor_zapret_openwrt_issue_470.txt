@@ -1,0 +1,5 @@
+zapret-manager.sh
+hyperion-cs.github.io
+www.google.com
+ytimg.com
+googlevideo.com

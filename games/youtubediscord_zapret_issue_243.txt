@@ -1,0 +1,13 @@
+unins000.exe
+variant.application.tedy
+zapret.exe
+win64.dropper.vc
+launcher.exe
+crc32.dll
+trojan.malware.300983.susgen
+windivert.dll
+1019.dll
+cryptsp.dll
+bcrypt.dll
+ncrypt.dll
+www.virustotal.com

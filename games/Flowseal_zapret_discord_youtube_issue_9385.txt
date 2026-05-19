@@ -1,0 +1,7 @@
+services.msc
+winws.exe
+www.google.com
+discord.media
+ya.ru
+
+::

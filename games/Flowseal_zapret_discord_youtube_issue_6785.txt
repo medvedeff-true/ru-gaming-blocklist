@@ -1,0 +1,2 @@
+services.msc
+sg2-collect-online.qookkagames.com

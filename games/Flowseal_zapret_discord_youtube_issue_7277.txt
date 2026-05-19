@@ -1,0 +1,6 @@
+blitz.gg
+datalake.v2.iesdev.com
+blitz-desktop.blitz.gg
+dekstop.blitz-cdn.blitz.gg
+blitz-cdn.blitz.gg
+services.msc
