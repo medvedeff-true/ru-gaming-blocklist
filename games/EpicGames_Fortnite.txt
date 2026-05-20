@@ -380,3 +380,5 @@ eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
 1.0.0.1
 8.8.4.4
 54.227.66.165
+
+akamaized.net

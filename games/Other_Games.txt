@@ -8860,3 +8860,7 @@ roblox.cn
 45.121.184.24
 212.129.10.230
 172.232.25.131
+
+epicgames.com
+fortnite.com
+epicgames.dev
