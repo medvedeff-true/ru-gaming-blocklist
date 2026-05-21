@@ -3160,7 +3160,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7225
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7225
-Title: ДЕЛО В ПРОВАЙДЕРЕ? Нужна помощь! :-(
 
 Found domains:
 services.msc
@@ -6806,6 +6805,8 @@ Found IP/CIDR:
 8.8.4.4
 1.0.0.1
 1.1.1.1
+45.144.176.208
+89.169.39.185
 
 ## Flowseal/zapret-discord-youtube #11849
 
@@ -8330,6 +8331,20 @@ Title: [Проблема] На ютубе появилась реклама
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #13448
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13448
+Title: [Проблема] пинг в дискорде 5000
+
+Found domains:
+winws.exe
+discord.exe
+
+Found IP/CIDR:
+192.168.1.1
+192.168.0.1
+8.8.8.8
+
 ## Flowseal/zapret-discord-youtube #13454
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13454
@@ -8452,6 +8467,45 @@ Title: [Проблема] Видео недоступно Этот контен�
 Found domains:
 winws.exe
 private-user-images.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #13612
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13612
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13641
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13641
+Title: [Проблема] Отвал Google DNS и некоторых сайтов
+
+Found domains:
+vorapis.pages.dev
+github.io
+nfsmods.xyz
+downdetector.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13659
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13659
+Title: Как проверять работоспособность игр с запретом?
+
+Found domains:
+winws.exe
+learn.microsoft.com
+
+## Flowseal/zapret-discord-youtube #13669
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13669
+Title: [Проблема] доступ к серверам юбисофт
+
+Found domains:
+winws.exe
+uplay.com
+uplay-shop.akamaized.net
 
 ## remittor/zapret-openwrt #241
 
