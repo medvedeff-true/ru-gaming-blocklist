@@ -204,3 +204,6 @@ stun.bin
 54.192.0.0/12
 172.64.0.0/16
 204.79.0.0/16
+
+cloudfront.net
+offworldindustries.com

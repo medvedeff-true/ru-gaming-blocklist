@@ -8507,6 +8507,14 @@ winws.exe
 uplay.com
 uplay-shop.akamaized.net
 
+## Flowseal/zapret-discord-youtube #13702
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13702
+Title: [Проблема] Не по запрету, ну отчасти относится к нему, вот такая проблема
+
+Found domains:
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241

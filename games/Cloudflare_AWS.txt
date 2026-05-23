@@ -760,3 +760,6 @@ fe80::/10
 104.16.249.249
 172.67.159.255
 104.23.99.190
+
+offworldindustries.com
+ec2-3-218-57-129.compute-1.amazonaws.com
