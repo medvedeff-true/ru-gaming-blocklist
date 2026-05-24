@@ -8864,3 +8864,8 @@ roblox.cn
 epicgames.com
 fortnite.com
 epicgames.dev
+
+updates.discord.com
+rutracker.org
+rutor.info
+itch.io

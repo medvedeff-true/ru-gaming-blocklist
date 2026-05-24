@@ -383,3 +383,5 @@ adobess.com
 1.0.0.1
 104.16.123.96
 104.16.124.96
+
+updates.discord.com

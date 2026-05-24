@@ -206,3 +206,9 @@ network.http
 184.73.0.0/16
 204.236.192.0/18
 21.0.0.6
+
+googlevideo.com
+updates.discord.com
+rutracker.org
+rutor.info
+itch.io
