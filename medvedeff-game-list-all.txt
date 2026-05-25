@@ -19286,3 +19286,5 @@ northeurope.cloudapp.azure.com
 germanywestcentral.cloudapp.azure.com
 polandcentral.cloudapp.azure.com
 uksouth.cloudapp.azure.com
+
+tracker.network

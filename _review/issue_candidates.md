@@ -3249,7 +3249,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7410
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7410
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -8511,6 +8510,22 @@ uplay-shop.akamaized.net
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13702
 Title: [Проблема] Не по запрету, ну отчасти относится к нему, вот такая проблема
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13743
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13743
+Title: Стим не работает!
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13763
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13763
+Title: [Проблема] Игры не работают при использовании zapret-discord-youtube на провайдере МТС
 
 Found domains:
 winws.exe
