@@ -3035,7 +3035,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7161
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7161
-Title: [Проблема] как мне решить проблему с загрузкой сайта и плейсов после блокировки?
 
 Found domains:
 services.msc
@@ -8528,6 +8527,79 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13763
 Title: [Проблема] Игры не работают при использовании zapret-discord-youtube на провайдере МТС
 
 Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13808
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13808
+Title: [Проблема] Ошибка 279 с Zapret
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13814
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13814
+Title: [РЕШЕНИЕ(?)] Deep Core Galactic: Rogue Core. Как Подключиться к другу при включеном запрете
+
+Found domains:
+winws.exe
+drgservicesletsencrypt.blob.core.windows.net
+drg.ghostship.dk
+drg.mod.io
+g-2475.modapi.io
+
+Found IP/CIDR:
+162.254.192.0/21
+155.133.224.0/19
+185.25.182.0/23
+208.64.200.0/22
+192.69.96.0/22
+20.107.4.52/32
+13.49.165.115/32
+35.227.230.186/32
+104.18.125.108/32
+162.159.133.233/32
+
+## Flowseal/zapret-discord-youtube #13819
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13819
+Title: [Проблема] Работает только браузер
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13841
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13841
+Title: **Лично мне помог этот способ.  Использую  BLOXTRAP.**
+
+Found domains:
+stun.l.google.com
+stun1.l.google.com
+stun2.l.google.com
+stun3.l.google.com
+stun4.l.google.com
+stun.services.mozilla.com
+global.stun.twilio.com
+turn.twilio.com
+ocsp.digicert.com
+ocsp.verisign.com
+crl.verisign.com
+akamaized.net
+cloudfront.net
+rblx.com
+rbxlabs.com
+edgecastcdn.net
+footprint.net
+llnwd.net
+hwcdn.net
+gcdn.co
+g-cdn.net
+cdngc.net
+cdngs.net
+secure.footprint.net
+secure.llnwd.net
 winws.exe
 
 ## remittor/zapret-openwrt #241
