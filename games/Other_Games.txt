@@ -8871,3 +8871,7 @@ rutor.info
 itch.io
 
 us.actual.battle.net
+
+steam-api.com
+steamdeck.com
+steam.tv
