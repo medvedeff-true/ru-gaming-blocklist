@@ -763,3 +763,18 @@ fe80::/10
 
 offworldindustries.com
 ec2-3-218-57-129.compute-1.amazonaws.com
+
+s3.dualstack.us-east-1.amazonaws.com
+cloudfront.amazonaws.com
+elasticloadbalancing.com
+thumb.roblox.com
+t3.rbxcdn.com
+t2.rbxcdn.com
+adconfiguration.api.roblox.com
+versioncompatibility.api.roblox.com
+t1.rbxcdn.com
+t0.rbxcdn.com
+t5.rbxcdn.com
+client.hulu.com
+t4.rbxcdn.com
+files.nexus-cdn.com

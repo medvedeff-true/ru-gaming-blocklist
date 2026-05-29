@@ -261,3 +261,21 @@ fe80::/10
 45.121.184.24
 
 stun.bin
+
+activity.ea.com
+easo.ea.com
+easss.ea.com
+easu.ea.com
+config.ea.com
+dataportal.ea.com
+game-data.ea.com
+api1.origin.com
+api2.origin.com
+api3.origin.com
+gos.ea.com
+atlas.gos.ea.com
+gosredirector.ea.com
+blaze.ea.com
+stryder.respawn.com
+matchmaking.respawn.com
+titanfall.com

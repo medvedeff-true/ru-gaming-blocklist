@@ -6845,10 +6845,16 @@ www.nexusmods.com
 staticdelivery.nexusmods.com
 cf-files.nexusmods.com
 www.youtube.com
+supported-files.nexus-cdn.com
+dnschecker.org
+private-user-images.githubusercontent.com
 
 Found IP/CIDR:
 104.18.42.54
 143.244.60.100
+89.187.191.30
+185.229.191.156
+2001:4860:4860::8888
 
 ## Flowseal/zapret-discord-youtube #11878
 
@@ -7064,7 +7070,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12103
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12103
-Title: [Проблема] Call of Duty Modern Warfare 2019. Сетевые службы недоступны
 
 Found domains:
 winws.exe
@@ -7092,7 +7097,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12106
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12106
-Title: [Проблема] не работает эпик геймс и фортнайт
 
 Found domains:
 winws.exe
@@ -7101,7 +7105,6 @@ akamaihd.net
 ## Flowseal/zapret-discord-youtube #12114
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12114
-Title: [Проблема] Не запускается майнкрафт в PrismLauncher
 
 Found domains:
 microsoft.com
@@ -7337,7 +7340,6 @@ prod.cloud.rockstargames.com
 ## Flowseal/zapret-discord-youtube #12123
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12123
-Title: [Проблема] Failed to fetch the latest version
 
 Found domains:
 winws.exe
@@ -7515,6 +7517,7 @@ Title: [Проблема] Обходы крашат ОС время от вре�
 Found domains:
 winws.exe
 dism.exe
+forum.kaspersky.com
 
 ## Flowseal/zapret-discord-youtube #12297
 
@@ -8600,6 +8603,23 @@ cdngc.net
 cdngs.net
 secure.footprint.net
 secure.llnwd.net
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13851
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13851
+Title: [Проблема] Ошибка во время Performing TLS Handshake
+
+Found domains:
+dns.google
+gist.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #13988
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13988
+Title: [Проблема] Не отправляются фото в дс
+
+Found domains:
 winws.exe
 
 ## remittor/zapret-openwrt #241

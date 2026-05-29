@@ -19288,3 +19288,21 @@ polandcentral.cloudapp.azure.com
 uksouth.cloudapp.azure.com
 
 tracker.network
+
+roblox.gg
+robloxdev.com
+rover.link
+robloxassets.com
+robloxlibrary.com
+robloxlocalization.com
+robloxqa.com
+robloxstudios.com
+rblx.game
+rblx.social
+rblx.wtf
+client.hulu.com
+thumb.roblox.com
+adconfiguration.api.roblox.com
+elasticloadbalancing.com
+s3.dualstack.us-east-1.amazonaws.com
+cloudfront.amazonaws.com

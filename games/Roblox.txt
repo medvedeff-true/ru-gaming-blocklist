@@ -756,3 +756,23 @@ roblox.cncloudflare-ech.com
 128.116.127.0/24
 
 tracker.gg
+
+roblox.gg
+robloxdev.com
+rover.link
+robloxassets.com
+robloxlibrary.com
+robloxlocalization.com
+robloxqa.com
+robloxstudios.com
+rblx.game
+rblx.social
+rblx.wtf
+client.hulu.com
+thumb.roblox.com
+adconfiguration.api.roblox.com
+elasticloadbalancing.com
+compute.amazonaws.com
+ec2.amazonaws.com
+s3.dualstack.us-east-1.amazonaws.com
+cloudfront.amazonaws.com
