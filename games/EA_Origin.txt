@@ -198,3 +198,5 @@ whois.radb.net
 
 cloudfront.net
 offworldindustries.com
+
+jnn-pa.googleapis.com

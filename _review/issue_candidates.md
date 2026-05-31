@@ -1733,7 +1733,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4579
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4579
-Title: [Проблема] Частично упал стим, низкая скорость скачивания/подключения, урезалась в 3-4 раза
 
 Found domains:
 services.msc
@@ -3492,7 +3491,6 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #7733
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7733
-Title: [Проблема] Не работают, ютуб, гитхаб, майкрософт сторе и, возможно, ещё какие-то приложения.
 
 Found domains:
 services.msc
@@ -3636,7 +3634,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8083
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8083
-Title: **Лично мне помог этот способ.  Использую  BLOXTRAP.**
 
 Found domains:
 stun.l.google.com
@@ -8620,6 +8617,213 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13988
 Title: [Проблема] Не отправляются фото в дс
 
 Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13989
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13989
+Title: [Проблема] Перестал открываться сайт маркет кс
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #13991
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13991
+Title: [Проблема]  Плохо работает
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14007
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14007
+Title: [Проблема]  Перестал работать тарков
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14026
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14026
+Title: [Проблема] Перестал работать R6:Siege (Сидж)
+
+Found domains:
+ubi.li
+assassins-creed2.com
+assassins-creed3.com
+assassins-creed4.com
+assassins-creed5.com
+far-cry4.com
+far-cry5.com
+ghost-recon2.com
+ghost-recon3.com
+ghost-recon4.com
+ghost-recon5.com
+just-dance2.com
+just-dance3.com
+just-dance4.com
+just-dance5.com
+rabbidsinvasion.com
+lapins-cretins.com
+lapins-cretins2.com
+lapins-cretins3.com
+lapins-cretins4.com
+lapins-cretins5.com
+lapinscretins2.com
+lapinscretins3.com
+lapinscretins4.com
+lapinscretins5.com
+thelapinscretins2.com
+thelapinscretins3.com
+thelapinscretins4.com
+thelapinscretins5.com
+prince-of-persia2.com
+prince-of-persia3.com
+prince-of-persia4.com
+prince-of-persia5.com
+rainbowsix2.com
+splinter-cell2.com
+splinter-cell3.com
+splinter-cell4.com
+splinter-cell5.com
+assassinscreed4blackflag.com
+uplay.com
+winws.exe
+
+Found IP/CIDR:
+203.132.26.89
+
+## Flowseal/zapret-discord-youtube #14045
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14045
+Title: [Проблема] Не работает modrinth, lunar client, prism launcher.
+
+Found domains:
+lunarclient.com
+www.lunarclient.com
+api.lunarclient.com
+api2.lunarclient.com
+assets.lunarclient.com
+assets2.lunarclient.com
+brand.lunarclient.com
+cdn.lunarclient.com
+checkout.lunarclient.com
+dtapp.lunarclient.com
+launcher.lunarclient.com
+merch.lunarclient.com
+repo.lunarclient.com
+skinviewer.lunarclient.com
+status.lunarclient.com
+status-api.lunarclient.com
+store.lunarclient.com
+store-cf.lunarclient.com
+store-cr.lunarclient.com
+store-prod.lunarclient.com
+store-new.lunarclient.com
+store-new2.lunarclient.com
+support.lunarclient.com
+test.lunarclient.com
+wrapped.lunarclient.com
+modrinth.com
+cdn.modrinth.com
+api.modrinth.com
+login.microsoftonline.com
+login.live.com
+auth.xboxlive.com
+xsts.auth.xboxlive.com
+start.ui.xboxlive.com
+profile.xboxlive.com
+gamepass.com
+orithegame.com
+renovacionxboxlive.com
+tellmewhygame.com
+xbox.com
+xbox.eu
+xbox.org
+xbox360.co
+xbox360.com
+xbox360.eu
+xbox360.org
+xboxab.com
+xboxgamepass.com
+xboxgamestudios.com
+xboxlive.com
+xboxone.com
+xboxone.eu
+xboxplayanywhere.com
+xboxservices.com
+xboxstudios.com
+xbx.lv
+winws.exe
+copilot.microsoft.com
+edgeservices.bing.com
+rewards.bing.com
+xgpuwebf2p.gssv-play-prod.xboxlive.com
+xgpuweb.gssv-play-prod.xboxlive.com
+
+Found IP/CIDR:
+77.239.114.0
+
+## Flowseal/zapret-discord-youtube #14047
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14047
+Title: [Проблема] Бесконечные фризы в любых играх
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14068
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14068
+Title: [Проблема] Не грузит ютуб дальше одной минуты
+
+Found domains:
+winws.exe
+www.youtube.com
+
+## Flowseal/zapret-discord-youtube #14076
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14076
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14093
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14093
+Title: [Проблема]
+
+Found domains:
+winws.exe
+www.google.com
+
+## Flowseal/zapret-discord-youtube #14113
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14113
+Title: [Проблема] Не работают онлайн сервера в Trackmania2020
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14139
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14139
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14165
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14165
+Title: [Фикс серверов игр] для R.E.P.O. , PEAK, Stumble Guys и Geometry Dash
+
+Found domains:
+online-fix.me
+photonmaster.online-fix.me
+boomlings.com
 winws.exe
 
 ## remittor/zapret-openwrt #241

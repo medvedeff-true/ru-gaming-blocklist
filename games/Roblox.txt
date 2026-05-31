@@ -776,3 +776,5 @@ compute.amazonaws.com
 ec2.amazonaws.com
 s3.dualstack.us-east-1.amazonaws.com
 cloudfront.amazonaws.com
+
+tenor.com

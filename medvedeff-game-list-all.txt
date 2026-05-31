@@ -19306,3 +19306,9 @@ adconfiguration.api.roblox.com
 elasticloadbalancing.com
 s3.dualstack.us-east-1.amazonaws.com
 cloudfront.amazonaws.com
+
+tenor.com
+warframe.content
+warframetest.zip
+ns-us.photonengine.io
+ns-jp.photonengine.io

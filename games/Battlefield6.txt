@@ -207,3 +207,13 @@ stun.bin
 
 cloudfront.net
 offworldindustries.com
+
+accounts.ea.com
+www.ea.com
+juno.ea.com
+easports.com
+gateway.ea.com
+pc.ea.com
+madden24.service.easports.com
+service-aggregation-layer.juno.ea.com
+desktop-config.juno.ea.com
