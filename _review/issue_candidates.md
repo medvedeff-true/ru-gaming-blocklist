@@ -5352,6 +5352,32 @@ storage.msn.com
 windows.net
 1drv.ms
 microsoftpersonalcontent.com
+onedrive.live.com
+login.live.com
+g.live.com
+spoprod-a.akamaihd.net
+mesh.com
+p.sfx.ms
+oneclient.sfx.ms
+vortex.data.microsoft.com
+posarprodcssservice.accesscontrol.windows.net
+redemptionservices.accesscontrol.windows.net
+token.cp.microsoft.com
+tokensit.cp.microsoft-tst.com
+vas.samsungapps.com
+odc.officeapps.live.com
+login.windows.net
+login.microsoftonline.com
+favorites.live.com
+oauth.live.com
+skydrive.live.com
+api.live.net
+apis.live.net
+docs.live.net
+policies.live.net
+settings.live.net
+skyapi.live.net
+snapi.live.net
 
 ## Flowseal/zapret-discord-youtube #9715
 
@@ -6197,6 +6223,16 @@ chivalry2.com
 tornbanner.com
 playfabapi.com
 12d56.playfabapi.com
+easyanticheat.net
+tripwireinteractive.com
+
+Found IP/CIDR:
+108.157.8.11
+13.32.22.42
+52.84.160.10
+104.26.11.121
+192.0.78.24
+52.204.60.125
 
 ## Flowseal/zapret-discord-youtube #10931
 
@@ -8761,6 +8797,7 @@ edgeservices.bing.com
 rewards.bing.com
 xgpuwebf2p.gssv-play-prod.xboxlive.com
 xgpuweb.gssv-play-prod.xboxlive.com
+private-user-images.githubusercontent.com
 
 Found IP/CIDR:
 77.239.114.0
@@ -8790,6 +8827,9 @@ Title: [Проблема]
 Found domains:
 winws.exe
 
+Found IP/CIDR:
+::
+
 ## Flowseal/zapret-discord-youtube #14093
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14093
@@ -8814,6 +8854,14 @@ Title: [Проблема]
 
 Found domains:
 winws.exe
+drive.google.com
+docs.google.com
+sheets.google.com
+slides.google.com
+drive.googleapis.com
+docs.googleapis.com
+drive.usercontent.google.com
+docs.googleusercontent.com
 
 ## Flowseal/zapret-discord-youtube #14165
 
@@ -8824,6 +8872,27 @@ Found domains:
 online-fix.me
 photonmaster.online-fix.me
 boomlings.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14209
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14209
+Title: [Проблема]  Орион Телеком — не работает вечером с 17 до 22
+
+Found domains:
+winws.exe
+
+Found IP/CIDR:
+8.8.8.8
+1.1.1.1
+
+## Flowseal/zapret-discord-youtube #14263
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14263
+Title: [Проблема] Перестали работать некоторые сервисы microsoft
+
+Found domains:
+1.8.xb
 winws.exe
 
 ## remittor/zapret-openwrt #241

@@ -18,3 +18,5 @@ gctok1018.exitgames.com
 
 ns-us.photonengine.io
 ns-jp.photonengine.io
+
+photonengine.io

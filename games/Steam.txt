@@ -845,3 +845,6 @@ winws.exe.zip
 93.184.220.0/22
 
 155.133.224.0/19
+
+tripwireinteractive.com
+tornbanner.com

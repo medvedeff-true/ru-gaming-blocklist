@@ -778,3 +778,5 @@ s3.dualstack.us-east-1.amazonaws.com
 cloudfront.amazonaws.com
 
 tenor.com
+
+curl.exe

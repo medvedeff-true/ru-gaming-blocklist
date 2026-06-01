@@ -382,3 +382,9 @@ eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
 54.227.66.165
 
 akamaized.net
+
+steamstatic.com
+tripwireinteractive.com
+tornbanner.com
+steampowered.com
+steamcommunity.com
