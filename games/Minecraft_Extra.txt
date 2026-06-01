@@ -236,3 +236,9 @@ cloudflareapps.com
 20.190.177.148
 20.190.177.23
 1.1.1.1
+
+playfabapi.com
+user.auth.xboxlive.com
+aadcdn.msauth.net
+graph.microsoft.com
+sharepoint.com
