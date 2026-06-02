@@ -780,3 +780,6 @@ cloudfront.amazonaws.com
 tenor.com
 
 curl.exe
+
+list.switch
+error.sorry
