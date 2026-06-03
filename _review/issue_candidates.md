@@ -3597,7 +3597,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7955
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7955
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3666,7 +3665,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8089
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8089
-Title: Способ который помог мне на версии 1.9.1
 
 Found domains:
 encryptedsni.com
@@ -8874,6 +8872,22 @@ photonmaster.online-fix.me
 boomlings.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #14177
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14177
+Title: БЕСПЛАТНАЯ СТРАТЕГИЯ NO FAKE 100%: "OBAMIUM 2026", ДЛЯ ТЕХ У КОГО НЕ РАБОТАЕТ ЮТУБ
+
+Found domains:
+winws.exe
+discord.media
+www.google.com
+ozon.ru
+private-user-images.githubusercontent.com
+stun.bin
+
+Found IP/CIDR:
+::
+
 ## Flowseal/zapret-discord-youtube #14209
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14209
@@ -8889,11 +8903,71 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14263
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14263
-Title: [Проблема] Перестали работать некоторые сервисы microsoft
 
 Found domains:
 1.8.xb
 winws.exe
+
+## Flowseal/zapret-discord-youtube #14267
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14267
+Title: [Проблема] Часть сайтов перестают открываться при использовании Zapret совместно с AdGuard и любым блокировщиком рекламы
+
+Found domains:
+vkvideo.ru
+cabinet.vkvideo.ru
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14269
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14269
+Title: [Проблема] Отвалился онлайн почти во всех онлайн играх
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14276
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14276
+Title: [Проблема] RB does not work
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14312
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14312
+Title: Дискорд 5к пинг
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14345
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14345
+Title: ....
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14364
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14364
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14386
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14386
+Title: [Проблема] Все работает кроме winws.exe
+
+Found domains:
+winws.exe
+
+Found IP/CIDR:
+::
 
 ## remittor/zapret-openwrt #241
 

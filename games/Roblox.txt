@@ -783,3 +783,5 @@ curl.exe
 
 list.switch
 error.sorry
+
+ncpa.cpl
