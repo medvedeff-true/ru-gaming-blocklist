@@ -3974,7 +3974,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #8421
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8421
-Title: [Проблема] не работает не один .bat в запрет 1.9.2
 
 Found domains:
 services.msc
@@ -4482,7 +4481,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8948
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8948
-Title: hh
 
 Found domains:
 services.msc
@@ -8311,6 +8309,7 @@ Found domains:
 winws.exe
 private-user-images.githubusercontent.com
 boosty.to
+www.virustotal.com
 
 ## Flowseal/zapret-discord-youtube #13343
 
@@ -8968,6 +8967,14 @@ winws.exe
 
 Found IP/CIDR:
 ::
+
+## Flowseal/zapret-discord-youtube #14472
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14472
+Title: [Проблема] Не открывается дискорд и стим
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
