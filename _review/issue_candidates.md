@@ -1794,7 +1794,6 @@ read.me
 ## Flowseal/zapret-discord-youtube #4727
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4727
-Title: [Проблема] [SC] DeleteService SUCCESS [SC] CreateService SUCCESS [SC] ChangeServiceConfig2 SUCCESS [SC] StartService FAILED 5:  Access is denied В
 
 Found domains:
 services.msc
@@ -4457,7 +4456,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8878
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8878
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4762,7 +4760,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9262
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9262
-Title: [Проблема] Ютуб вообще не работает (Бесконечный соединение с интеретом)
 
 Found domains:
 services.msc
@@ -4770,7 +4767,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9293
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9293
-Title: [Проблема]
 
 Found domains:
 d1unuk07s6td74.cloudfront.net
@@ -5224,7 +5220,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9508
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9508
-Title: [Проблема] Все ооооочень долго грузит
 
 Found domains:
 services.msc
@@ -8974,6 +8969,73 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14472
 Title: [Проблема] Не открывается дискорд и стим
 
 Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14583
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14583
+Title: [Проблема]
+
+Found domains:
+winws.exe
+rbxtrk.com
+cdn.arkoselabs.com
+rblx.social
+rblx.games
+rblx.name
+rblx.clothing
+rblx.media
+rover.link
+
+Found IP/CIDR:
+23.173.192.0/24
+103.140.28.0/23
+128.116.0.0/17
+141.193.3.0/24
+204.9.184.0/23
+204.13.168.0/21
+205.201.62.0/24
+
+## Flowseal/zapret-discord-youtube #14625
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14625
+Title: Отвалилось Ethernet подключение
+
+Found domains:
+winws.exe
+yandex.ru
+dns.google
+doh.opendns.com
+dns.quad9.net
+
+Found IP/CIDR:
+8.8.4.4
+8.8.8.8
+77.88.8.8
+77.88.8.1
+208.67.222.222
+208.67.220.220
+1.1.1.1
+1.0.0.1
+9.9.9.9
+149.112.112.112
+
+## Flowseal/zapret-discord-youtube #14631
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14631
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14648
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14648
+Title: [Проблема] Не работает майнкрафт точнее вход, майкрософт стор, perplexety и xbox
+
+Found domains:
+default.pdf
+default.docx
 winws.exe
 
 ## remittor/zapret-openwrt #241

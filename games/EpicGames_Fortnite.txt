@@ -388,3 +388,6 @@ tripwireinteractive.com
 tornbanner.com
 steampowered.com
 steamcommunity.com
+
+antifilter.download
+domains.lst
