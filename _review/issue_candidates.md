@@ -4856,7 +4856,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9432
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9432
-Title: [Проблема] Не подключается к RTC, выдает ошибку 279 ЗАПЛАЧУ ЗА РЕШЕНИЕ
 
 Found domains:
 services.msc
@@ -5257,7 +5256,6 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #9588
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9588
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -8855,6 +8853,15 @@ docs.googleapis.com
 drive.usercontent.google.com
 docs.googleusercontent.com
 
+## Flowseal/zapret-discord-youtube #14143
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14143
+Title: 1
+
+Found domains:
+winws.exe
+windivert64.sys
+
 ## Flowseal/zapret-discord-youtube #14165
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14165
@@ -8971,6 +8978,36 @@ Title: [Проблема] Не открывается дискорд и стим
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #14526
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14526
+Title: [Проблема] не работает bagel в neverness to everness
+
+Found domains:
+winws.exe
+www.perfectworld.com
+perfectworldgames.com
+private-user-images.githubusercontent.com
+remontka.pro
+ncpa.cpl
+yh-sy-glo-community.perfectworld.com
+pwgcapi.pwsdk.com
+rutube.ru
+notepad.exe
+
+Found IP/CIDR:
+8.8.8.8
+1.1.1.1
+0.0.0.0
+108.157.214.48
+108.157.214.72
+108.157.214.13
+108.157.214.37
+108.157.229.37
+108.157.229.26
+108.157.229.62
+108.157.229.65
+
 ## Flowseal/zapret-discord-youtube #14583
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14583
@@ -9007,6 +9044,10 @@ yandex.ru
 dns.google
 doh.opendns.com
 dns.quad9.net
+one.one.one.one
+doh.cleanbrowsing.org
+wikimedia-dns.org
+dns.alidns.com
 
 Found IP/CIDR:
 8.8.4.4
@@ -9036,6 +9077,62 @@ Title: [Проблема] Не работает майнкрафт точнее 
 Found domains:
 default.pdf
 default.docx
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14689
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14689
+Title: [FIX] Голосового чата в Arc Raiders + FIX Запуска EA App + ChatGPT
+
+Found domains:
+ozon.ru
+www.waveform.com
+zapret.zip
+winws.exe
+a4e8s8k3.map2.ssl.hwcdn.net
+f3b7q2p3.ssl.hwcdn.net
+private-user-images.githubusercontent.com
+
+Found IP/CIDR:
+::
+1.1.1.1
+8.8.8.8
+
+## Flowseal/zapret-discord-youtube #14710
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14710
+Title: [Проблема] Ужасно работает стим, не запускается дискорд, но выход в интернет есть.
+
+Found domains:
+winws.exe
+
+Found IP/CIDR:
+8.8.8.8
+1.1.1.1
+
+## Flowseal/zapret-discord-youtube #14713
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14713
+Title: [Проблема] доступ к онлайн играм.
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14730
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14730
+Title: [Проблема] Перестали открываться нейросети (Gemini, ChatGPT) и соцсети, хотя Ютуб и Дискорд работают
+
+Found domains:
+winws.exe
+limewire.com
+
+## Flowseal/zapret-discord-youtube #14752
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14752
+Title: [Проблема]
+
+Found domains:
 winws.exe
 
 ## remittor/zapret-openwrt #241
