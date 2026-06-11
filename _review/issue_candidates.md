@@ -9135,6 +9135,140 @@ Title: [Проблема]
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #14755
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14755
+Title: не работает скинченджер overplus
+
+Found domains:
+winws.exe
+overwolf.com
+
+## Flowseal/zapret-discord-youtube #14777
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14777
+Title: [Проблема]  не зрузит modrinth.com
+
+Found domains:
+modrinth.com
+pusher.com
+live-video.net
+ttvnw.net
+twitch.tv
+2ip.ru
+3dnews.ru
+abr.ru
+akamaitechnologies.com
+alfabank.ru
+bankline.ru
+blz-contentstack.com
+blzstatic.cn
+boosty.to
+cdn-tinkoff.ru
+citilink.ru
+dbo-dengi.online
+dns-shop.ru
+donationalerts.com
+epic-web-purchase.com
+gazprombank.ru
+geobasket.ru
+gallery.vsassets.io
+gallerycdn.vsassets.io
+gov.ru
+gosuslugi.ru
+gpb.ru
+habr.com
+korabli.su
+lesta.ru
+live.com
+mail.ru
+marketplace.visualstudio.com
+metanit.com
+microsoft.com
+microsoftonline.com
+mos.ru
+msi.com
+multimc.org
+mtsdengi.ru
+mts.ru
+nalog.ru
+nvidia.com
+paywb.com
+psbank.ru
+reg.ru
+rosbank.ru
+rshb.ru
+rwb.ru
+spb.ru
+sber.ru
+sberbank.com
+sberbank.ru
+tanki.su
+tanksblitz.ru
+tbank-online.com
+tbank.ru
+tochka-tech.com
+tochka.com
+vtb.ru
+xboxlive.com
+x.com
+yandex.com
+yandex.kz
+yandex.net
+yandex.ru
+ya.ru
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14785
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14785
+Title: При заходе в любой плейс выдаётся ошибка 279 (ИНОГДА её нету и в плейс спокойно заходит.). Пытался найти решение в интернете ничего не смог найти cтоющего.
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14818
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14818
+Title: [Проблема] Не работают сервисы Microsoft с включенным zapret
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14839
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14839
+Title: [Проблема] Проблема с доступом к dreamerscast.com
+
+Found domains:
+dreamerscast.com
+renet.com
+dnscheck.tools
+private-user-images.githubusercontent.com
+curl.exe
+browserleaks.com
+2ip.ru
+ip.nic.ru
+
+Found IP/CIDR:
+8.6.0.0/16
+
+## Flowseal/zapret-discord-youtube #14843
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14843
+Title: Что делать если не работает форт с запретом и снова ошибка 5?
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14849
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14849
+Title: Brawlhalla: разрыв соединения с матчем через 10–30 секунд
+
+Found domains:
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
