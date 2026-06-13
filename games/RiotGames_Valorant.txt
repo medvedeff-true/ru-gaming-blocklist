@@ -387,3 +387,6 @@ adobess.com
 updates.discord.com
 
 tracker.network
+
+fakemultisplit.lua
+fakemultidisorder.lua

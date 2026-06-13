@@ -391,3 +391,5 @@ steamcommunity.com
 
 antifilter.download
 domains.lst
+
+dns.qry.name

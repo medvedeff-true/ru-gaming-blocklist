@@ -19333,3 +19333,7 @@ bluearchive.com
 bluearchive.jp
 public.api.nexon.com
 ip.addr
+
+dns.qry.name
+fakemultisplit.lua
+fakemultidisorder.lua
