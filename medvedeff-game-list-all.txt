@@ -19326,3 +19326,10 @@ pineconemc-windows-msvc-arm64-setup-11.0.2.exe
 
 antifilter.download
 domains.lst
+
+x-update.ngs.nexon.com
+x-init.ngs.nexon.com
+bluearchive.com
+bluearchive.jp
+public.api.nexon.com
+ip.addr

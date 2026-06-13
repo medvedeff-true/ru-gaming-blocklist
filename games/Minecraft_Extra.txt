@@ -246,3 +246,5 @@ sharepoint.com
 www.reddit.com
 downdetector.com
 pineconemc-windows-msvc-arm64-setup-11.0.2.exe
+
+www.youtube.com

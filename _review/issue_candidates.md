@@ -2783,6 +2783,7 @@ discordfix.exe
 windivert64.sys
 windivert.html
 reqrypt.org
+private-user-images.githubusercontent.com
 
 ## Flowseal/zapret-discord-youtube #7079
 
@@ -3931,6 +3932,17 @@ cmd.exe
 www.xbox.com
 services.msc
 pastebin.com
+discord.exe
+winws.exe
+www.voidtools.com
+windivert64.sys
+support.kaspersky.ru
+discord.media
+xbox.com
+voip.zip
+windivert.dll
+www.virustotal.com
+risktool.multi.windivert
 
 Found IP/CIDR:
 185.246.223.127
@@ -3969,6 +3981,7 @@ Found IP/CIDR:
 136.107.0.0/16
 136.108.0.0/14
 136.112.0.0/13
+77.88.8.8
 
 ## Flowseal/zapret-discord-youtube #8421
 
@@ -9265,6 +9278,14 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14849
 Title: Brawlhalla: разрыв соединения с матчем через 10–30 секунд
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #14866
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14866
+Title: Zapret discord youtube
 
 Found domains:
 winws.exe

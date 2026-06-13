@@ -401,3 +401,14 @@ yamaxun.com
 
 1.0.0.1
 1.1.1.1
+
+x-update.ngs.nexon.com
+x-init.ngs.nexon.com
+nexon.com
+bluearchive.com
+bluearchive.jp
+public.api.nexon.com
+
+43.202.78.169
+3.34.32.127
+43.201.213.30
