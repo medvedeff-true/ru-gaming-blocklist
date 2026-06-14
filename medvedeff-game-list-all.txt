@@ -19337,3 +19337,5 @@ ip.addr
 dns.qry.name
 fakemultisplit.lua
 fakemultidisorder.lua
+
+nfqws.exe

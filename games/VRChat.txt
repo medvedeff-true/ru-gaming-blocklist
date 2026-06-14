@@ -98,3 +98,6 @@ gctok1018.exitgames.com
 37.9.33.138
 5.8.93.16
 87.120.204.208
+
+general.list
+nfqws.exe
