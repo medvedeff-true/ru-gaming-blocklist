@@ -1519,7 +1519,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3551
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3551
-Title: Ошибка в стратегиях с ipset-all.txt
 
 Found domains:
 winws.exe
@@ -1574,7 +1573,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #4096
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4096
-Title: [Проблема] из-за запрета все сайты, программы и даже игры с тяжким трудом загружаются по началу.
 
 Found domains:
 services.msc
@@ -1582,7 +1580,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4206
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4206
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -9290,6 +9287,38 @@ Title: Zapret discord youtube
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #14953
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14953
+Title: [Помогите] Помочь сообществу игры Ravenswatch
+
+Found domains:
+epic.games
+dt-live.passtechgames.com
+dt-live-2.passtechgames.com
+dt-live-3.passtechgames.com
+winws.exe
+ipinfo.io
+
+Found IP/CIDR:
+13.49.165.89
+13.49.165.146
+13.49.153.221
+13.49.0.0/16
+13.48.0.0/15
+
+## Flowseal/zapret-discord-youtube #14976
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14976
+Title: [Проблема]
+
+Found domains:
+winws.exe
+private-user-images.githubusercontent.com
+
+Found IP/CIDR:
+::
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
@@ -11376,7 +11405,6 @@ deepseek.com
 ## youtubediscord/zapret #212
 
 Source: https://github.com/youtubediscord/zapret/issues/212
-Title: Помогите. Запрет просто перестал работать. Ничего не делал просто в сегодня когда включил пк именно этот запрет перестал работать сижу на версии v19.8.0.7, обновлял до последней не помогало
 
 Found domains:
 faulthandler.log
@@ -11396,7 +11424,6 @@ Found IP/CIDR:
 ## youtubediscord/zapret #243
 
 Source: https://github.com/youtubediscord/zapret/issues/243
-Title: Скорее не проблема а проверка через VirusTotal Graph
 
 Found domains:
 unins000.exe
@@ -11461,7 +11488,6 @@ Found IP/CIDR:
 ## youtubediscord/zapret #404
 
 Source: https://github.com/youtubediscord/zapret/issues/404
-Title: Здесь Вы можете скидывать свои пресеты
 
 Found domains:
 zapret-lib.lua

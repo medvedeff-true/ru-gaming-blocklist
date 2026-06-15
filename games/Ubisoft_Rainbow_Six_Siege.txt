@@ -386,3 +386,5 @@ pc.ea.com
 accounts.ea.com
 gateway.ea.com
 loginregistration.ea.com
+
+amazon.com

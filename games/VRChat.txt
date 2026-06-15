@@ -101,3 +101,5 @@ gctok1018.exitgames.com
 
 general.list
 nfqws.exe
+
+winws.exe
