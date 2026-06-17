@@ -6921,7 +6921,6 @@ repository.old
 ## Flowseal/zapret-discord-youtube #11904
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11904
-Title: Ютуб работает без запрета и впн.
 
 Found domains:
 winws.exe
@@ -6941,7 +6940,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11951
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11951
-Title: [Проблема] Бесконечное подключение к RTC Discord и не только
 
 Found domains:
 winws.exe
@@ -9318,6 +9316,15 @@ private-user-images.githubusercontent.com
 
 Found IP/CIDR:
 ::
+
+## Flowseal/zapret-discord-youtube #15017
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15017
+Title: [Проблема]
+
+Found domains:
+winws.exe
+recaptcha.net
 
 ## remittor/zapret-openwrt #241
 

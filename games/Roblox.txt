@@ -864,3 +864,6 @@ imgur.com
 
 page.php
 www.comss.ru
+
+www.kommersant.ru
+www.business-gazeta.ru

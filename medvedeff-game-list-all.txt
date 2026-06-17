@@ -19339,3 +19339,8 @@ fakemultisplit.lua
 fakemultidisorder.lua
 
 nfqws.exe
+
+www.kommersant.ru
+www.business-gazeta.ru
+hosting-minecraft.pro
+u.gg
