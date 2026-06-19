@@ -19344,3 +19344,7 @@ www.kommersant.ru
 www.business-gazeta.ru
 hosting-minecraft.pro
 u.gg
+
+steam.exe
+steamui.dll
+steamsetup.exe

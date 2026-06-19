@@ -859,3 +859,7 @@ public.api.nexon.com
 43.202.78.169
 3.34.32.127
 43.201.213.30
+
+steam.exe
+steamui.dll
+steamsetup.exe
