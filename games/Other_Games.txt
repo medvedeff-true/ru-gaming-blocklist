@@ -8888,3 +8888,6 @@ fakemultisplit.lua
 fakemultidisorder.lua
 
 www.kommersant.ru
+
+ubisoft-orbit.akamaized.net
+upc-corp.com

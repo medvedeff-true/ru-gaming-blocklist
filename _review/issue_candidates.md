@@ -7670,6 +7670,19 @@ bnetshopus.akamaized.net
 firesidegatherings.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #12652
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12652
+Title: [Проблема] С новым обновлением запрета не запускает в лобби и в матчи в дбд
+
+Found domains:
+winws.exe
+discord.media
+stun.bin
+
+Found IP/CIDR:
+::
+
 ## Flowseal/zapret-discord-youtube #12695
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12695
@@ -9325,6 +9338,39 @@ Title: [Проблема]
 Found domains:
 winws.exe
 recaptcha.net
+
+## Flowseal/zapret-discord-youtube #15171
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15171
+Title: [Проблема] Не работает ютуб
+
+Found domains:
+dns.google
+doh.opendns.com
+doh.cleanbrowsing.org
+dns.quad9.net
+wikimedia-dns.org
+dns.alidns.com
+winws.exe
+discord.media
+www.google.com
+ya.ru
+googlevideo.com
+thread.message
+remontka.pro
+
+Found IP/CIDR:
+::
+
+## Flowseal/zapret-discord-youtube #15182
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15182
+Title: [Проблема] у меня не работают игры в которых при запуске в стиме открываются отдельные лаунчеры
+
+Found domains:
+winws.exe
+uplay.com
+uplay-shop.akamaized.net
 
 ## remittor/zapret-openwrt #241
 
