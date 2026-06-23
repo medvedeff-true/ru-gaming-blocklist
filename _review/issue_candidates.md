@@ -1892,7 +1892,6 @@ www.gearupbooster.com
 ## Flowseal/zapret-discord-youtube #5119
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5119
-Title: [Проблема] Ломает систему
 
 Found domains:
 services.msc
@@ -4192,6 +4191,7 @@ dl.voicemod.net
 help.voicemod.net
 forum.voicemod.net
 blog.voicemod.net
+one.one.one.one
 
 ## Flowseal/zapret-discord-youtube #8716
 
@@ -7711,6 +7711,7 @@ amazon-adsystem.com
 cloudfront.net
 ttvnw.net
 winws.exe
+twitch-check.rte.net.ru
 
 ## Flowseal/zapret-discord-youtube #12715
 
@@ -9371,6 +9372,41 @@ Found domains:
 winws.exe
 uplay.com
 uplay-shop.akamaized.net
+
+## Flowseal/zapret-discord-youtube #15249
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15249
+Title: [Проблема] начали лагать и фризить игры с включенным запретом.
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15259
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15259
+Title: [Проблема] twich не грузит стримы
+
+Found domains:
+winws.exe
+ttvnw.net
+live-video.net
+twitch.tv
+
+## Flowseal/zapret-discord-youtube #15266
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15266
+Title: [Проблема] Проблемы после обновления hosts
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15282
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15282
+Title: [Проблема] Отвалился
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
