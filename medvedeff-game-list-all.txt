@@ -19348,3 +19348,6 @@ u.gg
 steam.exe
 steamui.dll
 steamsetup.exe
+
+ubisoft-connect.com
+mordhau.com

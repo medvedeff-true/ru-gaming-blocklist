@@ -388,3 +388,19 @@ gateway.ea.com
 loginregistration.ea.com
 
 amazon.com
+
+ffzap.com
+betterttv.net
+7tv.app
+7tv.io
+localizeapi.com
+klipy.com
+bhvrdbd.com
+deadbydaylight.com
+bhvr.com
+cloudfront.net
+ubisoft-connect.com
+xboxlive.com
+mordhau.com
+easyanticheat.net
+steampowered.com

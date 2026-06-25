@@ -390,3 +390,5 @@ tracker.network
 
 fakemultisplit.lua
 fakemultidisorder.lua
+
+cloudfront.net

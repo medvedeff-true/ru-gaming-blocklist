@@ -215,3 +215,21 @@ itch.io
 
 fakemultisplit.lua
 fakemultidisorder.lua
+
+ffzap.com
+betterttv.net
+7tv.app
+7tv.io
+localizeapi.com
+klipy.com
+ubisoft.com
+uplay.com
+ubisoft-connect.com
+ubi.com
+playfabapi.com
+xboxlive.com
+akamaized.net
+mordhau.com
+easyanticheat.net
+epicgames.com
+steampowered.com
