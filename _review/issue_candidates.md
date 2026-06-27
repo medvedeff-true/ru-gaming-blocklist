@@ -3232,6 +3232,9 @@ s.team
 playartifact.com
 services.msc
 
+Found IP/CIDR:
+1.1.1.1
+
 ## Flowseal/zapret-discord-youtube #7398
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7398
@@ -6447,6 +6450,7 @@ winws.exe
 gtaw-legal.ru
 bgp.he.net
 wiki.malw.link
+sibnet-software.ru
 
 Found IP/CIDR:
 51.77.38.192/26
@@ -6454,6 +6458,8 @@ Found IP/CIDR:
 51.77.38.221/32
 51.77.38.0/24
 51.77.38.192
+109.248.250.217
+0.0.0.0/0
 
 ## Flowseal/zapret-discord-youtube #11276
 
@@ -9150,6 +9156,7 @@ Title: [Проблема] Перестали открываться нейрос
 Found domains:
 winws.exe
 limewire.com
+shustree.ru
 
 ## Flowseal/zapret-discord-youtube #14752
 
@@ -9471,6 +9478,32 @@ Title: Здарова всем
 Found domains:
 winws.exe
 private-user-images.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #15433
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15433
+Title: [Проблема] Замените quic_initial_dbankcloud на что-то другое
+
+Found domains:
+winws.exe
+hyperion-cs.github.io
+mail.ru
+
+## Flowseal/zapret-discord-youtube #15469
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15469
+Title: [Проблема] Перестал работать фортнайт после обновления 25.06
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15485
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15485
+Title: YouTube откис на любых конфигах
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
