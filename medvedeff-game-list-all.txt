@@ -19351,3 +19351,6 @@ steamsetup.exe
 
 ubisoft-connect.com
 mordhau.com
+
+gtm.network
+eu.gtm.network

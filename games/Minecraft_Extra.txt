@@ -254,3 +254,6 @@ hosting-minecraft.pro
 zkoridor.ru
 
 yandex.ru
+
+gtm.network
+eu.gtm.network
