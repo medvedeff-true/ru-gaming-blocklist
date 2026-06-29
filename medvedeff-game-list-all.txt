@@ -19354,3 +19354,6 @@ mordhau.com
 
 gtm.network
 eu.gtm.network
+
+warframe.market
+vrchat.exe

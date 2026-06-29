@@ -7401,7 +7401,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12147
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12147
-Title: Не получается никаким образом запустить
 
 Found domains:
 winws.exe
@@ -9504,6 +9503,15 @@ Title: YouTube откис на любых конфигах
 
 Found domains:
 winws.exe
+
+## Flowseal/zapret-discord-youtube #15540
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15540
+Title: [Проблема] Предложение по улучшению
+
+Found domains:
+winws.exe
+private-user-images.githubusercontent.com
 
 ## remittor/zapret-openwrt #241
 

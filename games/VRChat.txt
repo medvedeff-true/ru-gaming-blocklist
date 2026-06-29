@@ -103,3 +103,5 @@ general.list
 nfqws.exe
 
 winws.exe
+
+vrchat.exe
