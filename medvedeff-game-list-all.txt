@@ -19357,3 +19357,5 @@ eu.gtm.network
 
 warframe.market
 vrchat.exe
+
+akamai.steamstatic.com

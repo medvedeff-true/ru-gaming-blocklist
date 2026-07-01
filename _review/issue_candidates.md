@@ -1993,7 +1993,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5394
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5394
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -9512,6 +9511,31 @@ Title: [Проблема] Предложение по улучшению
 Found domains:
 winws.exe
 private-user-images.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #15589
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15589
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15604
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15604
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15606
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15606
+Title: [Проблема] отвалился web telegram
+
+Found domains:
+web.telegram.org
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

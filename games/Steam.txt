@@ -863,3 +863,5 @@ public.api.nexon.com
 steam.exe
 steamui.dll
 steamsetup.exe
+
+akamai.steamstatic.com
