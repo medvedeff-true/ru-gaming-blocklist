@@ -19359,3 +19359,11 @@ warframe.market
 vrchat.exe
 
 akamai.steamstatic.com
+
+online-fix.me
+photonmaster.online-fix.me
+boomlings.com
+geometrydash.com
+robtopgames.com
+geode-sdk.org
+ncs.io

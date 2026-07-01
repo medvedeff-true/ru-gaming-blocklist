@@ -867,3 +867,14 @@ www.comss.ru
 
 www.kommersant.ru
 www.business-gazeta.ru
+
+ns.photonengine.io
+online-fix.me
+photonmaster.online-fix.me
+boomlings.com
+geometrydash.com
+robtopgames.com
+geode-sdk.org
+newgrounds.com
+ncs.io
+www.virustotal.com
