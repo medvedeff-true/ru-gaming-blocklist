@@ -1688,7 +1688,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4324
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4324
-Title: [Проблема] Похоже, что снова все умерло? Дальний восток
 
 Found domains:
 lampa.mx
@@ -8893,7 +8892,6 @@ windivert64.sys
 ## Flowseal/zapret-discord-youtube #14165
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14165
-Title: [Фикс серверов игр] для R.E.P.O. , PEAK, Stumble Guys и Geometry Dash
 
 Found domains:
 online-fix.me
@@ -9535,6 +9533,40 @@ Title: [Проблема] отвалился web telegram
 
 Found domains:
 web.telegram.org
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15608
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15608
+Title: [Проблема] Zapret закрывается а потом не запускается
+
+Found domains:
+winws.exe
+services.msc
+
+## Flowseal/zapret-discord-youtube #15647
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15647
+Title: [Проблема] зависает запрет
+
+Found domains:
+winws.exe
+3.check
+
+## Flowseal/zapret-discord-youtube #15656
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15656
+Title: вопрос
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15679
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15679
+Title: [Проблема]
+
+Found domains:
 winws.exe
 
 ## remittor/zapret-openwrt #241
