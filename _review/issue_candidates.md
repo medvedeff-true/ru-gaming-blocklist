@@ -2165,7 +2165,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5860
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5860
-Title: [Проблема] Скорость загрузки в стим урезалась с 75 мб до 14 мб
 
 Found domains:
 services.msc
@@ -7106,6 +7105,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12103
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12103
+Title: [Проблема] Call of Duty Modern Warfare 2019. Сетевые службы недоступны
 
 Found domains:
 winws.exe
@@ -7133,6 +7133,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12106
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12106
+Title: [Проблема] не работает эпик геймс и фортнайт
 
 Found domains:
 winws.exe
@@ -7141,6 +7142,7 @@ akamaihd.net
 ## Flowseal/zapret-discord-youtube #12114
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12114
+Title: [Проблема] Не запускается майнкрафт в PrismLauncher
 
 Found domains:
 microsoft.com
@@ -7376,6 +7378,7 @@ prod.cloud.rockstargames.com
 ## Flowseal/zapret-discord-youtube #12123
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12123
+Title: [Проблема] Failed to fetch the latest version
 
 Found domains:
 winws.exe
@@ -9561,9 +9564,33 @@ Title: вопрос
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #15671
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15671
+Title: Update Epic Online Services Помогите решить
+
+Found domains:
+winws.exe
+
 ## Flowseal/zapret-discord-youtube #15679
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15679
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15710
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15710
+Title: [Проблема] Zapret перестал работать
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15734
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15734
 Title: [Проблема]
 
 Found domains:
