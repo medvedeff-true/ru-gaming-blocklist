@@ -200,3 +200,8 @@ cloudfront.net
 offworldindustries.com
 
 jnn-pa.googleapis.com
+
+soundcloud.com
+api-v2.soundcloud.com
+secure.soundcloud.com
+api-auth.soundcloud.com

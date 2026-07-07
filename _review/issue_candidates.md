@@ -9596,6 +9596,40 @@ Title: [Проблема]
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #15765
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15765
+Title: [РЕШЕНО] EA APP + DISCORD + YOUTUBE, FIX GENERAL ALT
+
+Found domains:
+winws.exe
+general.alt
+
+## Flowseal/zapret-discord-youtube #15775
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15775
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15793
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15793
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15804
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15804
+Title: [Проблема] Не могу залогиниться на аккаунт SoundCloud
+
+Found domains:
+help.soundcloud.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
