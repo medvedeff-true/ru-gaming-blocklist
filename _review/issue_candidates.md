@@ -9630,6 +9630,48 @@ Found domains:
 help.soundcloud.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #15821
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15821
+Title: [ФИКС] фикс на дбд после баг фикса от бхвр
+
+Found domains:
+cloudfront.net
+awsstatic.com
+awsapps.com
+argotunnel.com
+cfargotunnel.com
+cfl.re
+every1dns.net
+isbgpsafeyet.com
+one.one.one.one
+one.one.one
+pages.dev
+videodelivery.net
+warp.plus
+workers.dev
+help.every1dns.net
+encryptedsni.com
+bhvr.com
+forum.bhvr.com
+a0.awsstatic.com
+d1.awsstatic.com
+awsglobalaccelerator.com
+surveymonkey.com
+api.timezonedb.com
+cdn.live.bhvrdbd.com
+brill.live.bhvrdbd.com
+bhvrdbd.com
+bhvrdbd.net
+winws.exe
+s.team
+easyanticheat.net
+account.bhvr.com
+
+Found IP/CIDR:
+1.1.1.1
+1.0.0.1
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
