@@ -865,3 +865,5 @@ steamui.dll
 steamsetup.exe
 
 akamai.steamstatic.com
+
+21.1.1.2
