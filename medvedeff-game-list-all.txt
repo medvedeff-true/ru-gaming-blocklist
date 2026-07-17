@@ -19373,3 +19373,6 @@ forums.unrealengine.com
 secure.soundcloud.com
 
 bisv.ru
+
+live.patcher.ubisoft.com
+msr-public-ubiservices.ubi.com

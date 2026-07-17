@@ -404,3 +404,6 @@ xboxlive.com
 mordhau.com
 easyanticheat.net
 steampowered.com
+
+live.patcher.ubisoft.com
+msr-public-ubiservices.ubi.com
