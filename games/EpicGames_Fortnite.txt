@@ -395,3 +395,5 @@ domains.lst
 dns.qry.name
 
 forums.unrealengine.com
+
+fortnitelauncher.exe

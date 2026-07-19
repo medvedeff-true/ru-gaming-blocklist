@@ -19376,3 +19376,10 @@ bisv.ru
 
 live.patcher.ubisoft.com
 msr-public-ubiservices.ubi.com
+
+fortnitelauncher.exe
+crashreportclient.exe
+epiconlineservicesuserhelper.exe
+epicwebhelper.exe
+probe.easebar.com
+support.kaspersky.ru

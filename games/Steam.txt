@@ -867,3 +867,7 @@ steamsetup.exe
 akamai.steamstatic.com
 
 21.1.1.2
+
+downdetector.com
+probe.easebar.com
+support.kaspersky.ru

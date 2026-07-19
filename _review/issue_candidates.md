@@ -513,6 +513,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #46
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/46
+Title: не работает ютуб
 
 Found domains:
 private-user-images.githubusercontent.com
@@ -520,6 +521,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #385
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/385
+Title: [Дом.ру] Дискорд работает очень медленно с 21 октября
 
 Found domains:
 www.youtube.com
@@ -530,6 +532,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #397
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/397
+Title: Дискорд замедлился
 
 Found domains:
 windivert64.sys
@@ -537,6 +540,7 @@ windivert64.sys
 ## Flowseal/zapret-discord-youtube #413
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/413
+Title: как удалить zapret полностью?
 
 Found domains:
 windivert64.sys
@@ -544,6 +548,7 @@ windivert64.sys
 ## Flowseal/zapret-discord-youtube #473
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/473
+Title: Чё с ним? Почему батник не работает?
 
 Found domains:
 winws.exe
@@ -555,6 +560,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #522
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/522
+Title: не запускаются батники
 
 Found domains:
 winws.exe
@@ -564,6 +570,7 @@ windivert64.sys
 ## Flowseal/zapret-discord-youtube #592
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/592
+Title: Отрубается WIFI
 
 Found domains:
 4pda.to
@@ -572,6 +579,7 @@ index.php
 ## Flowseal/zapret-discord-youtube #921
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/921
+Title: Youtube перестал работать
 
 Found domains:
 www.youtube.com
@@ -586,6 +594,7 @@ google.internal.waa.v1.waa
 ## Flowseal/zapret-discord-youtube #1130
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1130
+Title: [WARNING] :red_circle: :red_circle: :red_circle:ВНИМАНИЕ! БУДЬТЕ КРАЙНЕ ОСТОРОЖНЫ СКАЧИВАЯ СТОРОННИЕ СБОРКИ ЗАПРЕТА ИЗ ИНТЕРНЕТА :red_circle: :red_circle: :red_circle:
 
 Found domains:
 ntc.party
@@ -597,6 +606,7 @@ zapret.org
 ## Flowseal/zapret-discord-youtube #1136
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1136
+Title: Не показывает spotify в профиле
 
 Found domains:
 gew1-spclient.spotify.com
@@ -676,6 +686,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #1682
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1682
+Title: RIP (rest in peace) zapret?
 
 Found domains:
 gitlab.com
@@ -690,6 +701,7 @@ datadoghq.com
 ## Flowseal/zapret-discord-youtube #1704
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1704
+Title: [РЕШЕНО] Временные фиксы и почему не работает у многих юзеров (из Сибири и Урала)
 
 Found domains:
 chromewebstore.google.com
@@ -721,6 +733,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #1744
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1744
+Title: Нашел рабочий способ используя инфу.
 
 Found domains:
 winws.exe
@@ -735,6 +748,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #1748
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1748
+Title: Решение для FACEIT
 
 Found domains:
 faceit.com
@@ -749,6 +763,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #1817
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1817
+Title: Работает дискорд, но не работают отдельные сайты
 
 Found domains:
 cybershoke.net
@@ -757,6 +772,7 @@ gamebanana.com
 ## Flowseal/zapret-discord-youtube #1888
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1888
+Title: Перестали работать какие-либо батники после новой версии
 
 Found domains:
 zapret-discord-youtube-1.6.4.zip
@@ -764,6 +780,7 @@ zapret-discord-youtube-1.6.4.zip
 ## Flowseal/zapret-discord-youtube #1951
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/1951
+Title: [Domain list suggestion] Possible fix to a few websites/apis/games?
 
 Found domains:
 search.brave.com
@@ -796,6 +813,7 @@ akamaihd.net
 ## Flowseal/zapret-discord-youtube #2274
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2274
+Title: Не работает запрет в ставрополье
 
 Found domains:
 gearup.gg
@@ -803,6 +821,7 @@ gearup.gg
 ## Flowseal/zapret-discord-youtube #2356
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2356
+Title: Не запускаются батники
 
 Found domains:
 services.msc
@@ -816,6 +835,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2377
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2377
+Title: Как сделать чтобы Лига Легенд работала ((РЕШЕНИЕ)) Обновлено на 26.04.2025
 
 Found domains:
 pvp.net
@@ -828,6 +848,7 @@ maxroll.gg
 ## Flowseal/zapret-discord-youtube #2430
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2430
+Title: Не работает Second Life
 
 Found domains:
 my.secondlife.com
@@ -905,6 +926,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2529
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2529
+Title: [Проблема] EasyAnticheat не работает Ростелеком
 
 Found domains:
 drive.google.com
@@ -912,6 +934,7 @@ drive.google.com
 ## Flowseal/zapret-discord-youtube #2544
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2544
+Title: Вопрос по поводу поиску IP адресов для лиги
 
 Found IP/CIDR:
 3.64.0.0/12
@@ -1094,6 +1117,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2566
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2566
+Title: [Проблема]
 
 Found domains:
 xsts.auth.xboxlive.com
@@ -1105,6 +1129,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2568
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2568
+Title: Подсобите с IP сервера Лиги легенд Япония(JP)
 
 Found IP/CIDR:
 52.68.0.0/16
@@ -1309,6 +1334,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2575
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2575
+Title: Общее решение
 
 Found domains:
 global.bat.zip
@@ -1316,6 +1342,7 @@ global.bat.zip
 ## Flowseal/zapret-discord-youtube #2612
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2612
+Title: [Проблема] Блокировка интернета в Ставропольском крае
 
 Found domains:
 one.one.one.one
@@ -1323,6 +1350,7 @@ one.one.one.one
 ## Flowseal/zapret-discord-youtube #2668
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2668
+Title: Проблемы с несколькими приложениями
 
 Found IP/CIDR:
 162.159.36.1
@@ -1330,6 +1358,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #2888
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2888
+Title: [Проблема] Path of Exile 2 пустой магазин
 
 Found domains:
 winws.exe
@@ -1386,6 +1415,7 @@ launcher.riotclientservices.com
 ## Flowseal/zapret-discord-youtube #2959
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/2959
+Title: [Проблема] FAKE TLS MOD AUTO/ALT Ломает Интернет *Решено установлением определённого поставщика услуг для DNS серверов
 
 Found IP/CIDR:
 173.245.48.0/20
@@ -1414,6 +1444,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3159
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3159
+Title: [Проблема] Не работает discord, отключает доступ к части програм
 
 Found domains:
 windivert64.sys
@@ -1424,6 +1455,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #3265
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3265
+Title: !! Решение множества проблем с доступом с Discord, к сайтам и играм !!
 
 Found domains:
 a3d6d01bdc15405bf.awsglobalaccelerator.com
@@ -1438,6 +1470,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3290
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3290
+Title: [Обновление от 17.06.25] Большой список адресов для обхода блокировок. Работает ютуб, дискорд, чат в играх, soundcloud
 
 Found domains:
 one.one.one.one
@@ -1456,6 +1489,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3295
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3295
+Title: [Проблема] Не могу зайти на сервера майнкрафта и с запретом и без (Ютуб и дискорд работают без нареканий)
 
 Found domains:
 amongus.performium.net
@@ -1464,6 +1498,7 @@ play.cubecraft.net
 ## Flowseal/zapret-discord-youtube #3445
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3445
+Title: [Проблема] Batlle.Net capcha не загружается, все остальные сервисы работают - youtube, discord и тд - Новосибирск. Ростелеком.
 
 Found domains:
 batlle.net
@@ -1471,6 +1506,7 @@ batlle.net
 ## Flowseal/zapret-discord-youtube #3537
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3537
+Title: срочный вопрос
 
 Found domains:
 epg.one
@@ -1493,6 +1529,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3581
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3581
+Title: [Проблема]
 
 Found domains:
 one.one.one.one
@@ -1500,6 +1537,7 @@ one.one.one.one
 ## Flowseal/zapret-discord-youtube #3849
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3849
+Title: [Проблема] При работе службы zapret, начинает некорректно работать служба DHCP в Windows
 
 Found domains:
 dns.google
@@ -1514,6 +1552,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #3940
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/3940
+Title: [Проблема] не удаётся подключится к офф аккаунту майна (как обычный майн, так и для данженса)
 
 Found domains:
 otvet.mail.ru
@@ -1548,6 +1587,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4227
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4227
+Title: Помогите запустить в клиенте Лиги Легенд игру "Битва при Кесине"
 
 Found domains:
 instituteofwar.org
@@ -1622,6 +1662,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #4249
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4249
+Title: [Проблема] Ложно положительное срабатывание Easy Anti Cheat
 
 Found domains:
 www.youtube.com
@@ -1631,6 +1672,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4303
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4303
+Title: Майнкрафт не грузит скины
 
 Found domains:
 java.net.socketexception
@@ -1655,6 +1697,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4347
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4347
+Title: [Проблема] Перестали работать все батники
 
 Found domains:
 services.msc
@@ -1662,6 +1705,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4431
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4431
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1669,6 +1713,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4459
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4459
+Title: [Проблема]  Лига легенд, мини игра битва при кесине
 
 Found domains:
 services.msc
@@ -1676,6 +1721,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4488
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4488
+Title: [Проблема] Конфликт с EA Javelin
 
 Found domains:
 services.msc
@@ -1690,6 +1736,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4596
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4596
+Title: Ну типо с запретом скины в майнкрафте не отображаются
 
 Found domains:
 services.msc
@@ -1698,6 +1745,7 @@ tlauncher.org
 ## Flowseal/zapret-discord-youtube #4620
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4620
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1705,6 +1753,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4644
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4644
+Title: [Проблема] Пакеты не отсылаются на сервер в игре
 
 Found domains:
 services.msc
@@ -1712,6 +1761,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4650
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4650
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1719,6 +1769,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4654
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4654
+Title: [Проблема] Некорректно работает PoE 2 Overlay
 
 Found domains:
 poeoverlay.com
@@ -1730,6 +1781,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4659
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4659
+Title: [Проблема] не запускаются некоторые игры с включеным xapret
 
 Found domains:
 services.msc
@@ -1745,6 +1797,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4735
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4735
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1752,6 +1805,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4788
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4788
+Title: [Проблема]  не работает дискорд даже при запущенном Zapret-discord-youtube
 
 Found domains:
 services.msc
@@ -1760,6 +1814,7 @@ squirrelsetup.log
 ## Flowseal/zapret-discord-youtube #4813
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4813
+Title: [Проблема] Eac ругается на windivert64.sys
 
 Found domains:
 windivert64.sys
@@ -1768,6 +1823,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4848
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4848
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1775,6 +1831,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4923
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4923
+Title: [Проблема] приколы от провайдера
 
 Found domains:
 services.msc
@@ -1782,6 +1839,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4992
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4992
+Title: [Проблема] Не открывается Ютуб в браузерах [Update: Данная проблема решена]
 
 Found domains:
 services.msc
@@ -1789,6 +1847,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5030
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5030
+Title: [Проблема] Не работает запрет
 
 Found domains:
 services.msc
@@ -1797,6 +1856,7 @@ drive.google.com
 ## Flowseal/zapret-discord-youtube #5036
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5036
+Title: [Проблема] EA app не запускается
 
 Found domains:
 services.msc
@@ -1804,6 +1864,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5051
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5051
+Title: Проблема под Windows 7
 
 Found domains:
 services.msc
@@ -1811,6 +1872,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5068
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5068
+Title: [Проблема] МТС; не работает zapret
 
 Found domains:
 services.msc
@@ -1819,6 +1881,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #5115
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5115
+Title: EA APP не работает с запретом
 
 Found domains:
 services.msc
@@ -1838,6 +1901,7 @@ forum.ixbt.com
 ## Flowseal/zapret-discord-youtube #5149
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5149
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1845,6 +1909,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5155
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5155
+Title: [Проблема]  Дисконекты из аккаунта Баттлнет при активном запрете
 
 Found domains:
 services.msc
@@ -1852,6 +1917,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5161
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5161
+Title: [Проблема] Перестало все работать
 
 Found domains:
 services.msc
@@ -1859,6 +1925,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5175
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5175
+Title: Не грузит видеопакеты на некоторых видео с ютуба
 
 Found domains:
 googlevideo.com
@@ -1880,6 +1947,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5211
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5211
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1887,6 +1955,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5248
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5248
+Title: .
 
 Found domains:
 services.msc
@@ -1894,6 +1963,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5266
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5266
+Title: [Проблема] отсутствует подключение к серверам игры DRG (Deep Rock Galactic)
 
 Found domains:
 telegra.ph
@@ -1904,6 +1974,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5306
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5306
+Title: Программа работает как вирус
 
 Found domains:
 services.msc
@@ -1913,6 +1984,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #5323
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5323
+Title: [Проблема] не работают игровые сервисы
 
 Found domains:
 services.msc
@@ -1927,6 +1999,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5402
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5402
+Title: [Проблема] Обход не работает
 
 Found domains:
 services.msc
@@ -1945,6 +2018,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5428
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5428
+Title: [Проблема] Потеря соединения со стим
 
 Found domains:
 akamaihd.net
@@ -1953,6 +2027,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5510
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5510
+Title: [Проблема] Essential массово перестал работать в России
 
 Found domains:
 services.msc
@@ -1961,6 +2036,7 @@ essential.gg
 ## Flowseal/zapret-discord-youtube #5516
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5516
+Title: [Проблема] Выкидывает из онлайн игр и сервисов
 
 Found domains:
 services.msc
@@ -1968,6 +2044,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5540
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5540
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -1975,6 +2052,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5566
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5566
+Title: [Проблема] Без включенного  VPN не работает ничего, кроме telegram
 
 Found domains:
 services.msc
@@ -1982,6 +2060,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5579
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5579
+Title: [Проблема] Как поиграть в новый батлфилд 6 ?
 
 Found domains:
 services.msc
@@ -1993,6 +2072,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5623
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5623
+Title: [Проблема]  Проподает интернет
 
 Found domains:
 services.msc
@@ -2000,6 +2080,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5627
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5627
+Title: [Проблема] Blue Protocol cannot reach server
 
 Found domains:
 services.msc
@@ -2007,6 +2088,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5712
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5712
+Title: [Проблема] почти со всем
 
 Found domains:
 services.msc
@@ -2014,6 +2096,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5717
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5717
+Title: [Проблема] Челябинск интерсвязь, кто починил подскажите???
 
 Found domains:
 services.msc
@@ -2021,6 +2104,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5755
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5755
+Title: пофиксите обход серверов амазон
 
 Found domains:
 services.msc
@@ -2028,6 +2112,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5758
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5758
+Title: пофиксите обход серверов амазон
 
 Found domains:
 services.msc
@@ -2049,6 +2134,7 @@ workers.dev
 ## Flowseal/zapret-discord-youtube #5790
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5790
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2056,6 +2142,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5826
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5826
+Title: [Проблема] patreon Ошибка 1009
 
 Found domains:
 www.patreon.com
@@ -2065,6 +2152,7 @@ patreon.com
 ## Flowseal/zapret-discord-youtube #5856
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5856
+Title: Имба настройка для работы всего и вся как раньше до блокировок.
 
 Found domains:
 services.msc
@@ -2086,6 +2174,7 @@ akamaitechnologies.com
 ## Flowseal/zapret-discord-youtube #5867
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5867
+Title: [Проблема] Перестают работать сервисы эпик геймс, включая изи античит
 
 Found domains:
 services.msc
@@ -2093,6 +2182,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5873
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5873
+Title: Не работает EA app
 
 Found domains:
 services.msc
@@ -2103,6 +2193,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5951
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5951
+Title: Не работает дискорд
 
 Found domains:
 services.msc
@@ -2110,6 +2201,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5955
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5955
+Title: [Проблема] не грузятся сборки curseforge и инсталлер osu
 
 Found domains:
 curseforge.com
@@ -2146,6 +2238,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5962
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5962
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2153,6 +2246,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5973
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5973
+Title: [Проблема] Не работает большинство игр
 
 Found domains:
 services.msc
@@ -2167,6 +2261,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5986
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5986
+Title: [Проблема] после установки 1.8.5 перестал работать Smite
 
 Found domains:
 services.msc
@@ -2174,6 +2269,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5990
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5990
+Title: Проблема решилась сама собой, просьба удалить тему.
 
 Found domains:
 services.msc
@@ -2184,6 +2280,7 @@ hyperion-cs.github.io
 ## Flowseal/zapret-discord-youtube #6005
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6005
+Title: Вопрос по поиску заблокированных ip
 
 Found domains:
 services.msc
@@ -2191,6 +2288,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6029
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6029
+Title: [Проблема] блокировка серверов Amazon РКН
 
 Found domains:
 services.msc
@@ -2202,6 +2300,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6068
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6068
+Title: [Проблема] GameGuard Error 340
 
 Found domains:
 services.msc
@@ -2213,6 +2312,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6079
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6079
+Title: [Проблема] EA APP не заходит в приложение
 
 Found domains:
 services.msc
@@ -2220,6 +2320,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6080
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6080
+Title: [Проблема] Как убрать запрет для определённых доменов или сделать конкретный белый список
 
 Found domains:
 services.msc
@@ -2263,6 +2364,7 @@ imagedelivery.net
 ## Flowseal/zapret-discord-youtube #6081
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6081
+Title: [Проблема] фортнайт не как не заходит в матч, в режим 'перезагрузка'
 
 Found domains:
 services.msc
@@ -2270,6 +2372,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6090
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6090
+Title: [Проблема] Не работает ютуб
 
 Found domains:
 services.msc
@@ -2277,6 +2380,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6105
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6105
+Title: [Проблема] Как улучшить процесс захода на игровые сервера?
 
 Found domains:
 services.msc
@@ -2284,6 +2388,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6147
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6147
+Title: [Проблема]  не грузит ютуб вообще
 
 Found domains:
 services.msc
@@ -2291,6 +2396,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6151
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6151
+Title: [Проблема] не загружаются сервера Farming Simulator 22
 
 Found domains:
 services.msc
@@ -2298,6 +2404,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6183
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6183
+Title: [Проблема] Рокстар геймс
 
 Found domains:
 services.msc
@@ -2305,6 +2412,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6186
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6186
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2312,6 +2420,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6255
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6255
+Title: [Проблема] Не работает обход блокировки Youtube
 
 Found domains:
 services.msc
@@ -2320,6 +2429,7 @@ doubleclick.net
 ## Flowseal/zapret-discord-youtube #6277
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6277
+Title: [Проблема] Отсутствует обновление Hoxxes Halloween 2025 в игре Deep Rock Galactic
 
 Found domains:
 services.msc
@@ -2337,6 +2447,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6330
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6330
+Title: [Проблема] Helldivers 2 (Error: 28, 403, Playfab) - Проблема Решена*
 
 Found domains:
 alt.general
@@ -2345,6 +2456,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6334
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6334
+Title: [Проблема] у меня microsoft не грузит лицензию майнкрафта
 
 Found domains:
 services.msc
@@ -2379,6 +2491,7 @@ xbx.lv
 ## Flowseal/zapret-discord-youtube #6348
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6348
+Title: [Проблема] Не загружается официальный майнкрафт лаунчер
 
 Found domains:
 login.microsoftonline.com
@@ -2400,6 +2513,7 @@ xbox.com
 ## Flowseal/zapret-discord-youtube #6401
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6401
+Title: Bypass (winws.exe) NOT FOUND
 
 Found domains:
 winws.exe
@@ -2411,6 +2525,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6456
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6456
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2418,6 +2533,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6485
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6485
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2425,6 +2541,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6500
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6500
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2432,6 +2549,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6616
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6616
+Title: Никак не могу заставить работать rutor.info & rutor.is
 
 Found domains:
 rutor.is
@@ -2451,6 +2569,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6622
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6622
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2462,6 +2581,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6624
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6624
+Title: Решение для нерабочих серверов майнкрафт
 
 Found domains:
 services.msc
@@ -2470,6 +2590,7 @@ java.net.socket
 ## Flowseal/zapret-discord-youtube #6648
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6648
+Title: [Проблема] Elden Ring - не подключается к серверам.
 
 Found domains:
 pingfast.app
@@ -2478,6 +2599,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6658
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6658
+Title: [Проблема] Blitz
 
 Found domains:
 services.msc
@@ -2490,6 +2612,7 @@ blitz.gg
 ## Flowseal/zapret-discord-youtube #6690
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6690
+Title: [Проблема]  Не работает войсчат в ARC Raiders, я не слышу и меня не слышат
 
 Found domains:
 services.msc
@@ -2498,6 +2621,7 @@ files.catbox.moe
 ## Flowseal/zapret-discord-youtube #6697
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6697
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2505,6 +2629,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6715
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6715
+Title: [Проблема] Низкая скорость скачивания при включенном zapret
 
 Found domains:
 services.msc
@@ -2512,6 +2637,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6719
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6719
+Title: [Проблема] Не работает Фортнайт
 
 Found domains:
 services.msc
@@ -2519,6 +2645,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6724
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6724
+Title: Как соединить несколько разных версий?
 
 Found domains:
 services.msc
@@ -2533,6 +2660,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6728
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6728
+Title: [Проблема] Не работает с включенным Exitlag
 
 Found domains:
 services.msc
@@ -2540,6 +2668,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6731
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6731
+Title: WARHAMMER DARKTIDE
 
 Found domains:
 services.msc
@@ -2563,6 +2692,7 @@ playfabapi.com
 ## Flowseal/zapret-discord-youtube #6739
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6739
+Title: [Проблема] Проблемы с VR Chat,  YouTube и derpibooru.
 
 Found domains:
 ajax.googleapis.com
@@ -2571,6 +2701,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6742
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6742
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2578,6 +2709,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6779
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6779
+Title: [Проблема] отвалился zapret для валоранта
 
 Found domains:
 services.msc
@@ -2586,6 +2718,7 @@ hyperion-cs.github.io
 ## Flowseal/zapret-discord-youtube #6784
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6784
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2593,6 +2726,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6785
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6785
+Title: [Проблема] в игре SOULMASK Не могу подключиться к серверам от G-Portal
 
 Found domains:
 services.msc
@@ -2601,6 +2735,7 @@ sg2-collect-online.qookkagames.com
 ## Flowseal/zapret-discord-youtube #6786
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6786
+Title: [Проблема] РКН похоже решил по приколу заблокировать EAC
 
 Found domains:
 services.msc
@@ -2612,6 +2747,7 @@ config.psynet.gg
 ## Flowseal/zapret-discord-youtube #6787
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6787
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2623,6 +2759,7 @@ config.psynet.gg
 ## Flowseal/zapret-discord-youtube #6963
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6963
+Title: не запускаются игры
 
 Found domains:
 services.msc
@@ -2630,6 +2767,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7048
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7048
+Title: Пропали все друзья в стиме
 
 Found domains:
 services.msc
@@ -2643,6 +2781,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #7079
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7079
+Title: [Проблема] xModern54  v1.8.5 - BF 2 БЕССМЕРТНЫЙ ЗАПРЕТ КОТОРЫЙ ПРИ ПОЛНОМ УДАЛЕНИИ РАБОТАЕТ НА BATTLEFIEL
 
 Found domains:
 services.msc
@@ -2651,6 +2790,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #7084
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7084
+Title: [Проблема] Высокий пинг в Space marine 2, провайдер МТС.
 
 Found domains:
 services.msc
@@ -2658,6 +2798,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7085
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7085
+Title: Список исключений
 
 Found domains:
 microsoft.com
@@ -2814,6 +2955,7 @@ taxi.yandex.ru
 ## Flowseal/zapret-discord-youtube #7106
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7106
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2821,6 +2963,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7117
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7117
+Title: [Проблема] Перестал работать голосовой чат в New World: Aeternum, античит кикает из игры спустя несколько минут
 
 Found domains:
 services.msc
@@ -2830,6 +2973,7 @@ monkey64.sys
 ## Flowseal/zapret-discord-youtube #7122
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7122
+Title: Объединение 2 стратегий для получения максимальной пробиваемости.
 
 Found domains:
 services.msc
@@ -2852,6 +2996,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7129
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7129
+Title: [Проблема] Игры с EAC  не работают.
 
 Found domains:
 services.msc
@@ -2859,6 +3004,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7142
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7142
+Title: [Проблема] Игры HOYOVERSE (+, возможно, аккаунт microsoft)
 
 Found domains:
 winws.exe
@@ -2873,6 +3019,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7158
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7158
+Title: [Проблема] Может кто сталкивался с моей проблемой связанная с ExitLag
 
 Found domains:
 services.msc
@@ -2893,6 +3040,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7189
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7189
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -2907,6 +3055,7 @@ twimg.com
 ## Flowseal/zapret-discord-youtube #7223
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7223
+Title: [Проблема] Discord Подключение к RTC
 
 Found domains:
 encryptedsni.com
@@ -3009,6 +3158,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7244
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7244
+Title: EA App не работает из за запрета
 
 Found domains:
 services.msc
@@ -3018,6 +3168,7 @@ madden24.service.easports.com
 ## Flowseal/zapret-discord-youtube #7271
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7271
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3025,6 +3176,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7274
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7274
+Title: [Проблема] не работает дискорд
 
 Found domains:
 services.msc
@@ -3032,6 +3184,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7275
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7275
+Title: [Проблема] не могу удалить полностью запрет
 
 Found domains:
 winws.exe
@@ -3040,6 +3193,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7277
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7277
+Title: [Проблема] Не работает blitz.gg
 
 Found domains:
 blitz.gg
@@ -3052,6 +3206,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7284
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7284
+Title: [Проблема] Не грузит скины в Майнкрафте
 
 Found domains:
 services.msc
@@ -3059,6 +3214,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7328
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7328
+Title: [Проблема] С запретом лагает стим
 
 Found domains:
 services.msc
@@ -3066,11 +3222,22 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7381
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7381
+Title: Стим заблокировали, вот его домены
 
 Found domains:
 s.team
 playartifact.com
 services.msc
+twitch.tv
+ttvnw.net
+twitch-check.rte.net.ru
+live-video.net
+extension-files.twitch.tv
+vod-secure.twitch.tv
+s.amazon-adsystem.com
+k.twitchcdn.net
+hermes.twitch.tv
+unpkg.com
 
 Found IP/CIDR:
 1.1.1.1
@@ -3078,6 +3245,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7398
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7398
+Title: [Проблема] Проблемы в играх и Discord
 
 Found domains:
 services.msc
@@ -3098,6 +3266,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7413
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7413
+Title: [Вопрос] Можно ли как-нибудь отфильтровать использование zapret в определенных доменах/программах
 
 Found domains:
 services.msc
@@ -3105,6 +3274,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7458
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7458
+Title: Punishing Gray Raven
 
 Found domains:
 services.msc
@@ -3112,6 +3282,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7459
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7459
+Title: Попытка  оживить игры на PS5/XBOX
 
 Found domains:
 services.msc
@@ -3119,6 +3290,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7467
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7467
+Title: [Проблема] Не работают скины в майнкрафте
 
 Found domains:
 services.msc
@@ -3126,6 +3298,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7516
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7516
+Title: майнкрафт пишет проверьте подключение к интернету
 
 Found domains:
 services.msc
@@ -3206,6 +3379,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7520
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7520
+Title: [Проблема] Переход с одного провайдера на другой
 
 Found domains:
 services.msc
@@ -3213,6 +3387,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7527
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7527
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3222,6 +3397,7 @@ www.youtube.com
 ## Flowseal/zapret-discord-youtube #7541
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7541
+Title: [Проблема] Не работают скины в майнкрафте
 
 Found domains:
 services.msc
@@ -3229,6 +3405,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7544
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7544
+Title: [Проблема] Самоочищается ipset-all
 
 Found domains:
 services.msc
@@ -3236,6 +3413,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7555
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7555
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3243,6 +3421,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7559
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7559
+Title: Не коннектит к серверам в майнкрафт
 
 Found domains:
 dev.tr7zw.entityculling.culltask
@@ -3252,6 +3431,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7622
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7622
+Title: [Проблема] на МТС перестал работать запрет
 
 Found domains:
 services.msc
@@ -3263,6 +3443,7 @@ page.php
 ## Flowseal/zapret-discord-youtube #7628
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7628
+Title: [Проблема]  не работают голосовые каналы в дискорде на любом запрете
 
 Found domains:
 services.msc
@@ -3271,6 +3452,7 @@ www.howtogeek.com
 ## Flowseal/zapret-discord-youtube #7638
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7638
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3281,6 +3463,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7641
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7641
+Title: [Проблема] Канал дискорда
 
 Found domains:
 services.msc
@@ -3289,6 +3472,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #7677
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7677
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3296,6 +3480,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7686
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7686
+Title: Как настроить Запрет только для указанных ресурсов
 
 Found domains:
 services.msc
@@ -3303,6 +3488,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7710
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7710
+Title: [Проблема]  не работает дискорд с запретом а ютуб работает
 
 Found domains:
 services.msc
@@ -3318,6 +3504,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7739
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7739
+Title: [Проблема] Не работает Easy anti cheat(EAC)
 
 Found domains:
 services.msc
@@ -3347,6 +3534,7 @@ unrealtournament.com
 ## Flowseal/zapret-discord-youtube #7788
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7788
+Title: [Проблема] Не грузит ютуб ролики
 
 Found domains:
 winws.exe
@@ -3355,6 +3543,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7793
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7793
+Title: СИНИЙ ЭКРАН СМЕРТИ !
 
 Found domains:
 services.msc
@@ -3362,6 +3551,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7826
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7826
+Title: [Проблема] не рабоатет стим с запретом, а без работает
 
 Found domains:
 services.msc
@@ -3369,6 +3559,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7864
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7864
+Title: [Проблема] Резко перестали работать все стратегии
 
 Found domains:
 services.msc
@@ -3376,6 +3567,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7873
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7873
+Title: (Если дискорд перестал работать). Решение проблемы с zapret-discord-yt 27.12.2025
 
 Found domains:
 services.msc
@@ -3389,6 +3581,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7888
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7888
+Title: FIX для dom.ru \ SkyNet
 
 Found domains:
 dom.ru
@@ -3402,6 +3595,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #7900
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7900
+Title: [Проблема] Какие файл нужни штоб запрет на вуву шел
 
 Found domains:
 services.msc
@@ -3416,6 +3610,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8012
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8012
+Title: prism launcher не запускает майнкрафт
 
 Found domains:
 services.msc
@@ -3428,6 +3623,7 @@ animevost.org
 ## Flowseal/zapret-discord-youtube #8034
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8034
+Title: [Проблема] GTA5RP / RockstarLauncher (автономный режим, "7-S", переустановка игры)
 
 Found domains:
 services.msc
@@ -3435,6 +3631,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8046
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8046
+Title: [Проблема] Запрета версии 1.9.1
 
 Found domains:
 services.msc
@@ -3536,6 +3733,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8107
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8107
+Title: [Вопрос] Добавление обходов для игровых серверов (FACEIT)
 
 Found domains:
 ac-client-ws.faceit.com
@@ -3554,6 +3752,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #8177
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8177
+Title: [Проблема] конфликт с Warhammer 40000: Space Marine 2
 
 Found domains:
 services.msc
@@ -3561,6 +3760,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8245
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8245
+Title: [Проблема] Не работают игровые сервисы
 
 Found domains:
 services.msc
@@ -3568,6 +3768,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8281
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8281
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3575,6 +3776,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8340
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8340
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3602,6 +3804,7 @@ workers.dev
 ## Flowseal/zapret-discord-youtube #8343
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8343
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3609,6 +3812,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8372
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8372
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -3616,6 +3820,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8405
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8405
+Title: Zapret: Пошаговая установка и конфигурирование
 
 Found domains:
 wifiman.com
@@ -3794,6 +3999,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8480
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8480
+Title: [Проблема] Перестал работать zapret
 
 Found domains:
 services.msc
@@ -3801,6 +4007,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8509
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8509
+Title: [Проблема] не работает фортнайт с запретом
 
 Found domains:
 services.msc
@@ -3808,6 +4015,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8517
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8517
+Title: zapret 1.9.2. full work by GodBlaise
 
 Found domains:
 drive.google.com
@@ -3820,6 +4028,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #8518
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8518
+Title: Проблема с поиском матча фортнайт
 
 Found domains:
 services.msc
@@ -3849,6 +4058,7 @@ unrealtournament.com
 ## Flowseal/zapret-discord-youtube #8586
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8586
+Title: [Проблема]
 
 Found domains:
 zapret-discord-youtube-1.9.2.rar
@@ -3857,6 +4067,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8659
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8659
+Title: [Проблема] НЕ РАБОТАЕТ voicemod, и некоторые расширения в chromе.
 
 Found domains:
 soundcloud.com
@@ -3995,6 +4206,7 @@ one.one.one.one
 ## Flowseal/zapret-discord-youtube #8716
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8716
+Title: [Проблема] Лига Легенд не перестает меня удивлять
 
 Found domains:
 services.msc
@@ -4003,6 +4215,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #8730
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8730
+Title: [Проблема] Не запускается Winws.exe при автозапуске
 
 Found domains:
 winws.exe
@@ -4015,6 +4228,7 @@ adguardsvc.exe
 ## Flowseal/zapret-discord-youtube #8756
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8756
+Title: [Проблема] Я использую zapret но с ним не работают некоторые сервисы
 
 Found domains:
 services.msc
@@ -4022,6 +4236,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8768
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8768
+Title: [Проблема]  Невозможно подключиться к шифт Borderlands 3
 
 Found domains:
 cdn.services.gearboxsoftware.com
@@ -4162,6 +4377,7 @@ wiki.malw.link
 ## Flowseal/zapret-discord-youtube #8777
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8777
+Title: [Проблема] нет возможности подключить api openAI
 
 Found domains:
 services.msc
@@ -4190,6 +4406,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #8779
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8779
+Title: [Проблема] Не работает дискорд на ALT7
 
 Found domains:
 services.msc
@@ -4197,6 +4414,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8824
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8824
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4226,6 +4444,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #8842
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8842
+Title: [Проблема] Нестабильная работа на ноутбуке по Wi-Fi (через 10-30 минут использования)
 
 Found domains:
 services.msc
@@ -4233,6 +4452,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8848
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8848
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4240,6 +4460,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8857
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8857
+Title: [Проблема] В любом браузере скорость 0 бит в секунд
 
 Found domains:
 services.msc
@@ -4247,6 +4468,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8874
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8874
+Title: [Проблема] Не работает League of legend
 
 Found domains:
 services.msc
@@ -4261,6 +4483,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8926
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8926
+Title: [Проблема] Сервер использующий DigitalOcean для загрузки ресурсов ОЧЕНЬ медленно загружается
 
 Found domains:
 services.msc
@@ -4268,6 +4491,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8930
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8930
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4283,6 +4507,7 @@ hh.ru
 ## Flowseal/zapret-discord-youtube #8960
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8960
+Title: Как починить Star Wars Battlefront 2 через zapret?
 
 Found domains:
 services.msc
@@ -4290,6 +4515,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8964
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8964
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4297,6 +4523,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8966
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8966
+Title: Мортал комбат 1 не работает
 
 Found domains:
 account.wbgames.com
@@ -4310,6 +4537,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9019
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9019
+Title: [Проблема] Не входить в лицензионный майнкрафт аккаунт
 
 Found domains:
 services.msc
@@ -4336,6 +4564,7 @@ xbx.lv
 ## Flowseal/zapret-discord-youtube #9047
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9047
+Title: Не грузятся скриншоты мастерской стим
 
 Found domains:
 services.msc
@@ -4343,6 +4572,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9069
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9069
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4350,6 +4580,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9091
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9091
+Title: [Проблема] Частично не работает стим
 
 Found domains:
 services.msc
@@ -4357,6 +4588,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9114
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9114
+Title: Отключает интернет при открытии новых вкладок/страниц и игр в стиме
 
 Found domains:
 services.msc
@@ -4364,6 +4596,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9128
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9128
+Title: [Проблема]
 
 Found domains:
 rezka.ag
@@ -4373,6 +4606,7 @@ drive.google.com
 ## Flowseal/zapret-discord-youtube #9143
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9143
+Title: [Проблема] Не работает VR Chat
 
 Found domains:
 services.msc
@@ -4399,6 +4633,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9144
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9144
+Title: [Проблема] режимы в War Thunder не работают
 
 Found domains:
 services.msc
@@ -4413,6 +4648,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9185
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9185
+Title: Плохая работа зарубежных сайтов с включенным DoH в Firefox
 
 Found domains:
 services.msc
@@ -4422,6 +4658,7 @@ alicdn.com
 ## Flowseal/zapret-discord-youtube #9190
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9190
+Title: [Проблема] Перестало работать половина приложений с 14.01.26
 
 Found domains:
 services.msc
@@ -4429,6 +4666,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9211
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9211
+Title: [Проблема] Не конектит к EAC
 
 Found domains:
 services.msc
@@ -4439,6 +4677,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9246
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9246
+Title: Не открывается шкафчик в фортнайте с ошибкой 0
 
 Found domains:
 hcaptcha.com
@@ -4532,6 +4771,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9251
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9251
+Title: [Проблема]
 
 Found domains:
 photon.com
@@ -4555,6 +4795,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9303
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9303
+Title: [Проблема] Иногда очень медленная загрузка видео на Youtube
 
 Found domains:
 services.msc
@@ -4563,6 +4804,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #9325
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9325
+Title: [Проблема] Любая страница на Modrinth становится пустой
 
 Found domains:
 services.msc
@@ -4603,6 +4845,7 @@ stripecdn.map.fastly.net
 ## Flowseal/zapret-discord-youtube #9332
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9332
+Title: Не работает игра 33 Immortals
 
 Found domains:
 services.msc
@@ -4610,6 +4853,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9385
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9385
+Title: [Проблема] Не подключается к нескольким сервисам одновременно
 
 Found domains:
 services.msc
@@ -4624,6 +4868,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9423
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9423
+Title: [Проблема]  ошибка 0 в шкафчике
 
 Found domains:
 services.msc
@@ -4935,6 +5180,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9443
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9443
+Title: [Проблема] Не загружается половина клиентов игр и страниц
 
 Found domains:
 services.msc
@@ -4942,6 +5188,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9478
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9478
+Title: Пинг в играх скачет
 
 Found domains:
 services.msc
@@ -4949,6 +5196,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9487
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9487
+Title: photon
 
 Found domains:
 services.msc
@@ -4956,6 +5204,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9490
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9490
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4963,6 +5212,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9492
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9492
+Title: [Проблема] Слетает аутификация в аккаун майкрософ на Prism Launcher
 
 Found domains:
 microsoftonline.com
@@ -4981,6 +5231,7 @@ microsoft.com
 ## Flowseal/zapret-discord-youtube #9506
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9506
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -4995,6 +5246,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9554
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9554
+Title: [Проблема] очень странное поведение интернета
 
 Found domains:
 zapret.installer
@@ -5003,6 +5255,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9558
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9558
+Title: [Проблема] Ютюб пишет "Этот контент недоступен. Повторите попытку позже."
 
 Found domains:
 services.msc
@@ -5014,6 +5267,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9574
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9574
+Title: [You Tube] внезапно перестал работать You Tube.
 
 Found domains:
 services.msc
@@ -5029,6 +5283,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9631
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9631
+Title: [Проблема] опять не работает майнкрафт
 
 Found domains:
 services.msc
@@ -5064,6 +5319,7 @@ xbx.lv
 ## Flowseal/zapret-discord-youtube #9645
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9645
+Title: [Проблема] не заходит на сайты Trackmania
 
 Found domains:
 services.msc
@@ -5071,6 +5327,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9705
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9705
+Title: [Проблема] onedrive
 
 Found domains:
 services.msc
@@ -5134,6 +5391,7 @@ snapi.live.net
 ## Flowseal/zapret-discord-youtube #9715
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9715
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -5141,6 +5399,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9718
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9718
+Title: [Проблема] Riot AC и Zapret
 
 Found domains:
 services.msc
@@ -5200,6 +5459,7 @@ fe80::/10
 ## Flowseal/zapret-discord-youtube #9727
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9727
+Title: [Проблема] не грузятся иконки с workshop в Brick Rigs
 
 Found domains:
 akamaihd.net
@@ -5208,6 +5468,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9737
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9737
+Title: [Проблема] При запуске запрета, работает все, но пропадает соединение в играх на примере gtfo и в холдайверс 2
 
 Found domains:
 services.msc
@@ -5221,6 +5482,7 @@ wiki.malw.link
 ## Flowseal/zapret-discord-youtube #9753
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9753
+Title: [Проблема] Крайне раздражающая неполадка ютуба
 
 Found domains:
 services.msc
@@ -5228,6 +5490,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9798
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9798
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -5249,6 +5512,7 @@ workers.dev
 ## Flowseal/zapret-discord-youtube #9799
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9799
+Title: [Проблема] Как разрешить сайт с ошибкой ERR_CONNECTION_RESET?
 
 Found domains:
 premierleague.com
@@ -5282,6 +5546,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9819
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9819
+Title: создание собственного батника для EA
 
 Found domains:
 winws.exe
@@ -5294,6 +5559,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9837
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9837
+Title: [Проблема] запрет сдох
 
 Found domains:
 services.msc
@@ -5347,6 +5613,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #9862
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9862
+Title: [Проблема] Не воспроизводятся видео Youtube «Этот контент недоступен. Повторите попытку позже». Помогает только нажать кнопку Обновить страницу
 
 Found domains:
 services.msc
@@ -5354,6 +5621,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9881
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9881
+Title: [Проблема] Бесконечное подключение к RTC в дискорде, а под конец выдает не установлен маршрутизатор.
 
 Found domains:
 services.msc
@@ -5361,6 +5629,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9890
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9890
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -5368,6 +5637,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9893
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9893
+Title: [Проблема]
 
 Found domains:
 services.msc
@@ -5375,6 +5645,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9925
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9925
+Title: [Проблема] не работает запрет + большой пинг абсолютно везде
 
 Found domains:
 services.msc
@@ -5382,6 +5653,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9940
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9940
+Title: [Проблема] запрет тупо вырубает интернет
 
 Found domains:
 services.msc
@@ -5397,6 +5669,7 @@ underlords.com
 ## Flowseal/zapret-discord-youtube #9965
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9965
+Title: [Возможное решение] Проблемы с серверами/матчмейкинга в играх
 
 Found domains:
 ipset-list.txt.backup
@@ -5405,6 +5678,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9985
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9985
+Title: Сейчас в тик-ток разгоняют, тему что в запрете после версии 1.93 появился стиллер
 
 Found domains:
 services.msc
@@ -5412,6 +5686,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #10039
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10039
+Title: [Проблема] Dead Frontier 2
 
 Found domains:
 services.msc
@@ -5590,6 +5865,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10082
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10082
+Title: [Проблема] Не работает\не грузит медиа с media.redgifs.com
 
 Found domains:
 media.redgifs.com
@@ -5628,6 +5904,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10141
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10141
+Title: [Проблема] ТРАБЛЫ С ФОРТНАЙТОМ
 
 Found domains:
 services.msc
@@ -5635,6 +5912,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #10155
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10155
+Title: [вопрос] стратегия для конкретног осайта
 
 Found domains:
 services.msc
@@ -5665,6 +5943,7 @@ pix.spot.im
 ## Flowseal/zapret-discord-youtube #10162
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10162
+Title: Не работает Discord, сижу на ростелекоме
 
 Found domains:
 services.msc
@@ -5672,6 +5951,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #10254
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10254
+Title: [Проблема] Riot
 
 Found domains:
 winws.exe
@@ -5679,6 +5959,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10263
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10263
+Title: [Проблема] Работал только 1 раз, и перестал работать
 
 Found domains:
 winws.exe
@@ -5686,6 +5967,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10299
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10299
+Title: [Проблема] не грузит обновления Windows
 
 Found domains:
 xbox.com
@@ -5696,6 +5978,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10330
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10330
+Title: [Проблема]  Не дает подключиться к аккаунту в официальном лаунчере Майнкрафт через сервисы Xbox
 
 Found domains:
 winws.exe
@@ -5703,6 +5986,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10332
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10332
+Title: [Проблема] HTTP
 
 Found domains:
 winws.exe
@@ -5716,6 +6000,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10377
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10377
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5723,6 +6008,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10388
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10388
+Title: [Проблема] Внезапная реклама на ютубе
 
 Found domains:
 winws.exe
@@ -5732,6 +6018,7 @@ xbox-dns.ru
 ## Flowseal/zapret-discord-youtube #10389
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10389
+Title: [Проблема] Не работает рейтинг в игре гилти гир страйв на серверах арк систем воркс
 
 Found domains:
 winws.exe
@@ -5739,6 +6026,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10395
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10395
+Title: [Вопрос] Как самостоятельно найти домены для list-general.txt того или иного сайта?
 
 Found domains:
 winws.exe
@@ -5748,6 +6036,7 @@ learn.microsoft.com
 ## Flowseal/zapret-discord-youtube #10414
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10414
+Title: [Проблема] Call of Duty Black Ops 3 крашится с запущенным запретом
 
 Found domains:
 winws.exe
@@ -5755,6 +6044,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10438
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10438
+Title: [Улучшение] Сервера Microsoft
 
 Found domains:
 microsoftonline.com
@@ -5767,6 +6057,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10444
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10444
+Title: [Проблема]  Не работает кооп в Deadzone Rogur
 
 Found domains:
 winws.exe
@@ -5775,6 +6066,7 @@ deadzonerogue.com
 ## Flowseal/zapret-discord-youtube #10463
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10463
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5782,6 +6074,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10476
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10476
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5789,6 +6082,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10583
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10583
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5796,6 +6090,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10602
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10602
+Title: [Проблема] Ошибка 279
 
 Found domains:
 winws.exe
@@ -5803,6 +6098,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10739
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10739
+Title: [Проблема] Закидывает на сервера Японии / Индии вместо Германии.
 
 Found domains:
 winws.exe
@@ -5810,6 +6106,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10813
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10813
+Title: [Problem] The Battefie 4 and EA servers don't seem to be working, and that the game filter isn't working yet [Critical]
 
 Found domains:
 winws.exe
@@ -5836,6 +6133,7 @@ launcher.eac-cdn.com
 ## Flowseal/zapret-discord-youtube #10831
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10831
+Title: Можете добавить Telegram?
 
 Found domains:
 winws.exe
@@ -5843,6 +6141,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10845
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10845
+Title: Не работает YouTube.
 
 Found domains:
 dns.quad9.net
@@ -5857,6 +6156,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10852
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10852
+Title: [Проблема] Curseforge
 
 Found domains:
 api.curseforge.com
@@ -5875,6 +6175,7 @@ zkoridor.ru
 ## Flowseal/zapret-discord-youtube #10886
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10886
+Title: [Проблема] Не работает Майнкрафт
 
 Found domains:
 winws.exe
@@ -5882,6 +6183,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10902
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10902
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5895,6 +6197,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10917
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10917
+Title: [Проблема] Не подключается к сетевой игре в Death Stranding Director's cut
 
 Found domains:
 winws.exe
@@ -5909,6 +6212,7 @@ playstation.com
 ## Flowseal/zapret-discord-youtube #10924
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10924
+Title: [Проблема] Переодический полу-отвал стратегии в рандомный момент...?
 
 Found domains:
 winws.exe
@@ -5917,6 +6221,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #10929
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10929
+Title: [Проблема] не запускаются сервера Chivalry 2
 
 Found domains:
 winws.exe
@@ -5941,6 +6246,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10931
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10931
+Title: [Вопрос] Вероятность бана из-за драйвера
 
 Found domains:
 winws.exe
@@ -5948,6 +6254,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10932
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10932
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -5955,6 +6262,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10938
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10938
+Title: [Проблема] ничего не работает
 
 Found domains:
 winws.exe
@@ -5962,6 +6270,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10954
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10954
+Title: [Проблема] я удалил запрет но он всё ровно работает после 7 перезагрузок что делать?
 
 Found domains:
 winws.exe
@@ -5969,6 +6278,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10964
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10964
+Title: SQUAD НЕ РАБОТАЕТ НИКАК, ДАЖЕ VPN
 
 Found IP/CIDR:
 1.1.1.1
@@ -5976,6 +6286,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #10975
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10975
+Title: [Проблема]
 
 Found domains:
 imagedelivery.net
@@ -5985,6 +6296,7 @@ jawaw.exe
 ## Flowseal/zapret-discord-youtube #11027
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11027
+Title: [Проблема] Блокировки на сети в общежитии
 
 Found domains:
 winws.exe
@@ -5992,6 +6304,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11135
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11135
+Title: [Проблема] Некорректно работает редактор tiny.cloud
 
 Found domains:
 tiny.cloud
@@ -6000,6 +6313,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11140
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11140
+Title: [Проблема] Fall Guys, не дает подключиться к игре
 
 Found domains:
 api-gateway.europe.es-pio.net
@@ -6012,6 +6326,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11152
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11152
+Title: [Проблема] PoE
 
 Found domains:
 winws.exe
@@ -6020,6 +6335,7 @@ ru-patch.poecdn.com
 ## Flowseal/zapret-discord-youtube #11170
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11170
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6027,6 +6343,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11194
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11194
+Title: [Проблема] Не работает Deep Rock Galactic (DRG)
 
 Found domains:
 winws.exe
@@ -6041,6 +6358,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11196
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11196
+Title: [Проблема] Не работают все сайты, которые добавил в list-general-user
 
 Found domains:
 gamebanana.com
@@ -6052,6 +6370,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #11202
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11202
+Title: [Проблема] фортнайт
 
 Found domains:
 winws.exe
@@ -6082,6 +6401,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #11236
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11236
+Title: [Проблема] Не запускается сборка на Prism Launcher
 
 Found domains:
 winws.exe
@@ -6122,6 +6442,7 @@ live.com
 ## Flowseal/zapret-discord-youtube #11251
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11251
+Title: [Проблема] Ready or not не подключает к хосту
 
 Found domains:
 winws.exe
@@ -6129,6 +6450,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11259
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11259
+Title: [Проблема] Перестали работать некоторые сервера TF2
 
 Found domains:
 winws.exe
@@ -6149,6 +6471,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11276
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11276
+Title: Any advice?
 
 Found domains:
 winws.exe
@@ -6156,6 +6479,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11300
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11300
+Title: IPSet Filter
 
 Found domains:
 winws.exe
@@ -6163,6 +6487,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11337
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11337
+Title: [Проблема] Перестал работать Squad с запретом
 
 Found domains:
 winws.exe
@@ -6170,6 +6495,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11369
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11369
+Title: [Проблема] Не работает ничего кроме ютаба с запретом
 
 Found domains:
 winws.exe
@@ -6177,6 +6503,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11407
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11407
+Title: [Проблема] ТАТТЕЛЕКОМ не работают игры в Стим
 
 Found domains:
 winws.exe
@@ -6184,6 +6511,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11425
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11425
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6191,6 +6519,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11470
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11470
+Title: [Проблема] дикие лагспайки, и невозможность комфортной игры
 
 Found domains:
 winws.exe
@@ -6198,6 +6527,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11472
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11472
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6205,6 +6535,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11493
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11493
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6212,6 +6543,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11515
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11515
+Title: [Проблема] ЕА и батлфилд не работают с запретом
 
 Found domains:
 respawn.com
@@ -6220,6 +6552,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11531
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11531
+Title: [Проблема] Ready or not - Не удаётся подключиться к хосту
 
 Found domains:
 winws.exe
@@ -6227,6 +6560,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11538
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11538
+Title: [Проблема] Не работают сервера Company of heroes 3
 
 Found domains:
 dom.ru
@@ -6242,6 +6576,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11557
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11557
+Title: Zapret почти перестал работать.
 
 Found domains:
 winws.exe
@@ -6249,6 +6584,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11563
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11563
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6258,6 +6594,7 @@ mclo.gs
 ## Flowseal/zapret-discord-youtube #11627
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11627
+Title: [Проблема] Карта почему-то греется через некоторое время после запуска запрет
 
 Found domains:
 winws.exe
@@ -6270,6 +6607,7 @@ www.virustotal.com
 ## Flowseal/zapret-discord-youtube #11634
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11634
+Title: [Проблема] не работает микрофон
 
 Found domains:
 winws.exe
@@ -6277,6 +6615,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11643
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11643
+Title: [Проблема] Высокий пинг
 
 Found domains:
 iimg.su
@@ -6285,6 +6624,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11657
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11657
+Title: [Проблема] Из Xbox и Microsoft store не скачивается ничего
 
 Found domains:
 winws.exe
@@ -6292,6 +6632,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11673
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11673
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6307,6 +6648,7 @@ joinsquad.com
 ## Flowseal/zapret-discord-youtube #11702
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11702
+Title: Проблема с пингом на приватном сервере
 
 Found domains:
 winws.exe
@@ -6315,6 +6657,7 @@ thread.message
 ## Flowseal/zapret-discord-youtube #11766
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11766
+Title: [Проблема] Call of Duty®: Modern Warfare®
 
 Found domains:
 winws.exe
@@ -6322,6 +6665,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11767
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11767
+Title: [Проблема] Возможно будет сделать запрет для EA app?
 
 Found domains:
 winws.exe
@@ -6329,6 +6673,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11769
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11769
+Title: [Проблема] не работает EA APP
 
 Found domains:
 winws.exe
@@ -6337,6 +6682,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #11772
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11772
+Title: [Проблема] gofile
 
 Found domains:
 gofile.io
@@ -6345,6 +6691,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11791
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11791
+Title: [Проблема] спотифай отвалился
 
 Found domains:
 encryptedsni.com
@@ -6510,6 +6857,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11849
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11849
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6517,6 +6865,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11852
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11852
+Title: [Проблема] Общий отвал 06.04, компиляция доступной информации на 08.04.2026
 
 Found domains:
 winws.exe
@@ -6524,6 +6873,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11856
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11856
+Title: [Проблема] nuxy9 не работает. как я понимаю либо ркн либо белые списки теперь.
 
 Found domains:
 winws.exe
@@ -6531,6 +6881,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11861
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11861
+Title: [Проблема] Перестали качаться моды с Nexusmods
 
 Found domains:
 winws.exe
@@ -6556,6 +6907,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11878
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11878
+Title: [Проблема] Перестал открываться x.com и 7tv.app
 
 Found domains:
 x.com
@@ -6574,6 +6926,7 @@ ipset.list
 ## Flowseal/zapret-discord-youtube #11896
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11896
+Title: [Проблема] timeout на всех батниках
 
 Found domains:
 curl.exe
@@ -6595,6 +6948,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #11936
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11936
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6616,6 +6970,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11979
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11979
+Title: [Проблема] с запретом очень  долго буквально всё прогружает
 
 Found domains:
 winws.exe
@@ -6623,6 +6978,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12037
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12037
+Title: [Проблема] Отсутствует подключение к гс Дискорда
 
 Found domains:
 winws.exe
@@ -6630,6 +6986,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12061
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12061
+Title: [Проблема] На загружаются некоторые сайты
 
 Found domains:
 winws.exe
@@ -6642,6 +6999,7 @@ modcdn.io
 ## Flowseal/zapret-discord-youtube #12079
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12079
+Title: [Проблема] Умерли все ALT кроме 9
 
 Found domains:
 winws.exe
@@ -6695,6 +7053,7 @@ workers.dev
 ## Flowseal/zapret-discord-youtube #12084
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12084
+Title: [Проблема]  Zapret не робит
 
 Found domains:
 winws.exe
@@ -6748,6 +7107,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #12094
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12094
+Title: [Проблема] zapret умер
 
 Found domains:
 winws.exe
@@ -6755,6 +7115,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12103
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12103
+Title: [Проблема] Call of Duty Modern Warfare 2019. Сетевые службы недоступны
 
 Found domains:
 winws.exe
@@ -6762,6 +7123,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12105
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12105
+Title: [Проблема] Не работает ютуб на 11 альте, если сменится на девятый лучше не становится, с другими альтами у меня вообще ничего не работает
 
 Found domains:
 winws.exe
@@ -6781,6 +7143,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12106
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12106
+Title: [Проблема] не работает эпик геймс и фортнайт
 
 Found domains:
 winws.exe
@@ -6789,6 +7152,7 @@ akamaihd.net
 ## Flowseal/zapret-discord-youtube #12114
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12114
+Title: [Проблема] Не запускается майнкрафт в PrismLauncher
 
 Found domains:
 microsoft.com
@@ -7013,6 +7377,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12118
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12118
+Title: [Проблема] GTA 5 онлайн кикает
 
 Found domains:
 winws.exe
@@ -7023,6 +7388,7 @@ prod.cloud.rockstargames.com
 ## Flowseal/zapret-discord-youtube #12123
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12123
+Title: [Проблема] Failed to fetch the latest version
 
 Found domains:
 winws.exe
@@ -7030,6 +7396,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12124
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12124
+Title: Ошибка 279
 
 Found domains:
 winws.exe
@@ -7037,6 +7404,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12128
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12128
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7084,6 +7452,7 @@ d1unuk07s6td74.cloudfront.net
 ## Flowseal/zapret-discord-youtube #12160
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12160
+Title: [Проблема] Проблема с подключением к серверам майкрософта/майнкрафта
 
 Found domains:
 login.live.com
@@ -7133,6 +7502,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12161
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12161
+Title: [Проблема]  не работают сервисы юбисофт. приходиться плстоянно искать их домены и вводить в запрет
 
 Found domains:
 winws.exe
@@ -7170,6 +7540,7 @@ config.psynet.gg
 ## Flowseal/zapret-discord-youtube #12179
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12179
+Title: [Проблема] Пакет лосс
 
 Found domains:
 winws.exe
@@ -7177,6 +7548,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12191
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12191
+Title: не работают вообще никакие игры/ростелеком
 
 Found domains:
 winws.exe
@@ -7188,6 +7560,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12221
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12221
+Title: [Проблема] Обходы крашат ОС время от времени
 
 Found domains:
 winws.exe
@@ -7197,6 +7570,7 @@ forum.kaspersky.com
 ## Flowseal/zapret-discord-youtube #12297
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12297
+Title: [Проблема] Проблема с входом в Limbus Company
 
 Found domains:
 limbuscompanycdn.org
@@ -7211,6 +7585,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12344
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12344
+Title: [Проблема] Нет подключения к серверам EA
 
 Found domains:
 winws.exe
@@ -7218,6 +7593,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12390
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12390
+Title: [Проблема] Не работает список исключения для доменов
 
 Found domains:
 gmode.flag
@@ -7231,6 +7607,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12412
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12412
+Title: [Проблема] Не загружаются повторы стримов на Twitch
 
 Found domains:
 winws.exe
@@ -7241,6 +7618,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12415
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12415
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7248,6 +7626,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12433
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12433
+Title: [Проблема]Не работает сообщество стим
 
 Found domains:
 winws.exe
@@ -7255,6 +7634,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12465
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12465
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7262,6 +7642,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12487
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12487
+Title: Баг дискорда 5к пинг
 
 Found domains:
 winws.exe
@@ -7273,6 +7654,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12525
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12525
+Title: Фикс Discord на OpenWRT
 
 Found domains:
 discord.media
@@ -7281,6 +7663,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12597
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12597
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7288,6 +7671,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12637
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12637
+Title: [Проблема] Не пускает в WoW
 
 Found domains:
 blz-contentstack.com
@@ -7307,6 +7691,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12652
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12652
+Title: [Проблема] С новым обновлением запрета не запускает в лобби и в матчи в дбд
 
 Found domains:
 winws.exe
@@ -7319,6 +7704,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12695
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12695
+Title: [Проблема] Twitch не воркает
 
 Found domains:
 twitch.tv
@@ -7329,6 +7715,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #12708
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12708
+Title: Отвал Twitch.tv РФ 30.04.2026
 
 Found domains:
 twitch.tv
@@ -7347,6 +7734,7 @@ twitch-check.rte.net.ru
 ## Flowseal/zapret-discord-youtube #12715
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12715
+Title: [Попытка фикса] Чиним игры!
 
 Found domains:
 dbankcloud.ru
@@ -7357,6 +7745,7 @@ drive.google.com
 ## Flowseal/zapret-discord-youtube #12736
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12736
+Title: Настройка после смены провайдера
 
 Found domains:
 winws.exe
@@ -7364,6 +7753,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12738
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12738
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7418,6 +7808,7 @@ akamaitechnologies.com
 ## Flowseal/zapret-discord-youtube #12764
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12764
+Title: [Проблема]  Апекс + Дискорд
 
 Found domains:
 winws.exe
@@ -7429,6 +7820,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12784
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12784
+Title: [Проблема] Появляется "синий экран" с ошибкой в файле "tcpyp.sys"
 
 Found domains:
 tcpyp.sys
@@ -7438,6 +7830,7 @@ tcpip.sys
 ## Flowseal/zapret-discord-youtube #12800
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12800
+Title: [Проблема] Не заходит в HELLDIVERS 2
 
 Found domains:
 winws.exe
@@ -7445,6 +7838,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12850
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12850
+Title: Почему CheckPoint влияет на работу zapret?
 
 Found domains:
 winws.exe
@@ -7452,6 +7846,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12875
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12875
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7476,6 +7871,7 @@ workers.dev
 ## Flowseal/zapret-discord-youtube #12880
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12880
+Title: [Проблема] После  перехода на новейшуюю версию (1.9.8) перестало заходить на зарубежные сервера
 
 Found domains:
 winws.exe
@@ -7486,6 +7882,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12885
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12885
+Title: [Проблема] Майнкрафт не подключается к интернету никак.
 
 Found domains:
 winws.exe
@@ -7786,6 +8183,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #12897
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12897
+Title: [Проблема] FACEIT
 
 Found domains:
 winws.exe
@@ -7793,6 +8191,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13014
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13014
+Title: [ЗАЕ*АЛО] в очередной раз не пускает в дбд после обновы запрета...
 
 Found domains:
 winws.exe
@@ -7804,6 +8203,7 @@ www.svoboda.org
 ## Flowseal/zapret-discord-youtube #13031
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13031
+Title: [Проблема] Заблокировали скачивание с GitHub
 
 Found domains:
 githubassets.com
@@ -7815,6 +8215,7 @@ cheburcheck.ru
 ## Flowseal/zapret-discord-youtube #13038
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13038
+Title: Не могу поиграть в игры с EasyAntiCheat, помогите пожалуйста
 
 Found domains:
 winws.exe
@@ -7823,6 +8224,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13060
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13060
+Title: [Проблема] интернет отключается
 
 Found domains:
 winws.exe
@@ -7830,6 +8232,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13085
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13085
+Title: [Problem]
 
 Found domains:
 winws.exe
@@ -7837,6 +8240,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13174
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13174
+Title: [Проблема]  А как в арех собственно играть?
 
 Found domains:
 respawn.com
@@ -7850,6 +8254,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13233
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13233
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7862,6 +8267,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13284
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13284
+Title: [Проблема]
 
 Found domains:
 hyp6b9b.tmp
@@ -7870,6 +8276,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13286
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13286
+Title: [Проблема] VAL-43 ERROR
 
 Found domains:
 winws.exe
@@ -7879,6 +8286,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13297
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13297
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -7889,6 +8297,7 @@ deploy.static.akamaitechnologies.com
 ## Flowseal/zapret-discord-youtube #13298
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13298
+Title: [Проблема] В играх где нет выбора датацентра/региона закидывает на сервера других стран(высокий пинг)
 
 Found domains:
 private-user-images.githubusercontent.com
@@ -7896,6 +8305,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13305
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13305
+Title: Невозможное соединение в играх после 22:00 по МСК
 
 Found domains:
 winws.exe
@@ -7904,6 +8314,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13314
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13314
+Title: [Проблема] Не могу зайти на хостинг серверов
 
 Found domains:
 winws.exe
@@ -7911,6 +8322,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13319
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13319
+Title: [Проблема] не работают сервисы майкрософт
 
 Found domains:
 winws.exe
@@ -7924,6 +8336,7 @@ profile.xboxlive.com
 ## Flowseal/zapret-discord-youtube #13336
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13336
+Title: Накидайте репортов
 
 Found domains:
 winws.exe
@@ -7934,6 +8347,7 @@ www.virustotal.com
 ## Flowseal/zapret-discord-youtube #13343
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13343
+Title: [Проблема] не работает саундклауд
 
 Found domains:
 winws.exe
@@ -7947,6 +8361,7 @@ sndcdn.com
 ## Flowseal/zapret-discord-youtube #13364
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13364
+Title: Апекс работает МАЙ 2026
 
 Found domains:
 winws.exe
@@ -7959,6 +8374,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13415
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13415
+Title: [Проблема] Доступ к серверам Squad
 
 Found domains:
 winws.exe
@@ -7966,6 +8382,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13418
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13418
+Title: [Проблема] подключение к онлайн серверам Phasmophobia не работает
 
 Found domains:
 winws.exe
@@ -7973,6 +8390,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13424
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13424
+Title: [Проблема] На ютубе появилась реклама
 
 Found domains:
 winws.exe
@@ -7980,6 +8398,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13448
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13448
+Title: [Проблема] пинг в дискорде 5000
 
 Found domains:
 winws.exe
@@ -7993,6 +8412,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13454
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13454
+Title: [Проблема] C GTA V ONLINE
 
 Found domains:
 winws.exe
@@ -8005,6 +8425,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13483
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13483
+Title: мб не по теме
 
 Found domains:
 winws.exe
@@ -8012,6 +8433,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13485
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13485
+Title: мб не по теме
 
 Found domains:
 winws.exe
@@ -8019,6 +8441,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13509
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13509
+Title: Проблема Ростелеком Дальний Восток
 
 Found domains:
 winws.exe
@@ -8026,6 +8449,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13537
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13537
+Title: Помогите найти откуда этот билд запрета
 
 Found domains:
 winws.exe
@@ -8033,6 +8457,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13543
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13543
+Title: [Проблема] Не работают сервисы Microsoft, Xbox и игры на их основе
 
 Found domains:
 winws.exe
@@ -8052,6 +8477,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13550
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13550
+Title: а
 
 Found domains:
 encryptedsni.com
@@ -8092,6 +8518,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13589
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13589
+Title: [Проблема] Ничего не работает
 
 Found domains:
 winws.exe
@@ -8099,6 +8526,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13604
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13604
+Title: [Проблема] Видео недоступно Этот контент недоступен. Повторите попытку позже.
 
 Found domains:
 winws.exe
@@ -8107,6 +8535,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13612
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13612
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8114,6 +8543,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13641
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13641
+Title: [Проблема] Отвал Google DNS и некоторых сайтов
 
 Found domains:
 vorapis.pages.dev
@@ -8125,6 +8555,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13659
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13659
+Title: Как проверять работоспособность игр с запретом?
 
 Found domains:
 winws.exe
@@ -8133,6 +8564,7 @@ learn.microsoft.com
 ## Flowseal/zapret-discord-youtube #13669
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13669
+Title: [Проблема] доступ к серверам юбисофт
 
 Found domains:
 winws.exe
@@ -8142,6 +8574,7 @@ uplay-shop.akamaized.net
 ## Flowseal/zapret-discord-youtube #13702
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13702
+Title: [Проблема] Не по запрету, ну отчасти относится к нему, вот такая проблема
 
 Found domains:
 winws.exe
@@ -8149,6 +8582,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13743
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13743
+Title: Стим не работает!
 
 Found domains:
 winws.exe
@@ -8156,6 +8590,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13763
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13763
+Title: [Проблема] Игры не работают при использовании zapret-discord-youtube на провайдере МТС
 
 Found domains:
 winws.exe
@@ -8163,6 +8598,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13808
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13808
+Title: [Проблема] Ошибка 279 с Zapret
 
 Found domains:
 winws.exe
@@ -8170,6 +8606,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13814
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13814
+Title: [РЕШЕНИЕ(?)] Deep Core Galactic: Rogue Core. Как Подключиться к другу при включеном запрете
 
 Found domains:
 winws.exe
@@ -8193,6 +8630,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13819
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13819
+Title: [Проблема] Работает только браузер
 
 Found domains:
 winws.exe
@@ -8200,6 +8638,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13841
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13841
+Title: **Лично мне помог этот способ.  Использую  BLOXTRAP.**
 
 Found domains:
 stun.l.google.com
@@ -8232,6 +8671,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13851
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13851
+Title: [Проблема] Ошибка во время Performing TLS Handshake
 
 Found domains:
 dns.google
@@ -8240,6 +8680,7 @@ gist.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #13988
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13988
+Title: [Проблема] Не отправляются фото в дс
 
 Found domains:
 winws.exe
@@ -8247,6 +8688,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13989
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13989
+Title: [Проблема] Перестал открываться сайт маркет кс
 
 Found domains:
 winws.exe
@@ -8254,6 +8696,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #13991
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13991
+Title: [Проблема]  Плохо работает
 
 Found domains:
 winws.exe
@@ -8261,6 +8704,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14007
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14007
+Title: [Проблема]  Перестал работать тарков
 
 Found domains:
 winws.exe
@@ -8268,6 +8712,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14026
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14026
+Title: [Проблема] Перестал работать R6:Siege (Сидж)
 
 Found domains:
 ubi.li
@@ -8318,6 +8763,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14045
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14045
+Title: [Проблема] Не работает modrinth, lunar client, prism launcher.
 
 Found domains:
 lunarclient.com
@@ -8389,6 +8835,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14047
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14047
+Title: [Проблема] Бесконечные фризы в любых играх
 
 Found domains:
 winws.exe
@@ -8396,6 +8843,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14068
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14068
+Title: [Проблема] Не грузит ютуб дальше одной минуты
 
 Found domains:
 winws.exe
@@ -8404,6 +8852,7 @@ www.youtube.com
 ## Flowseal/zapret-discord-youtube #14076
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14076
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8414,6 +8863,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14093
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14093
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8422,6 +8872,7 @@ www.google.com
 ## Flowseal/zapret-discord-youtube #14113
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14113
+Title: [Проблема] Не работают онлайн сервера в Trackmania2020
 
 Found domains:
 winws.exe
@@ -8429,6 +8880,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14139
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14139
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8444,6 +8896,7 @@ docs.googleusercontent.com
 ## Flowseal/zapret-discord-youtube #14143
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14143
+Title: 1
 
 Found domains:
 winws.exe
@@ -8462,6 +8915,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14177
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14177
+Title: БЕСПЛАТНАЯ СТРАТЕГИЯ NO FAKE 100%: "OBAMIUM 2026", ДЛЯ ТЕХ У КОГО НЕ РАБОТАЕТ ЮТУБ
 
 Found domains:
 winws.exe
@@ -8477,6 +8931,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14209
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14209
+Title: [Проблема]  Орион Телеком — не работает вечером с 17 до 22
 
 Found domains:
 winws.exe
@@ -8496,6 +8951,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14267
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14267
+Title: [Проблема] Часть сайтов перестают открываться при использовании Zapret совместно с AdGuard и любым блокировщиком рекламы
 
 Found domains:
 vkvideo.ru
@@ -8505,6 +8961,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14269
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14269
+Title: [Проблема] Отвалился онлайн почти во всех онлайн играх
 
 Found domains:
 winws.exe
@@ -8512,6 +8969,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14276
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14276
+Title: [Проблема] RB does not work
 
 Found domains:
 winws.exe
@@ -8519,6 +8977,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14312
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14312
+Title: Дискорд 5к пинг
 
 Found domains:
 winws.exe
@@ -8526,6 +8985,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14345
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14345
+Title: ....
 
 Found domains:
 winws.exe
@@ -8533,6 +8993,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14364
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14364
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8540,6 +9001,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14386
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14386
+Title: [Проблема] Все работает кроме winws.exe
 
 Found domains:
 winws.exe
@@ -8550,6 +9012,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14472
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14472
+Title: [Проблема] Не открывается дискорд и стим
 
 Found domains:
 winws.exe
@@ -8557,6 +9020,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14526
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14526
+Title: [Проблема] не работает bagel в neverness to everness
 
 Found domains:
 winws.exe
@@ -8586,6 +9050,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14583
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14583
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8610,6 +9075,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14625
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14625
+Title: Отвалилось Ethernet подключение
 
 Found domains:
 winws.exe
@@ -8637,6 +9103,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14631
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14631
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8644,6 +9111,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14648
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14648
+Title: [Проблема] Не работает майнкрафт точнее вход, майкрософт стор, perplexety и xbox
 
 Found domains:
 default.pdf
@@ -8653,6 +9121,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14689
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14689
+Title: [FIX] Голосового чата в Arc Raiders + FIX Запуска EA App + ChatGPT
 
 Found domains:
 ozon.ru
@@ -8671,6 +9140,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14710
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14710
+Title: [Проблема] Ужасно работает стим, не запускается дискорд, но выход в интернет есть.
 
 Found domains:
 winws.exe
@@ -8682,6 +9152,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14713
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14713
+Title: [Проблема] доступ к онлайн играм.
 
 Found domains:
 winws.exe
@@ -8689,6 +9160,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14730
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14730
+Title: [Проблема] Перестали открываться нейросети (Gemini, ChatGPT) и соцсети, хотя Ютуб и Дискорд работают
 
 Found domains:
 winws.exe
@@ -8698,6 +9170,7 @@ shustree.ru
 ## Flowseal/zapret-discord-youtube #14752
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14752
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8705,6 +9178,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14755
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14755
+Title: не работает скинченджер overplus
 
 Found domains:
 winws.exe
@@ -8713,6 +9187,7 @@ overwolf.com
 ## Flowseal/zapret-discord-youtube #14777
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14777
+Title: [Проблема]  не зрузит modrinth.com
 
 Found domains:
 modrinth.com
@@ -8787,6 +9262,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14785
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14785
+Title: При заходе в любой плейс выдаётся ошибка 279 (ИНОГДА её нету и в плейс спокойно заходит.). Пытался найти решение в интернете ничего не смог найти cтоющего.
 
 Found domains:
 winws.exe
@@ -8795,6 +9271,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #14818
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14818
+Title: [Проблема] Не работают сервисы Microsoft с включенным zapret
 
 Found domains:
 winws.exe
@@ -8802,6 +9279,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14839
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14839
+Title: [Проблема] Проблема с доступом к dreamerscast.com
 
 Found domains:
 dreamerscast.com
@@ -8819,6 +9297,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14843
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14843
+Title: Что делать если не работает форт с запретом и снова ошибка 5?
 
 Found domains:
 winws.exe
@@ -8826,6 +9305,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14849
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14849
+Title: Brawlhalla: разрыв соединения с матчем через 10–30 секунд
 
 Found domains:
 winws.exe
@@ -8833,6 +9313,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14866
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14866
+Title: Zapret discord youtube
 
 Found domains:
 winws.exe
@@ -8840,6 +9321,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #14953
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14953
+Title: [Помогите] Помочь сообществу игры Ravenswatch
 
 Found domains:
 epic.games
@@ -8859,6 +9341,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #14976
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/14976
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8870,6 +9353,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #15017
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15017
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -8878,6 +9362,7 @@ recaptcha.net
 ## Flowseal/zapret-discord-youtube #15093
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15093
+Title: [Проблема] Не загружаются файлы на google drive
 
 Found domains:
 winws.exe
@@ -8886,6 +9371,7 @@ drive.google.com
 ## Flowseal/zapret-discord-youtube #15171
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15171
+Title: [Проблема] Не работает ютуб
 
 Found domains:
 dns.google
@@ -8908,6 +9394,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #15182
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15182
+Title: [Проблема] у меня не работают игры в которых при запуске в стиме открываются отдельные лаунчеры
 
 Found domains:
 winws.exe
@@ -8917,6 +9404,7 @@ uplay-shop.akamaized.net
 ## Flowseal/zapret-discord-youtube #15249
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15249
+Title: [Проблема] начали лагать и фризить игры с включенным запретом.
 
 Found domains:
 winws.exe
@@ -8924,6 +9412,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15259
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15259
+Title: [Проблема] twich не грузит стримы
 
 Found domains:
 winws.exe
@@ -8934,6 +9423,7 @@ twitch.tv
 ## Flowseal/zapret-discord-youtube #15266
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15266
+Title: [Проблема] Проблемы после обновления hosts
 
 Found domains:
 winws.exe
@@ -8941,6 +9431,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15282
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15282
+Title: [Проблема] Отвалился
 
 Found domains:
 winws.exe
@@ -8948,6 +9439,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15283
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15283
+Title: [Проблема] ‼️‼️ У ВСЕХ ОТВАЛИЛСЯ ДИСКОРД, ПОЖАЛУЙСТА ДОЖДИТЕСЬ АПДЕЙТА, А НЕ СПАМЬТЕ ВОПРОСАМИ ЧТО ДЕЛАТЬ ‼️‼️
 
 Found domains:
 zapret-discord-youtube-1.9.9c.rar
@@ -8957,6 +9449,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #15338
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15338
+Title: [Проблема] иногда запрет убивает весь интернет в доме. А так же блокирует вход во многие игры.
 
 Found domains:
 winws.exe
@@ -8965,6 +9458,7 @@ discordfix.exe
 ## Flowseal/zapret-discord-youtube #15356
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15356
+Title: [Проблема] Ошибка соединения 3001 в Warhammer 40000: Darktide
 
 Found domains:
 winws.exe
@@ -8972,6 +9466,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15370
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15370
+Title: [Проблема] С запретом у меня в принципе что то не так, но что именно я не понимаю так как эти настройки у меня довольно долгое время
 
 Found domains:
 winws.exe
@@ -8979,6 +9474,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15380
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15380
+Title: [Проблема]  запрет умер
 
 Found domains:
 winws.exe
@@ -8986,6 +9482,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15388
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15388
+Title: Здарова всем
 
 Found domains:
 winws.exe
@@ -8994,6 +9491,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #15433
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15433
+Title: [Проблема] Замените quic_initial_dbankcloud на что-то другое
 
 Found domains:
 winws.exe
@@ -9003,6 +9501,7 @@ mail.ru
 ## Flowseal/zapret-discord-youtube #15469
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15469
+Title: [Проблема] Перестал работать фортнайт после обновления 25.06
 
 Found domains:
 winws.exe
@@ -9010,6 +9509,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15485
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15485
+Title: YouTube откис на любых конфигах
 
 Found domains:
 winws.exe
@@ -9025,6 +9525,7 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #15589
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15589
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9032,6 +9533,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15604
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15604
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9039,6 +9541,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15606
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15606
+Title: [Проблема] отвалился web telegram
 
 Found domains:
 web.telegram.org
@@ -9047,6 +9550,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15608
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15608
+Title: [Проблема] Zapret закрывается а потом не запускается
 
 Found domains:
 winws.exe
@@ -9055,6 +9559,7 @@ services.msc
 ## Flowseal/zapret-discord-youtube #15647
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15647
+Title: [Проблема] зависает запрет
 
 Found domains:
 winws.exe
@@ -9063,6 +9568,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15656
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15656
+Title: вопрос
 
 Found domains:
 winws.exe
@@ -9070,6 +9576,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15671
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15671
+Title: Update Epic Online Services Помогите решить
 
 Found domains:
 winws.exe
@@ -9077,6 +9584,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15679
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15679
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9084,6 +9592,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15710
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15710
+Title: [Проблема] Zapret перестал работать
 
 Found domains:
 winws.exe
@@ -9091,6 +9600,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15734
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15734
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9098,6 +9608,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15765
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15765
+Title: [РЕШЕНО] EA APP + DISCORD + YOUTUBE, FIX GENERAL ALT
 
 Found domains:
 winws.exe
@@ -9106,6 +9617,7 @@ general.alt
 ## Flowseal/zapret-discord-youtube #15775
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15775
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9113,6 +9625,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15793
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15793
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9120,6 +9633,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15804
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15804
+Title: [Проблема] Не могу залогиниться на аккаунт SoundCloud
 
 Found domains:
 help.soundcloud.com
@@ -9128,6 +9642,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #15821
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15821
+Title: [ФИКС] фикс на дбд после баг фикса от бхвр
 
 Found domains:
 cloudfront.net
@@ -9165,6 +9680,60 @@ account.bhvr.com
 Found IP/CIDR:
 1.1.1.1
 1.0.0.1
+
+## Flowseal/zapret-discord-youtube #15890
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15890
+Title: [Проблема]  Не работает marvel rivals
+
+Found domains:
+163.com
+easebar.com
+netease.com
+winws.exe
+ns1.easebar.com
+ns3.easebar.com
+ns2.easebar.com
+probe.easebar.com
+
+Found IP/CIDR:
+172.18.0.1
+223.5.5.5
+77.88.8.8
+
+## Flowseal/zapret-discord-youtube #15903
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15903
+Title: [Проблема] Zapret
+
+Found domains:
+winws.exe
+rbxtrk.com
+cdn.arkoselabs.com
+
+## Flowseal/zapret-discord-youtube #15928
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15928
+Title: [Проблема] Не заходит после логина в несколько игр
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15950
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15950
+Title: FC 26 не заходит с запретом!
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #15976
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15976
+Title: [Проблема] заметно замедлилась загрузка сайтов и т.п
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

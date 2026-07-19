@@ -392,3 +392,9 @@ fakemultisplit.lua
 fakemultidisorder.lua
 
 cloudfront.net
+
+fortnitelauncher.exe
+fortniteclient-win64-shipping.exe
+crashreportclient.exe
+epiconlineservicesuserhelper.exe
+epicwebhelper.exe
