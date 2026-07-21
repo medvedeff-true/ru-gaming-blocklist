@@ -1864,7 +1864,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5051
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5051
-Title: Проблема под Windows 7
 
 Found domains:
 services.msc
@@ -5959,7 +5958,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10263
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10263
-Title: [Проблема] Работал только 1 раз, и перестал работать
 
 Found domains:
 winws.exe
@@ -7753,7 +7751,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #12738
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/12738
-Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -9731,6 +9728,22 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15976
 Title: [Проблема] заметно замедлилась загрузка сайтов и т.п
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16030
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16030
+Title: [Проблема] 5 к пинга
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16040
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16040
+Title: [Проблема] Внезапный рост пинга и ошибки в приложениях/сайтах + Discord после 19.07.2026
 
 Found domains:
 winws.exe
