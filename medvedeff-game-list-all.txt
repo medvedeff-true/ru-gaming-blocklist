@@ -19383,3 +19383,7 @@ epiconlineservicesuserhelper.exe
 epicwebhelper.exe
 probe.easebar.com
 support.kaspersky.ru
+
+rust.exe
+rustclient.exe
+easyanticheat.exe

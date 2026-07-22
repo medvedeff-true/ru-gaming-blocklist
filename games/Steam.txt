@@ -871,3 +871,7 @@ akamai.steamstatic.com
 downdetector.com
 probe.easebar.com
 support.kaspersky.ru
+
+rust.exe
+rustclient.exe
+easyanticheat.exe
