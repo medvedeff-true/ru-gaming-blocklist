@@ -2725,7 +2725,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6785
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6785
-Title: [Проблема] в игре SOULMASK Не могу подключиться к серверам от G-Portal
 
 Found domains:
 services.msc
@@ -9739,6 +9738,7 @@ Title: [Проблема] 5 к пинга
 
 Found domains:
 winws.exe
+stun.bin
 
 ## Flowseal/zapret-discord-youtube #16040
 
@@ -9746,6 +9746,36 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16040
 Title: [Проблема] Внезапный рост пинга и ошибки в приложениях/сайтах + Discord после 19.07.2026
 
 Found domains:
+winws.exe
+telegra.ph
+
+## Flowseal/zapret-discord-youtube #16044
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16044
+Title: [Проблема] rust закрывает запретку
+
+Found domains:
+winws.exe
+rust.facepunch.com
+
+## Flowseal/zapret-discord-youtube #16112
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16112
+Title: EAC убивает Zapret
+
+Found domains:
+winws.exe
+rust.exe
+
+## Flowseal/zapret-discord-youtube #16123
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16123
+Title: [Проблема] 5к пинга или отвал discord полностью (RUST)
+
+Found domains:
+windivert64.sys
+windivert.dll
+telegra.ph
 winws.exe
 
 ## remittor/zapret-openwrt #241
