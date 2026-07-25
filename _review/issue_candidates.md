@@ -9777,6 +9777,47 @@ windivert64.sys
 windivert.dll
 telegra.ph
 winws.exe
+monki.dll
+
+## Flowseal/zapret-discord-youtube #16165
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16165
+Title: [Проблема] Лагает ПК после ~3-х часов пользования запретом.
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16166
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16166
+Title: [Проблема] закрытие запрета после проверки easy anti cheat
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16170
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16170
+Title: WinDivert is STOP_PENDING, that may be caused by a conflict with another bypass. Run Diagnostics to try to fix conflicts
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16190
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16190
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16192
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16192
+Title: [Проблема] Дискорд запускается, но бесконечное подключение rtc
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
