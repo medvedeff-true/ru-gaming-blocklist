@@ -9819,6 +9819,59 @@ Title: [Проблема] Дискорд запускается, но беско
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #16215
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16215
+Title: Bypass isnt runnig
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16220
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16220
+Title: [Проблема] Riot
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16228
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16228
+Title: [Проблема]  Не работает Апекс
+
+Found domains:
+winws.exe
+respawn.com
+stryder.respawn.com
+matchmaking.respawn.com
+titanfall.com
+private-user-images.githubusercontent.com
+
+Found IP/CIDR:
+1.1.1.1
+8.8.8.8
+
+## Flowseal/zapret-discord-youtube #16263
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16263
+Title: [Проблема]Не запускается Ютуб
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16266
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16266
+Title: [Проблема] Не работает запрет вообще впринцепе
+
+Found domains:
+winws.exe
+
+Found IP/CIDR:
+8.8.4.4
+8.8.8.8
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
