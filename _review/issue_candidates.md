@@ -2035,7 +2035,6 @@ essential.gg
 ## Flowseal/zapret-discord-youtube #5516
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5516
-Title: [Проблема] Выкидывает из онлайн игр и сервисов
 
 Found domains:
 services.msc
@@ -9871,6 +9870,77 @@ winws.exe
 Found IP/CIDR:
 8.8.4.4
 8.8.8.8
+
+## Flowseal/zapret-discord-youtube #16284
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16284
+Title: [Проблема] Ютуб работает плохо
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16308
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16308
+Title: Запрет сам по себе выключается и не работает
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16309
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16309
+Title: [Проблема] Flowseal найди обход для EasyAntiCheat чтобы в раст можно было нормально играть
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16314
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16314
+Title: [Проблема]
+
+Found domains:
+winws.exe
+easy.ac
+fab.com
+quixel.se
+quixel.com
+eac-cdn.com
+paragon.com
+spyjinx.com
+3lateral.com
+hyprsense.com
+sketchfab.com
+artstation.com
+roborecall.com
+twinmotion.com
+cubicmotion.com
+playparagon.com
+realityscan.com
+radgametools.com
+easyanticheat.net
+shadowcomplex.com
+battlebreakers.com
+capturingreality.com
+unrealtournament.com
+
+## Flowseal/zapret-discord-youtube #16323
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16323
+Title: [Проблема]
+
+Found domains:
+winws.exe
+ibb.co
+
+## Flowseal/zapret-discord-youtube #16324
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16324
+Title: [Проблема] Не запускатеся ни один батник
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
