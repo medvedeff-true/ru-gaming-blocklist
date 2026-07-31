@@ -2017,7 +2017,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5428
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5428
-Title: [Проблема] Потеря соединения со стим
 
 Found domains:
 akamaihd.net
@@ -5982,7 +5981,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10332
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10332
-Title: [Проблема] HTTP
 
 Found domains:
 winws.exe
@@ -9938,6 +9936,30 @@ ibb.co
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16324
 Title: [Проблема] Не запускатеся ни один батник
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16334
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16334
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16348
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16348
+Title: [Проблема] при запуске сразу закрывается запрет
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16384
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16384
+Title: [Проблема]
 
 Found domains:
 winws.exe
