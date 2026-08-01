@@ -2049,7 +2049,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5566
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5566
-Title: [Проблема] Без включенного  VPN не работает ничего, кроме telegram
 
 Found domains:
 services.msc
@@ -9963,6 +9962,20 @@ Title: [Проблема]
 
 Found domains:
 winws.exe
+
+## Flowseal/zapret-discord-youtube #16386
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16386
+Title: [Проблема] 5к пинга в дискорде
+
+Found domains:
+winws.exe
+stun.bin
+discord.media
+private-user-images.githubusercontent.com
+
+Found IP/CIDR:
+::
 
 ## remittor/zapret-openwrt #241
 
