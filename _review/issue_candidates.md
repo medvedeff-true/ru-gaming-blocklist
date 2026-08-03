@@ -602,6 +602,7 @@ habr.com
 teletype.in
 cybersecuritynews.com
 zapret.org
+setup-btbvwluqixypayrj.exe
 
 ## Flowseal/zapret-discord-youtube #1136
 
@@ -3142,6 +3143,15 @@ Found IP/CIDR:
 1.1.1.1
 1.0.0.1
 ::
+
+## Flowseal/zapret-discord-youtube #7224
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7224
+Title: [Проблема] Zapret не дает работать играм на EASY ANTI CHEAT
+
+Found domains:
+services.msc
+windivert64.sys
 
 ## Flowseal/zapret-discord-youtube #7225
 
@@ -9976,6 +9986,30 @@ private-user-images.githubusercontent.com
 
 Found IP/CIDR:
 ::
+
+## Flowseal/zapret-discord-youtube #16427
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16427
+Title: fllowseal будет связываться с разработчиками easy anticheat?
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16442
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16442
+Title: [Проблема] Zapret моментально закрывается после открытия (именно winws, не cmd)
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16452
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16452
+Title: [Проблема] Запрет не работает при входе в дбд
+
+Found domains:
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

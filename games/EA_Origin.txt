@@ -205,3 +205,5 @@ soundcloud.com
 api-v2.soundcloud.com
 secure.soundcloud.com
 api-auth.soundcloud.com
+
+help.ea.com
