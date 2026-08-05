@@ -2077,7 +2077,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5627
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5627
-Title: [Проблема] Blue Protocol cannot reach server
 
 Found domains:
 services.msc
@@ -6966,6 +6965,7 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #11961
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11961
+Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -10010,6 +10010,27 @@ Title: [Проблема] Запрет не работает при входе �
 
 Found domains:
 winws.exe
+
+## Flowseal/zapret-discord-youtube #16460
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16460
+Title: [Проблема] пинг 5к
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16496
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16496
+Title: [Проблема] Перестал работать обход 04.08.26
+
+Found domains:
+winws.exe
+support.kaspersky.ru
+windivert64.sys
+windivert.dll
+pinterest.bin
+private-user-images.githubusercontent.com
 
 ## remittor/zapret-openwrt #241
 
