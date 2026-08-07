@@ -279,3 +279,7 @@ blaze.ea.com
 stryder.respawn.com
 matchmaking.respawn.com
 titanfall.com
+
+4.tcp
+5.any
+6.disabled

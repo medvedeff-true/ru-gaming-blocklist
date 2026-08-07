@@ -2069,7 +2069,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5623
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5623
-Title: [Проблема]  Проподает интернет
 
 Found domains:
 services.msc
@@ -6244,6 +6243,7 @@ Found IP/CIDR:
 104.26.11.121
 192.0.78.24
 52.204.60.125
+111.88.96.50
 
 ## Flowseal/zapret-discord-youtube #10931
 
@@ -10032,6 +10032,30 @@ windivert.dll
 pinterest.bin
 private-user-images.githubusercontent.com
 
+## Flowseal/zapret-discord-youtube #16515
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16515
+Title: [Проблема] Запрет то ли работает то ли нет, хотя я бы назвал это котом Шрёдингера
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16543
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16543
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16565
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16565
+Title: [Проблема]
+
+Found domains:
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
@@ -12156,7 +12180,6 @@ www.virustotal.com
 ## youtubediscord/zapret #253
 
 Source: https://github.com/youtubediscord/zapret/issues/253
-Title: Linux
 
 Found domains:
 blockcheck2.sh
@@ -12169,7 +12192,6 @@ nfqws2.log
 ## youtubediscord/zapret #323
 
 Source: https://github.com/youtubediscord/zapret/issues/323
-Title: Здесь Вы можете скидывать свои пресеты
 
 Found domains:
 zapret-lib.lua
@@ -12232,7 +12254,6 @@ Found IP/CIDR:
 ## youtubediscord/zapret #712
 
 Source: https://github.com/youtubediscord/zapret/issues/712
-Title: [Hostlist/IPset]:
 
 Found domains:
 brawlhalla.com
@@ -12242,7 +12263,6 @@ api.brawlhalla.com
 ## youtubediscord/zapret #722
 
 Source: https://github.com/youtubediscord/zapret/issues/722
-Title: [Не работает]:
 
 Found IP/CIDR:
 21.1.1.2
