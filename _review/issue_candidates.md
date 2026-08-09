@@ -10056,6 +10056,14 @@ Title: [Проблема]
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #16612
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16612
+Title: [Проблема] Дискорд и фортнайт
+
+Found domains:
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
