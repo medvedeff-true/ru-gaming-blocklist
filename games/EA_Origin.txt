@@ -207,3 +207,5 @@ secure.soundcloud.com
 api-auth.soundcloud.com
 
 help.ea.com
+
+addons.mozilla.org

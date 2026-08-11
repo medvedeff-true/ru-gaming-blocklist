@@ -407,3 +407,6 @@ steampowered.com
 
 live.patcher.ubisoft.com
 msr-public-ubiservices.ubi.com
+
+page.php
+www.comss.ru

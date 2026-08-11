@@ -10064,6 +10064,21 @@ Title: [Проблема] Дискорд и фортнайт
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #16670
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16670
+Title: [Решение] Простой инструмент чтобы брать все хосты к которым обращается сайт
+
+Found domains:
+har.py
+www.speedtest.net.har
+winws.exe
+www.python.org
+1.har
+addons.mozilla.org
+chromewebstore.google.com
+private-user-images.githubusercontent.com
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
