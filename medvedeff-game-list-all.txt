@@ -19393,3 +19393,6 @@ help.ea.com
 4.tcp
 5.any
 6.disabled
+
+meta.multimc.org
+fabric.net

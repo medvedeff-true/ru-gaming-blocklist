@@ -257,3 +257,11 @@ yandex.ru
 
 gtm.network
 eu.gtm.network
+
+gist.github.com
+meta.multimc.org
+fabric.net
+
+1.0.0.1
+8.8.4.4
+8.8.8.8
