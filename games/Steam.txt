@@ -875,3 +875,5 @@ support.kaspersky.ru
 rust.exe
 rustclient.exe
 easyanticheat.exe
+
+gist.github.com
