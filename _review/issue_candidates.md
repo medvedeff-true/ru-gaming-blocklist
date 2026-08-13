@@ -3455,7 +3455,6 @@ www.howtogeek.com
 ## Flowseal/zapret-discord-youtube #7638
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7638
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -10078,6 +10077,18 @@ www.python.org
 addons.mozilla.org
 chromewebstore.google.com
 private-user-images.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #16711
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16711
+Title: [Проблема] Перестал работать запрет на любых батниках спустя 5 минут
+
+Found domains:
+gist.github.com
+winws.exe
+s.team
+akamaihd.net
+detector404.ru
 
 ## remittor/zapret-openwrt #241
 

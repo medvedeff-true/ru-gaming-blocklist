@@ -20,3 +20,5 @@ ns-us.photonengine.io
 ns-jp.photonengine.io
 
 photonengine.io
+
+doc.photonengine.com
