@@ -397,3 +397,5 @@ dns.qry.name
 forums.unrealengine.com
 
 fortnitelauncher.exe
+
+gist.github.com
