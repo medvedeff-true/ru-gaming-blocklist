@@ -3049,7 +3049,6 @@ twimg.com
 ## Flowseal/zapret-discord-youtube #7223
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7223
-Title: [Проблема] Discord Подключение к RTC
 
 Found domains:
 encryptedsni.com
@@ -10089,6 +10088,15 @@ winws.exe
 s.team
 akamaihd.net
 detector404.ru
+
+## Flowseal/zapret-discord-youtube #16724
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16724
+Title: Слетает стратегия при запуске игры
+
+Found domains:
+gist.github.com
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

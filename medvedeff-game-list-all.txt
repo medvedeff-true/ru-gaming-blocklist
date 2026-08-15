@@ -19398,3 +19398,11 @@ meta.multimc.org
 fabric.net
 
 doc.photonengine.com
+
+cmp.osano.com
+72f3dd6db0e3.w.hcaptcha.com
+1f80d796b67f.w.hcaptcha.com
+permissions.sgp.pvp.net
+player-lifecycle-euc.publishing.riotgames.com
+eas-prod.pp.sgp.pvp.net
+osano.com

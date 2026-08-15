@@ -400,3 +400,19 @@ epiconlineservicesuserhelper.exe
 epicwebhelper.exe
 
 gist.github.com
+
+accounts.youtube.com
+fonts.gstatic.com
+lh3.googleusercontent.com
+cmp.osano.com
+hcaptcha.com
+featureassets.org
+prodregistryv2.org
+api.hcaptcha.com
+72f3dd6db0e3.w.hcaptcha.com
+1f80d796b67f.w.hcaptcha.com
+permissions.sgp.pvp.net
+player-lifecycle-euc.publishing.riotgames.com
+eas-prod.pp.sgp.pvp.net
+googleusercontent.com
+osano.com
