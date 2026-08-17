@@ -2256,7 +2256,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #5986
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5986
-Title: [Проблема] после установки 1.8.5 перестал работать Smite
 
 Found domains:
 services.msc
@@ -10093,6 +10092,15 @@ detector404.ru
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16724
 Title: Слетает стратегия при запуске игры
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16786
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16786
+Title: [Проблема] Стим не запускает игры с запретом
 
 Found domains:
 gist.github.com

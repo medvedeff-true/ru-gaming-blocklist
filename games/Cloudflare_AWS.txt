@@ -798,3 +798,7 @@ bisv.ru
 9.9.9.9
 
 hcaptcha.com
+
+ubistatic-a.akamaihd.net
+ubisoftconnect.com
+ubi.li
