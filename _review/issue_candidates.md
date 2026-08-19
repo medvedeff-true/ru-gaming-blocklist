@@ -10106,6 +10106,15 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #16793
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16793
+Title: [Проблема] не грузит стим  и его сайты
+
+Found domains:
+gist.github.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
