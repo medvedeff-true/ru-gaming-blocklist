@@ -19406,3 +19406,5 @@ permissions.sgp.pvp.net
 player-lifecycle-euc.publishing.riotgames.com
 eas-prod.pp.sgp.pvp.net
 osano.com
+
+forum.kasperskyclub.ru

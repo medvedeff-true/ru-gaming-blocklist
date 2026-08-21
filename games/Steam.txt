@@ -877,3 +877,5 @@ rustclient.exe
 easyanticheat.exe
 
 gist.github.com
+
+forum.kasperskyclub.ru

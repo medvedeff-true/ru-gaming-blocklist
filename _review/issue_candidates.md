@@ -1840,7 +1840,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #4992
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/4992
-Title: [Проблема] Не открывается Ютуб в браузерах [Update: Данная проблема решена]
 
 Found domains:
 services.msc
@@ -2783,7 +2782,6 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #7084
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7084
-Title: [Проблема] Высокий пинг в Space marine 2, провайдер МТС.
 
 Found domains:
 services.msc
@@ -10110,6 +10108,42 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16793
 Title: [Проблема] не грузит стим  и его сайты
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16889
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16889
+Title: [Проблема] пропало подключение к играм через запрет
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16900
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16900
+Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16904
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16904
+Title: Нашел потенциальную угрозу, накидайте репортов
+
+Found domains:
+winws.exe
+private-user-images.githubusercontent.com
+
+## Flowseal/zapret-discord-youtube #16911
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16911
+Title: [Проблема]
 
 Found domains:
 gist.github.com
