@@ -19408,3 +19408,5 @@ eas-prod.pp.sgp.pvp.net
 osano.com
 
 forum.kasperskyclub.ru
+
+kfengine.ini
