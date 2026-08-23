@@ -19410,3 +19410,6 @@ osano.com
 forum.kasperskyclub.ru
 
 kfengine.ini
+
+amdryzenmasterdriver.sys
+vgk.sys

@@ -416,3 +416,7 @@ player-lifecycle-euc.publishing.riotgames.com
 eas-prod.pp.sgp.pvp.net
 googleusercontent.com
 osano.com
+
+amdryzenmasterdriver.sys
+vgk.sys
+windivert64.sys

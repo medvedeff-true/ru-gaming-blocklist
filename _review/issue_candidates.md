@@ -2293,7 +2293,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #6068
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6068
-Title: [Проблема] GameGuard Error 340
 
 Found domains:
 services.msc
@@ -4458,7 +4457,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8857
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8857
-Title: [Проблема] В любом браузере скорость 0 бит в секунд
 
 Found domains:
 services.msc
@@ -9614,7 +9612,6 @@ general.alt
 ## Flowseal/zapret-discord-youtube #15775
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/15775
-Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -10144,6 +10141,51 @@ private-user-images.githubusercontent.com
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16911
 Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16948
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16948
+Title: [Проблема]Москва провайдер МГТС не работают игры из стим
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16953
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16953
+Title: [Проблема] сдыхает стим
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16957
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16957
+Title: Выключается запрет в играх апекс и фортнайт
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16962
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16962
+Title: [Проблема] Катку в кс не регает
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #16969
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16969
+Title: [Проблема] отваливается запрет по кд
 
 Found domains:
 gist.github.com
