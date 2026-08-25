@@ -10191,6 +10191,15 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #17008
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17008
+Title: [Проблема] оч медленно работает Стим
+
+Found domains:
+gist.github.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
