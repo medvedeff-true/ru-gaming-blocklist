@@ -2421,7 +2421,6 @@ doubleclick.net
 ## Flowseal/zapret-discord-youtube #6277
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6277
-Title: [Проблема] Отсутствует обновление Hoxxes Halloween 2025 в игре Deep Rock Galactic
 
 Found domains:
 services.msc
@@ -4560,7 +4559,6 @@ xbx.lv
 ## Flowseal/zapret-discord-youtube #9047
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9047
-Title: Не грузятся скриншоты мастерской стим
 
 Found domains:
 services.msc
@@ -10195,6 +10193,15 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17008
 Title: [Проблема] оч медленно работает Стим
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17057
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17057
+Title: [Проблема]
 
 Found domains:
 gist.github.com
