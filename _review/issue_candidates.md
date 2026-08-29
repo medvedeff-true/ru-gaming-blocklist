@@ -4574,7 +4574,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #9091
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9091
-Title: [Проблема] Частично не работает стим
 
 Found domains:
 services.msc
@@ -6226,6 +6225,7 @@ playfabapi.com
 12d56.playfabapi.com
 easyanticheat.net
 tripwireinteractive.com
+1.10.xx
 
 Found IP/CIDR:
 108.157.8.11
@@ -6235,6 +6235,30 @@ Found IP/CIDR:
 192.0.78.24
 52.204.60.125
 111.88.96.50
+3.136.0.0/16
+3.85.0.0/16
+3.148.0.0/16
+3.149.0.0/16
+3.150.0.0/16
+3.164.0.0/16
+3.238.0.0/16
+13.33.0.0/16
+13.49.0.0/16
+13.50.0.0/16
+18.219.0.0/16
+18.190.0.0/16
+20.60.0.0/16
+26.201.0.0/16
+52.14.0.0/16
+52.85.0.0/16
+54.85.0.0/16
+54.87.0.0/16
+54.209.0.0/16
+98.85.0.0/16
+135.130.0.0/16
+104.18.0.0/16
+108.157.0.0/16
+150.171.0.0/16
 
 ## Flowseal/zapret-discord-youtube #10931
 
@@ -10202,6 +10226,15 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17057
 Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17128
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17128
+Title: [Проблема] Долго открываются игры в стим с запретом
 
 Found domains:
 gist.github.com

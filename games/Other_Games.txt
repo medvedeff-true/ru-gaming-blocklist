@@ -8893,3 +8893,5 @@ ubisoft-orbit.akamaized.net
 upc-corp.com
 
 account.ubisoft.com
+
+gist.github.com
