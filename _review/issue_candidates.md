@@ -2603,7 +2603,6 @@ blitz.gg
 ## Flowseal/zapret-discord-youtube #6690
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6690
-Title: [Проблема]  Не работает войсчат в ARC Raiders, я не слышу и меня не слышат
 
 Found domains:
 services.msc
@@ -8845,9 +8844,11 @@ rewards.bing.com
 xgpuwebf2p.gssv-play-prod.xboxlive.com
 xgpuweb.gssv-play-prod.xboxlive.com
 private-user-images.githubusercontent.com
+xsts.auth.xboxlive.com.akadns.net
 
 Found IP/CIDR:
 77.239.114.0
+20.201.200.49
 
 ## Flowseal/zapret-discord-youtube #14047
 
@@ -10235,6 +10236,81 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17128
 Title: [Проблема] Долго открываются игры в стим с запретом
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17144
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17144
+Title: не работают многие игры и долго запускается стим [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17151
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17151
+Title: [Проблема] - Ростелеком решил убить Zapret полностью (по крайне мере у меня)
+
+Found domains:
+gist.github.com
+winws.exe
+objects.githubusercontent.com
+release-assets.githubusercontent.com
+private-user-images.githubusercontent.com
+gist.githubusercontent.com
+avatars.githubusercontent.com
+avatars0.githubusercontent.com
+avatars1.githubusercontent.com
+avatars2.githubusercontent.com
+avatars3.githubusercontent.com
+avatars4.githubusercontent.com
+avatars5.githubusercontent.com
+api.fastly.com
+
+Found IP/CIDR:
+146.75.22.132
+151.101.0.0/16
+146.75.0.0/17
+146.75.30.132
+146.75.78.132
+146.75.84.132
+146.75.63.132
+146.75.79.132
+146.75.23.132
+146.75.31.132
+146.75.97.132
+146.75.96.132
+151.101.2.132
+151.101.66.132
+151.101.130.132
+151.101.194.132
+151.101.0.132
+151.101.64.132
+151.101.128.132
+151.101.192.132
+151.101.1.69
+151.101.65.69
+151.101.129.69
+151.101.193.69
+9.9.9.9
+
+## Flowseal/zapret-discord-youtube #17160
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17160
+Title: Скачал вирус :(
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17173
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17173
+Title: [Проблема] РКН начал ломать стим
 
 Found domains:
 gist.github.com
