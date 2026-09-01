@@ -10316,6 +10316,28 @@ Found domains:
 gist.github.com
 winws.exe
 
+Found IP/CIDR:
+139.45.206.138
+139.45.206.170
+
+## Flowseal/zapret-discord-youtube #17187
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17187
+Title: [Проблема]  не работает запрет на инфолинке
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17200
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17200
+Title: Взломали соц сети
+
+Found domains:
+winws.exe
+dr.web
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
