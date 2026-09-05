@@ -10338,6 +10338,21 @@ Found domains:
 winws.exe
 dr.web
 
+## Flowseal/zapret-discord-youtube #17252
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17252
+Title: [Проблема] Очень очень долго и плохо грузит стим
+
+Found domains:
+gist.github.com
+queniuqe.com
+edgesuite.net
+underlords.com
+slingshot.co.nz
+playartifact.com
+gstore.val.manlaxy.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
