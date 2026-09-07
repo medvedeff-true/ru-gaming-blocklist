@@ -10223,6 +10223,15 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #17025
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17025
+Title: [Проблема] В секунду весь запрет перестал работать, все батники
+
+Found domains:
+gist.github.com
+winws.exe
+
 ## Flowseal/zapret-discord-youtube #17057
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17057
