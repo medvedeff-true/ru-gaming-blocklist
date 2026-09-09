@@ -1133,3 +1133,7 @@ zapert.zip
 104.17.174.5
 
 u.gg
+
+gist.github.com
+
+8.8.4.4
