@@ -2619,7 +2619,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #6715
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6715
-Title: [Проблема] Низкая скорость скачивания при включенном zapret
 
 Found domains:
 services.msc
@@ -10368,6 +10367,25 @@ underlords.com
 slingshot.co.nz
 playartifact.com
 gstore.val.manlaxy.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17357
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17357
+Title: [Проблема] Плохо грузится стим и игры из стима
+
+Found domains:
+gist.github.com
+winws.exe
+s.team
+
+## Flowseal/zapret-discord-youtube #17383
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17383
+Title: [Проблема] easy antecheat
+
+Found domains:
+gist.github.com
 winws.exe
 
 ## remittor/zapret-openwrt #241
