@@ -7577,6 +7577,8 @@ winws.exe
 Found IP/CIDR:
 192.168.1.1
 192.168.0.1
+8.8.8.8
+1.1.1.1
 
 ## Flowseal/zapret-discord-youtube #12221
 
@@ -10424,7 +10426,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #17621
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17621
-Title: [Проблема] Good stealer, i really want ur death , die fucking brat.
 
 Found domains:
 gist.github.com
