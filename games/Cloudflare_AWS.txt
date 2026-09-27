@@ -817,3 +817,5 @@ gamelift.sa-east-1.amazonaws.com
 developers.cloudflare.com
 
 ncpa.cpl
+
+prod-live-front.playbattlegrounds.com

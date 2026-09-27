@@ -10432,6 +10432,41 @@ gist.github.com
 winws.exe
 private-user-images.githubusercontent.com
 
+## Flowseal/zapret-discord-youtube #17716
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17716
+Title: [Проблема] не работает валорант с запретом
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17736
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17736
+Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+ibb.co
+
+## Flowseal/zapret-discord-youtube #17751
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17751
+Title: [Проблема] Не работает игры с запущены ZAPRET
+
+Found domains:
+gist.github.com
+winws.exe
+
+Found IP/CIDR:
+9.9.9.9
+8.8.8.4
+8.8.8.8
+1.1.1.0
+1.1.1.1
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
