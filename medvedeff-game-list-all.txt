@@ -19430,3 +19430,5 @@ gamelift.sa-east-1.amazonaws.com
 developers.cloudflare.com
 
 prod-live-front.playbattlegrounds.com
+
+video.akamai.steamstatic.com

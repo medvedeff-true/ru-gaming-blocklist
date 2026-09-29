@@ -881,3 +881,10 @@ gist.github.com
 forum.kasperskyclub.ru
 
 kfengine.ini
+
+video.akamai.steamstatic.com
+
+87.245.200.67
+23.35.104.41
+104.109.128.184
+87.245.200.9

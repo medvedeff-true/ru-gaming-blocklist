@@ -8305,6 +8305,10 @@ winws.exe
 www.youtube.com
 private-user-images.githubusercontent.com
 
+Found IP/CIDR:
+162.249.72.0
+185.40.65.224
+
 ## Flowseal/zapret-discord-youtube #13297
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13297
@@ -10441,6 +10445,16 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #17732
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17732
+Title: [Проблема] Невалинк(СПБ). Подключение к RTC
+
+Found domains:
+gist.github.com
+winws.exe
+private-user-images.githubusercontent.com
+
 ## Flowseal/zapret-discord-youtube #17736
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17736
@@ -10466,6 +10480,24 @@ Found IP/CIDR:
 8.8.8.8
 1.1.1.0
 1.1.1.1
+
+## Flowseal/zapret-discord-youtube #17770
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17770
+Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17783
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17783
+Title: [Проблема] Не работает часть добавленные dns адреса в list и host
+
+Found domains:
+gist.github.com
+winws.exe
 
 ## remittor/zapret-openwrt #241
 
