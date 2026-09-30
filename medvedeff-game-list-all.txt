@@ -19432,3 +19432,9 @@ developers.cloudflare.com
 prod-live-front.playbattlegrounds.com
 
 video.akamai.steamstatic.com
+
+dns.nextdns.io
+doh.opendns.com
+doh.cleanbrowsing.org
+wikimedia-dns.org
+roblox.co

@@ -896,3 +896,15 @@ doc.photonengine.com
 216.120.180.0/23
 
 gist.github.com
+
+dns.google
+dns.quad9.net
+dns.nextdns.io
+doh.opendns.com
+doh.cleanbrowsing.org
+freedns.controld.com
+wikimedia-dns.org
+zendesk.com
+klipy.com
+live-video.net
+roblox.co
