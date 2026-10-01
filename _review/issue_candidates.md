@@ -9817,6 +9817,7 @@ Title: [Проблема] Лагает ПК после ~3-х часов поль
 
 Found domains:
 winws.exe
+tcpip.sys
 
 ## Flowseal/zapret-discord-youtube #16166
 
@@ -9922,7 +9923,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #16309
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16309
-Title: [Проблема] Flowseal найди обход для EasyAntiCheat чтобы в раст можно было нормально играть
 
 Found domains:
 winws.exe
@@ -10494,6 +10494,15 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17783
 Title: [Проблема] Не работает часть добавленные dns адреса в list и host
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17809
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17809
+Title: [Проблема] Не подключается к RTC в Discord
 
 Found domains:
 gist.github.com

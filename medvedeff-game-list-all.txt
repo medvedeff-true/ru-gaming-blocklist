@@ -19438,3 +19438,5 @@ doh.opendns.com
 doh.cleanbrowsing.org
 wikimedia-dns.org
 roblox.co
+
+www.easy.ac
