@@ -888,3 +888,5 @@ video.akamai.steamstatic.com
 23.35.104.41
 104.109.128.184
 87.245.200.9
+
+community.akamai.steamstatic.com
