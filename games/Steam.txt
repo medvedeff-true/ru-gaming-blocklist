@@ -890,3 +890,5 @@ video.akamai.steamstatic.com
 87.245.200.9
 
 community.akamai.steamstatic.com
+
+us.actual.battle.net
