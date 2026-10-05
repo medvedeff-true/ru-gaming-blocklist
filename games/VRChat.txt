@@ -105,3 +105,5 @@ nfqws.exe
 winws.exe
 
 vrchat.exe
+
+gist.github.com
