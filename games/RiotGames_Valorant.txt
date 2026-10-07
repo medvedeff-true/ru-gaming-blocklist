@@ -420,3 +420,6 @@ osano.com
 amdryzenmasterdriver.sys
 vgk.sys
 windivert64.sys
+
+amnezia.org
+wifiman.com

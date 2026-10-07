@@ -209,3 +209,5 @@ api-auth.soundcloud.com
 help.ea.com
 
 addons.mozilla.org
+
+googlevideo.com

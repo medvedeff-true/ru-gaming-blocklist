@@ -8895,3 +8895,9 @@ upc-corp.com
 account.ubisoft.com
 
 gist.github.com
+
+blob.core.windows.net
+azureedge.net
+akamaihd.net
+nslookup.exe
+cdn.steamstatic.com

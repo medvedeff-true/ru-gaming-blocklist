@@ -1954,7 +1954,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #5248
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/5248
-Title: .
 
 Found domains:
 services.msc
@@ -2768,7 +2767,6 @@ private-user-images.githubusercontent.com
 ## Flowseal/zapret-discord-youtube #7079
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7079
-Title: [Проблема] xModern54  v1.8.5 - BF 2 БЕССМЕРТНЫЙ ЗАПРЕТ КОТОРЫЙ ПРИ ПОЛНОМ УДАЛЕНИИ РАБОТАЕТ НА BATTLEFIEL
 
 Found domains:
 services.msc
@@ -3212,6 +3210,16 @@ Title: [Проблема] С запретом лагает стим
 
 Found domains:
 services.msc
+s.team
+underlords.com
+blob.core.windows.net
+azureedge.net
+akamaihd.net
+akamaized.net
+master.joinsquad.com
+offworldindustries.com
+joinsquad.com
+storage.googleapis.com
 
 ## Flowseal/zapret-discord-youtube #7381
 
@@ -3395,6 +3403,33 @@ Title: [Проблема] Не работают скины в майнкрафт
 
 Found domains:
 services.msc
+login.microsoftonline.com
+login.live.com
+auth.xboxlive.com
+xsts.auth.xboxlive.com
+start.ui.xboxlive.com
+profile.xboxlive.com
+gamepass.com
+orithegame.com
+renovacionxboxlive.com
+tellmewhygame.com
+xbox.com
+xbox.eu
+xbox.org
+xbox360.co
+xbox360.com
+xbox360.eu
+xbox360.org
+xboxab.com
+xboxgamepass.com
+xboxgamestudios.com
+xboxlive.com
+xboxone.com
+xboxone.eu
+xboxplayanywhere.com
+xboxservices.com
+xboxstudios.com
+xbx.lv
 
 ## Flowseal/zapret-discord-youtube #7544
 
@@ -3473,7 +3508,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7686
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7686
-Title: Как настроить Запрет только для указанных ресурсов
 
 Found domains:
 services.msc
@@ -3981,6 +4015,14 @@ Found IP/CIDR:
 136.108.0.0/14
 136.112.0.0/13
 77.88.8.8
+
+## Flowseal/zapret-discord-youtube #8416
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8416
+Title: [Проблема] Сервера в фортнайте
+
+Found domains:
+services.msc
 
 ## Flowseal/zapret-discord-youtube #8421
 
@@ -4503,6 +4545,11 @@ Title: Как починить Star Wars Battlefront 2 через zapret?
 
 Found domains:
 services.msc
+wiki.malw.link
+www.wireshark.org
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #8964
 
@@ -4575,6 +4622,14 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9091
 Found domains:
 services.msc
 
+## Flowseal/zapret-discord-youtube #9094
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9094
+Title: [Проблема] В стиме грузится только свой инвентарь
+
+Found domains:
+services.msc
+
 ## Flowseal/zapret-discord-youtube #9114
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/9114
@@ -4592,6 +4647,24 @@ Found domains:
 rezka.ag
 services.msc
 drive.google.com
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
+blz-contentstack.com
+blzstatic.cn
+bnet.163.com
+blz.nosdn.127.net
+blzddist1-a.akamaihd.net
+blzddistkr1-a.akamaihd.net
+blzmedia-a.akamaihd.net
+blznav.akamaized.net
+bnetcmsus-a.akamaihd.net
+bnetproduct-a.akamaihd.net
+bnetshopus.akamaized.net
+firesidegatherings.com
 
 ## Flowseal/zapret-discord-youtube #9143
 
@@ -5198,6 +5271,7 @@ Title: [Проблема]
 
 Found domains:
 services.msc
+support.kaspersky.ru
 
 ## Flowseal/zapret-discord-youtube #9492
 
@@ -5845,10 +5919,32 @@ graphite.com
 grafana.com
 grafana.net
 prometheus.io
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
+private-user-images.githubusercontent.com
+www.comss.ru
+page.php
+internet-lab.ru
+list.php
+public-dns.html
+adguard-dns.io
+info.dns.malw.link
+xbox-dns.ru
+dns.geohide.ru
+dnscheck.tools
+deadfrontier2.exe
+fairfielddaily.com
 
 Found IP/CIDR:
 172.66.40.0/21
 2606:4700:3108::/48
+1.1.1.1
+1.0.0.1
 
 ## Flowseal/zapret-discord-youtube #10082
 
@@ -6027,6 +6123,14 @@ Title: [Проблема] Call of Duty Black Ops 3 крашится с запу�
 Found domains:
 winws.exe
 
+## Flowseal/zapret-discord-youtube #10420
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10420
+Title: [Проблема] Не работает редактирование профиля в стим
+
+Found domains:
+winws.exe
+
 ## Flowseal/zapret-discord-youtube #10438
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10438
@@ -6052,7 +6156,6 @@ deadzonerogue.com
 ## Flowseal/zapret-discord-youtube #10463
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10463
-Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -6157,6 +6260,13 @@ microsoftonline.com
 live.com
 xboxlive.com
 zkoridor.ru
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #10886
 
@@ -6165,6 +6275,7 @@ Title: [Проблема] Не работает Майнкрафт
 
 Found domains:
 winws.exe
+status.modrinth.com
 
 ## Flowseal/zapret-discord-youtube #10902
 
@@ -6221,6 +6332,13 @@ playfabapi.com
 easyanticheat.net
 tripwireinteractive.com
 1.10.xx
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 Found IP/CIDR:
 108.157.8.11
@@ -6351,6 +6469,13 @@ Title: [Проблема] PoE
 Found domains:
 winws.exe
 ru-patch.poecdn.com
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #11170
 
@@ -6478,6 +6603,12 @@ gtaw-legal.ru
 bgp.he.net
 wiki.malw.link
 sibnet-software.ru
+pingfast.app
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 Found IP/CIDR:
 51.77.38.192/26
@@ -6503,6 +6634,12 @@ Title: IPSet Filter
 
 Found domains:
 winws.exe
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #11337
 
@@ -6511,6 +6648,21 @@ Title: [Проблема] Перестал работать Squad с запре�
 
 Found domains:
 winws.exe
+
+## Flowseal/zapret-discord-youtube #11366
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/11366
+Title: [Проблема] с EA лаунчером
+
+Found domains:
+winws.exe
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #11369
 
@@ -6551,6 +6703,13 @@ Title: [Проблема]
 
 Found domains:
 winws.exe
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #11493
 
@@ -6576,6 +6735,13 @@ Title: [Проблема] Ready or not - Не удаётся подключит�
 
 Found domains:
 winws.exe
+pingfast.app
+wiki.malw.link
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
 
 ## Flowseal/zapret-discord-youtube #11538
 
@@ -10503,6 +10669,29 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17809
 Title: [Проблема] Не подключается к RTC в Discord
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17917
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17917
+Title: [Проблема] Видео YouTube не загружается, хотя сайт и превью открываются
+
+Found domains:
+gist.github.com
+googlevideo.com
+googlevideos.com
+winws.exe
+
+Found IP/CIDR:
+8.8.8.8
+
+## Flowseal/zapret-discord-youtube #17934
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17934
+Title: [Проблема] Плохо и нестабильно работает почти всё
 
 Found domains:
 gist.github.com

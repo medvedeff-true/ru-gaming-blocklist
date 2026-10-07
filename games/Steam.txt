@@ -892,3 +892,12 @@ video.akamai.steamstatic.com
 community.akamai.steamstatic.com
 
 us.actual.battle.net
+
+userapi.com
+lolz.live
+pingfast.app
+www.wireshark.org
+www.glasswire.com
+cheburcheck.ru
+iplist.opencck.org
+stat.ripe.net
