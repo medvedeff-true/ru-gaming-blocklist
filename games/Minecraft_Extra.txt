@@ -276,3 +276,5 @@ www.glasswire.com
 cheburcheck.ru
 iplist.opencck.org
 stat.ripe.net
+
+192.168.1.100
