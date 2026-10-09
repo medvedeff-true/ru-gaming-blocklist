@@ -2947,7 +2947,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7117
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7117
-Title: [Проблема] Перестал работать голосовой чат в New World: Aeternum, античит кикает из игры спустя несколько минут
 
 Found domains:
 services.msc
@@ -10692,6 +10691,15 @@ Found IP/CIDR:
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17934
 Title: [Проблема] Плохо и нестабильно работает почти всё
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #17983
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17983
+Title: [Проблема] The Crew Motorfest
 
 Found domains:
 gist.github.com
