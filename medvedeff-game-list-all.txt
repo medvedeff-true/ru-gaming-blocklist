@@ -19447,3 +19447,18 @@ userapi.com
 
 zapret.domru.zip
 zapret.zip
+
+cdn.dota2.net
+shared.valve.map.fastly.net
+p2p-fra1.discovery.steamserver.net
+www.dota2.com
+gc.valve.com
+sto.valve.net
+lux.valve.net
+vie.valve.net
+ord.valve.net
+cloud.steamusercontent.com
+cm.steampowered.com
+sdr.steampowered.com
+getdotastats.com
+d2lst.com
