@@ -6117,7 +6117,6 @@ learn.microsoft.com
 ## Flowseal/zapret-discord-youtube #10414
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10414
-Title: [Проблема] Call of Duty Black Ops 3 крашится с запущенным запретом
 
 Found domains:
 winws.exe
@@ -6125,7 +6124,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10420
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10420
-Title: [Проблема] Не работает редактирование профиля в стим
 
 Found domains:
 winws.exe
@@ -10257,7 +10255,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #16670
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/16670
-Title: [Решение] Простой инструмент чтобы брать все хосты к которым обращается сайт
 
 Found domains:
 har.py
@@ -10700,6 +10697,15 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/17983
 Title: [Проблема] The Crew Motorfest
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18142
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18142
+Title: [Проблема] Лагает\Фризит пк
 
 Found domains:
 gist.github.com
