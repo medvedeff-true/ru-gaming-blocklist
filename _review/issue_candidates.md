@@ -8475,7 +8475,6 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13297
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13297
-Title: [Проблема]
 
 Found domains:
 winws.exe
@@ -10706,6 +10705,15 @@ winws.exe
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18142
 Title: [Проблема] Лагает\Фризит пк
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18162
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18162
+Title: [Проблема] Ютуб сильно заболел
 
 Found domains:
 gist.github.com
