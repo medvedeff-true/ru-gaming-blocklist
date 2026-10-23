@@ -2742,6 +2742,14 @@ statsigapi.net
 sentry.io
 config.psynet.gg
 
+## Flowseal/zapret-discord-youtube #6943
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6943
+Title: [Проблема] АЛО КАК ЭТУ ХЕРЬ СКАЧАТЬ
+
+Found domains:
+services.msc
+
 ## Flowseal/zapret-discord-youtube #6963
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/6963
@@ -8475,6 +8483,7 @@ Found IP/CIDR:
 ## Flowseal/zapret-discord-youtube #13297
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/13297
+Title: [Проблема]
 
 Found domains:
 winws.exe
