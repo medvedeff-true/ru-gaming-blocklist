@@ -10728,6 +10728,25 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #18374
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18374
+Title: [Проблема] 1.10.4 плохо работает
+
+Found domains:
+gist.github.com
+news.google.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18381
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18381
+Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
