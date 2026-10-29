@@ -10747,6 +10747,19 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #18422
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18422
+Title: [Проблема] Faceit EU отвалился
+
+Found domains:
+gist.github.com
+winws.exe
+private-user-images.githubusercontent.com
+dns.bin
+stun.bin
+stun2.bin
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
