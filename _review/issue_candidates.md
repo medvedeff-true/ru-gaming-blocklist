@@ -3396,7 +3396,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7527
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7527
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -10759,6 +10758,15 @@ private-user-images.githubusercontent.com
 dns.bin
 stun.bin
 stun2.bin
+
+## Flowseal/zapret-discord-youtube #18488
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18488
+Title: [Проблема] Вылетает Запрет при диагностике и постоянно отваливается
+
+Found domains:
+gist.github.com
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

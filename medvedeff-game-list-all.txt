@@ -19462,3 +19462,5 @@ cm.steampowered.com
 sdr.steampowered.com
 getdotastats.com
 d2lst.com
+
+i.vgy.me

@@ -819,3 +819,5 @@ developers.cloudflare.com
 ncpa.cpl
 
 prod-live-front.playbattlegrounds.com
+
+i.vgy.me
