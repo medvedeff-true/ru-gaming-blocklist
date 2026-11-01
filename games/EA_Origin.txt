@@ -211,3 +211,5 @@ help.ea.com
 addons.mozilla.org
 
 googlevideo.com
+
+0.0.0.0/0

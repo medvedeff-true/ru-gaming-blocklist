@@ -3584,7 +3584,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #7826
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/7826
-Title: [Проблема] не рабоатет стим с запретом, а без работает
 
 Found domains:
 services.msc
@@ -12850,6 +12849,28 @@ samsungcloudsolution.com
 chat.deepseek.com
 static.deepseek.com
 deepseek.com
+
+## RevolutionTR/keenetic-zapret2-manager #17
+
+Source: https://github.com/RevolutionTR/keenetic-zapret2-manager/issues/17
+Title: Tek seferde Sitelere Giremiyorum.
+
+Found domains:
+dns.nextdns.io
+dns.google
+updates.discord.com
+ates.discord.com
+
+Found IP/CIDR:
+127.0.0.1
+8.8.8.8
+192.168.1.1
+1.1.1.1
+162.159.128.233
+162.159.135.232
+162.159.136.232
+162.159.137.232
+162.159.138.232
 
 ## youtubediscord/zapret #212
 
