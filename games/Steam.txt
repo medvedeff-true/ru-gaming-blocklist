@@ -917,3 +917,6 @@ cm.steampowered.com
 sdr.steampowered.com
 getdotastats.com
 d2lst.com
+
+index.html
+prod-live-front.playbattlegrounds.com
