@@ -3800,7 +3800,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8281
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8281
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -10762,6 +10761,26 @@ stun2.bin
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18488
 Title: [Проблема] Вылетает Запрет при диагностике и постоянно отваливается
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18533
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18533
+Title: [Проблема] не работает ютуб
+
+Found domains:
+gist.github.com
+dom.ru
+winws.exe
+ntc.party
+
+## Flowseal/zapret-discord-youtube #18549
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18549
+Title: [Проблема] сломался стим
 
 Found domains:
 gist.github.com
