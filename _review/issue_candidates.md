@@ -10786,6 +10786,39 @@ Found domains:
 gist.github.com
 winws.exe
 
+## Flowseal/zapret-discord-youtube #18573
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18573
+Title: PUBG 2610.1.1 - FFFFFF Время подключения истекло
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18587
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18587
+Title: [Проблема] SkyNet СПб
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18614
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18614
+Title: Не подключается к WOW FOREVER
+
+Found domains:
+blz-contentstack.com
+blzstatic.cn
+blzddist1-a.akamaihd.net
+blzddistkr1-a.akamaihd.net
+blzmedia-a.akamaihd.net
+blznav.akamaized.net
+bnetcmsus-a.akamaihd.net
+bnetproduct-a.akamaihd.net
+bnetshopus.akamaized.net
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
