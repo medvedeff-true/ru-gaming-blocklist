@@ -10819,6 +10819,25 @@ bnetcmsus-a.akamaihd.net
 bnetproduct-a.akamaihd.net
 bnetshopus.akamaized.net
 
+## Flowseal/zapret-discord-youtube #18644
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18644
+Title: [Проблема] Пропадает интернет с запретом
+
+Found domains:
+gist.github.com
+winws.exe
+s.team
+clngaa.com
+qtlglb.com
+comcast.net
+queniuqe.com
+edgesuite.net
+underlords.com
+slingshot.co.nz
+playartifact.com
+gstore.val.manlaxy.com
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
