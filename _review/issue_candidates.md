@@ -6418,7 +6418,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10964
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10964
-Title: SQUAD НЕ РАБОТАЕТ НИКАК, ДАЖЕ VPN
 
 Found IP/CIDR:
 1.1.1.1
@@ -10837,6 +10836,48 @@ underlords.com
 slingshot.co.nz
 playartifact.com
 gstore.val.manlaxy.com
+
+## Flowseal/zapret-discord-youtube #18679
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18679
+Title: [Проблема]
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18681
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18681
+Title: [Проблема] Отключение от Co-op игр.
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18683
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18683
+Title: [Проблема] Не работает, всё перепробовал
+
+Found domains:
+gist.github.com
+winws.exe
+private-user-images.githubusercontent.com
+curl.exe
+www.google.com
+www.gstatic.com
+redirector.googlevideo.com
+
+## Flowseal/zapret-discord-youtube #18688
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18688
+Title: [Проблема] все конфиги горят красными и ничего не работает
+
+Found domains:
+gist.github.com
+winws.exe
+ru.wikipedia.org
 
 ## remittor/zapret-openwrt #241
 
