@@ -10879,6 +10879,15 @@ gist.github.com
 winws.exe
 ru.wikipedia.org
 
+## Flowseal/zapret-discord-youtube #18705
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18705
+Title: [Проблема] Не работает youtube, но
+
+Found domains:
+gist.github.com
+winws.exe
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
