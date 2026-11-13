@@ -3655,7 +3655,6 @@ animevost.org
 ## Flowseal/zapret-discord-youtube #8034
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8034
-Title: [Проблема] GTA5RP / RockstarLauncher (автономный режим, "7-S", переустановка игры)
 
 Found domains:
 services.msc
@@ -3843,7 +3842,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8372
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8372
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -6181,7 +6179,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #10602
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/10602
-Title: [Проблема] Ошибка 279
 
 Found domains:
 winws.exe
@@ -10886,6 +10883,41 @@ Title: [Проблема] Не работает youtube, но
 
 Found domains:
 gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18767
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18767
+Title: [Проблема] с zapret-ом и инетом
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18779
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18779
+Title: [Проблема] Скачет пинг в играх, высокий джиттер сети.
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18811
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18811
+Title: [Проблема] проблемы со Spotify
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18817
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18817
+Title: Скорее всего вирусы, репорты надо
+
+Found domains:
 winws.exe
 
 ## remittor/zapret-openwrt #241
