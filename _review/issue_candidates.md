@@ -10772,6 +10772,7 @@ gist.github.com
 dom.ru
 winws.exe
 ntc.party
+postimg.cc
 
 ## Flowseal/zapret-discord-youtube #18549
 
@@ -10906,7 +10907,6 @@ winws.exe
 ## Flowseal/zapret-discord-youtube #18811
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18811
-Title: [Проблема] проблемы со Spotify
 
 Found domains:
 gist.github.com
@@ -10918,6 +10918,51 @@ Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18817
 Title: Скорее всего вирусы, репорты надо
 
 Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18820
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18820
+Title: [Проблема] Не работает Дискорд 13 ноября
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18821
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18821
+Title: [Проблема (спорно)] Перестало соединять с release-assets.githubusercontent.com
+
+Found domains:
+release-assets.githubusercontent.com
+gist.github.com
+winws.exe
+media.githubusercontent.com
+github-releases.githubusercontent.com
+favicons.githubusercontent.com
+github.githubassets.com
+avatars0.githubusercontent.com
+avatars1.githubusercontent.com
+avatars2.githubusercontent.com
+avatars.githubusercontent.com
+avatars3.githubusercontent.com
+user-images.githubusercontent.com
+camo.githubusercontent.com
+private-user-images.githubusercontent.com
+codeload.github.com
+
+Found IP/CIDR:
+185.199.108.133
+140.82.121.9
+2606:50c0:8000::133
+
+## Flowseal/zapret-discord-youtube #18834
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18834
+Title: [Проблема] Можете закрывать модеры, нормальных аргументов я не получил к сожалению, и не думаю что есть смысл общаться с людьми в комментариях.
+
+Found domains:
+gist.github.com
 winws.exe
 
 ## remittor/zapret-openwrt #241

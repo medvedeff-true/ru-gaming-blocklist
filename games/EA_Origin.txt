@@ -213,3 +213,6 @@ addons.mozilla.org
 googlevideo.com
 
 0.0.0.0/0
+
+185.199.108.133
+2606:50c0:8000::133
