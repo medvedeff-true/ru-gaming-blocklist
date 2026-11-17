@@ -4095,7 +4095,6 @@ unrealtournament.com
 ## Flowseal/zapret-discord-youtube #8586
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8586
-Title: [Проблема]
 
 Found domains:
 zapret-discord-youtube-1.9.2.rar
@@ -10964,6 +10963,16 @@ Title: [Проблема] Можете закрывать модеры, норм
 Found domains:
 gist.github.com
 winws.exe
+
+## Flowseal/zapret-discord-youtube #18937
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18937
+Title: [Проблема] Стим робит, но не весь
+
+Found domains:
+gist.github.com
+winws.exe
+skillbox.ru
 
 ## remittor/zapret-openwrt #241
 
