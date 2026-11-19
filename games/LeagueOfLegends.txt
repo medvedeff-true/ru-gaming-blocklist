@@ -1137,3 +1137,6 @@ u.gg
 gist.github.com
 
 8.8.4.4
+
+riotclient.com
+rpg.riotgames.com

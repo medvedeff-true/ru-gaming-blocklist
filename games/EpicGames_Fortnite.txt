@@ -415,3 +415,5 @@ curl.exe
 
 amnezia.org
 wifiman.com
+
+googlevideo.com

@@ -423,3 +423,7 @@ windivert64.sys
 
 amnezia.org
 wifiman.com
+
+curl.exe
+rpg.riotgames.com
+riotclient.com

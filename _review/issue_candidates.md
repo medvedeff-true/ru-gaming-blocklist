@@ -4450,7 +4450,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8824
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8824
-Title: [Проблема]
 
 Found domains:
 services.msc
@@ -10973,6 +10972,90 @@ Found domains:
 gist.github.com
 winws.exe
 skillbox.ru
+
+## Flowseal/zapret-discord-youtube #18965
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18965
+Title: [Проблема] Пинг, падение соединения при включенном запрете
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18978
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18978
+Title: [Проблема] Крайне высокий пинг на Европейских серверах при включенном ipset (Дальний Восток)
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18982
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18982
+Title: [Проблема] Стал подводить запрет
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18985
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18985
+Title: Не работает эпик геймс лаунчер и риот клиент
+
+Found domains:
+winws.exe
+discord.media
+curl.exe
+c-arn07-d7795236.discord.media
+riotclient.com
+domain.example.abc
+system.text
+io.file
+lines.count
+bat.bak
+finland14090.discord.media
+cmd.exe
+stun2.bin
+pvp.net
+lolesports.com
+vivox.com
+
+Found IP/CIDR:
+104.16.56.40
+104.16.55.40
+104.16.119.50
+104.16.120.50
+::
+
+## Flowseal/zapret-discord-youtube #18989
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18989
+Title: [Проблема] Перестал работать ют, дс пашет но слабо
+
+Found domains:
+gist.github.com
+winws.exe
+
+## Flowseal/zapret-discord-youtube #18993
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/18993
+Title: [Проблема] Голос Discord висит на «Подключении»: не проходит TCP на портах 2053–8443 к discord.media
+
+Found domains:
+discord.media
+gist.github.com
+stun2.bin
+winws.exe
+general.alt11.tcpfix.zip
+
+Found IP/CIDR:
+104.16.56.40
+104.16.55.40
+104.16.119.50
+104.16.120.50
 
 ## remittor/zapret-openwrt #241
 

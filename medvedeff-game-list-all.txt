@@ -19468,3 +19468,6 @@ i.vgy.me
 index.html
 
 prd-uapps-connect.edgekey.net
+
+rpg.riotgames.com
+riotclient.com
