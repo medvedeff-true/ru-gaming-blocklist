@@ -821,3 +821,6 @@ ncpa.cpl
 prod-live-front.playbattlegrounds.com
 
 i.vgy.me
+
+ru-red.lol.sgp.pvp.net.cdn.cloudflare.net
+transfiles.ru

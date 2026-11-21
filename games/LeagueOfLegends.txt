@@ -1140,3 +1140,5 @@ gist.github.com
 
 riotclient.com
 rpg.riotgames.com
+
+ru-red.lol.sgp.pvp.net.cdn.cloudflare.net

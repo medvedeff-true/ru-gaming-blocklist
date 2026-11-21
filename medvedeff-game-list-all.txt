@@ -19471,3 +19471,10 @@ prd-uapps-connect.edgekey.net
 
 rpg.riotgames.com
 riotclient.com
+
+riotgamespatcher.akamaized.net
+leaguereplays.com
+lolcdn.net
+lolpvp.net
+ru-red.lol.sgp.pvp.net.cdn.cloudflare.net
+transfiles.ru

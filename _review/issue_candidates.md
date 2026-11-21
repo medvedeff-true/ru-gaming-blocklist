@@ -11057,6 +11057,28 @@ Found IP/CIDR:
 104.16.119.50
 104.16.120.50
 
+## Flowseal/zapret-discord-youtube #19049
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/19049
+Title: Кто нибудь знает как вернуть в чувства Фортнайт?
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #19050
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/19050
+Title: [Проблема] картинки в мастерской стим не грузятся
+
+Found domains:
+gist.github.com
+winws.exe
+ncpa.cpl
+
+Found IP/CIDR:
+1.1.1.1
+1.0.0.1
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241
