@@ -19478,3 +19478,7 @@ lolcdn.net
 lolpvp.net
 ru-red.lol.sgp.pvp.net.cdn.cloudflare.net
 transfiles.ru
+
+hypergryph.com
+hg-static.com
+ssecond-life.ru
