@@ -1142,3 +1142,23 @@ riotclient.com
 rpg.riotgames.com
 
 ru-red.lol.sgp.pvp.net.cdn.cloudflare.net
+
+rstatic.net
+accounts.youtube.com
+fonts.gstatic.com
+lh3.googleusercontent.com
+cmp.osano.com
+hcaptcha.com
+data.riotgames.com
+telemetry.sgp.pvp.net
+featureassets.org
+prodregistryv2.org
+o163744.ingest.sentry.io
+api.hcaptcha.com
+72f3dd6db0e3.w.hcaptcha.com
+1f80d796b67f.w.hcaptcha.com
+player-preferences-usw2.pp.sgp.pvp.net
+android.clients.google.com
+permissions.sgp.pvp.net
+player-lifecycle-euc.publishing.riotgames.com
+eas-prod.pp.sgp.pvp.net
