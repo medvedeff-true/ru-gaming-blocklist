@@ -929,3 +929,5 @@ ncpa.cpl
 87.245.198.208
 
 akamaitechnologies.com
+
+ttvnw.net
