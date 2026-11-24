@@ -927,3 +927,5 @@ prod-live-front.playbattlegrounds.com
 ncpa.cpl
 
 87.245.198.208
+
+akamaitechnologies.com
