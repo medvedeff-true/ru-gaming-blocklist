@@ -4516,7 +4516,6 @@ services.msc
 ## Flowseal/zapret-discord-youtube #8926
 
 Source: https://github.com/Flowseal/zapret-discord-youtube/issues/8926
-Title: [Проблема] Сервер использующий DigitalOcean для загрузки ресурсов ОЧЕНЬ медленно загружается
 
 Found domains:
 services.msc
@@ -11222,6 +11221,24 @@ private-user-images.githubusercontent.com
 
 Found IP/CIDR:
 1.1.1.1
+
+## Flowseal/zapret-discord-youtube #19162
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/19162
+Title: Можно ли как-то прокинуть google antigravity?
+
+Found domains:
+winws.exe
+
+## Flowseal/zapret-discord-youtube #19166
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/19166
+Title: [Проблема] Северный кавказ
+
+Found domains:
+gist.github.com
+akamaihd.net
+winws.exe
 
 ## remittor/zapret-openwrt #241
 

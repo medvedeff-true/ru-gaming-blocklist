@@ -931,3 +931,6 @@ ncpa.cpl
 akamaitechnologies.com
 
 ttvnw.net
+
+live-video.net
+twitch.tv
