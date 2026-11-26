@@ -934,3 +934,5 @@ ttvnw.net
 
 live-video.net
 twitch.tv
+
+depot-ingest.discovery.steamserver.net

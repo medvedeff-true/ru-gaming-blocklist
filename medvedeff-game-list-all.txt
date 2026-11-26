@@ -19482,3 +19482,5 @@ transfiles.ru
 hypergryph.com
 hg-static.com
 ssecond-life.ru
+
+depot-ingest.discovery.steamserver.net
