@@ -11240,6 +11240,25 @@ gist.github.com
 akamaihd.net
 winws.exe
 
+## Flowseal/zapret-discord-youtube #19228
+
+Source: https://github.com/Flowseal/zapret-discord-youtube/issues/19228
+Title: [Проблема] Стал хуже грузиться стим
+
+Found domains:
+gist.github.com
+winws.exe
+s.team
+clngaa.com
+qtlglb.com
+comcast.net
+queniuqe.com
+edgesuite.net
+underlords.com
+slingshot.co.nz
+playartifact.com
+gstore.val.manlaxy.com
+
 ## remittor/zapret-openwrt #241
 
 Source: https://github.com/remittor/zapret-openwrt/issues/241

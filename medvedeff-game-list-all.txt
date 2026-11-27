@@ -19484,3 +19484,6 @@ hg-static.com
 ssecond-life.ru
 
 depot-ingest.discovery.steamserver.net
+
+ace-base.sys
+ace-advt.sys
